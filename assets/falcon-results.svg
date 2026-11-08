@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="490" viewBox="0 0 1040 490" role="img" aria-labelledby="title desc">
+<title id="title">Falcon evaluation results and coverage</title>
+<desc id="desc">174 episodes in 9 scenes: success 55.75%, SPL 50.89%, personal space compliance 89.44%, human collision 40.80%. Separately, 471 of 1087 episodes are validated in the full evaluation.</desc>
+<rect width="1040" height="490" rx="18" fill="#f5f7fa"/>
+<g font-family="Palatino, Georgia, serif" fill="#193044">
+<text x="38" y="48" font-size="26" font-weight="bold">Falcon · Checkpoint Evaluation</text>
+<text x="38" y="78" font-size="15" fill="#586c7c">174 episodes / 9 scenes · seed 100 · 4 environments · non-random subset</text>
+
+<rect x="38" y="104" width="229" height="208" rx="12" fill="white"/>
+<text x="56" y="137" font-size="19" font-weight="bold">SR</text>
+<text x="56" y="187" font-size="36" fill="#277969">55.75%</text>
+<rect x="56" y="211" width="193" height="8" rx="4" fill="#e9edf2"/>
+<rect x="56" y="211" width="107.5920" height="8" rx="4" fill="#277969"/>
+<text x="56" y="252" font-size="15">Task success</text>
+<text x="56" y="279" font-size="13" fill="#6c7b87">Higher is better · 0–100%</text>
+<rect x="283" y="104" width="229" height="208" rx="12" fill="white"/>
+<text x="301" y="137" font-size="19" font-weight="bold">SPL</text>
+<text x="301" y="187" font-size="36" fill="#3f7f9e">50.89%</text>
+<rect x="301" y="211" width="193" height="8" rx="4" fill="#e9edf2"/>
+<rect x="301" y="211" width="98.2263" height="8" rx="4" fill="#3f7f9e"/>
+<text x="301" y="252" font-size="15">Path efficiency</text>
+<text x="301" y="279" font-size="13" fill="#6c7b87">Higher is better · 0–100%</text>
+<rect x="528" y="104" width="229" height="208" rx="12" fill="white"/>
+<text x="546" y="137" font-size="19" font-weight="bold">PSC</text>
+<text x="546" y="187" font-size="36" fill="#677da1">89.44%</text>
+<rect x="546" y="211" width="193" height="8" rx="4" fill="#e9edf2"/>
+<rect x="546" y="211" width="172.6100" height="8" rx="4" fill="#677da1"/>
+<text x="546" y="252" font-size="15">Personal space</text>
+<text x="546" y="279" font-size="13" fill="#6c7b87">Higher is better · 0–100%</text>
+<rect x="773" y="104" width="229" height="208" rx="12" fill="white"/>
+<text x="791" y="137" font-size="19" font-weight="bold">H-Coll</text>
+<text x="791" y="187" font-size="36" fill="#bc7650">40.80%</text>
+<rect x="791" y="211" width="193" height="8" rx="4" fill="#e9edf2"/>
+<rect x="791" y="211" width="78.7529" height="8" rx="4" fill="#bc7650"/>
+<text x="791" y="252" font-size="15">Collision episodes</text>
+<text x="791" y="279" font-size="13" fill="#6c7b87">Lower is better · 0–100%</text>
+<text x="38" y="358" font-size="19" font-weight="bold">Full evaluation coverage</text>
+<text x="1000" y="358" text-anchor="end" font-size="18">471 / 1,087 episodes</text>
+<rect x="38" y="379" width="964" height="14" rx="7" fill="#dde5ed"/>
+<rect x="38" y="379" width="417.7038" height="14" rx="7" fill="#277969"/>
+<text x="38" y="424" font-size="15" fill="#586c7c">24 / 56 scenes validated · remaining 616 episodes · paused</text>
+<text x="38" y="459" font-size="13" fill="#6c7b87">Subset scores and full-evaluation coverage are separate runs with overlapping episodes. Snapshot: 2026-11-08.</text>
+</g></svg>
