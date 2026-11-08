@@ -1,0 +1,28 @@
+{
+  "authorization": "User: 持续迭代直到Work; bounded sequential round, original paused benchmark excluded",
+  "stage": "OBSERVABLE_STOPPING_OPTIONS_WITH_TEMPORAL_PROBE",
+  "allocations_this_round": 1,
+  "gpus": 1,
+  "wall_minutes": 60,
+  "episodes": 4,
+  "maximum_rollouts": 20,
+  "maximum_steps_per_rollout": 500,
+  "seed": 100,
+  "num_environments": 1,
+  "policies": [
+    "unknown_yield",
+    "probe_yield",
+    "probe_escape"
+  ],
+  "selection": "Same four development cases as scetr_falcon_headroom_20261108; selected before this round's outcomes. No confirmation claims on these cases.",
+  "policy_input": "Only current robot depth thumbnail and original proposed robot action, plus internal observable-history counters. No future collision time, simulator state, human actions or hidden intent is read by controller.",
+  "depth": "Same normalized jaw depth as Falcon. Quantized uint16 32x32 for exact policy replay. Zero depth treated as unknown risk, not a pedestrian label or calibrated probability.",
+  "action_space": "Original STOP0/FWD1/LEFT2/RIGHT3. STOP remains episode termination. Yield uses legal alternating small turns, not a new pause/backward action.",
+  "matching": "Each baseline repeated in a fresh seed100 process. All physical observation/RNG/recurrent/action/feature prefixes before first actual policy override must match. Frozen actor, human action slices unchanged.",
+  "metrics": "Terminal success, human_collision, SPL, PSC, steps. Rescue requires success1 and human_collision0. Report each fixed policy across all cases, not per-case best as a deployable policy.",
+  "selection_gate": "Same predeclared gate: at least one rescue, positive net safe success, no loss on baseline-success development control; select whole fixed policy before reserved new-case validation.",
+  "failure_handling": "Implementation/replay errors stop and preserve evidence. Scientific negative results trigger a diagnosed independent next version, never overwrite frozen inputs or silently rerun the same failed code.",
+  "training": false,
+  "paused_benchmark_resumed": false,
+  "iteration_reason": "A case0 logs: near-wall false trigger; sidestep never advanced. Distinguish unknown depth from near depth and probe same-heading temporal change before sustained intervention."
+}

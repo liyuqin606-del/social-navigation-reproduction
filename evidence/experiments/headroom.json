@@ -1,0 +1,280 @@
+{
+  "status": "PASS",
+  "scope": "DEVELOPMENT_ORACLE_TIMING_FINITE_CANDIDATE_RECOVERABILITY_NOT_DEPLOYED_POLICY",
+  "episodes": 4,
+  "colliding_references": 3,
+  "witnessed_recoveries": 0,
+  "terminal_rollouts": 20,
+  "prefix_transitions_checked": 1999,
+  "results": [
+    {
+      "case": 0,
+      "reference_steps": 71,
+      "reference_metrics": {
+        "distance_to_goal": 4.820915222167969,
+        "distance_to_goal_reward": 0.21030426025390625,
+        "success": 0.0,
+        "did_multi_agents_collide": 1.0,
+        "num_steps": 71.0,
+        "spl": 0.0,
+        "psc": 0.971830985915493,
+        "human_collision": 1.0
+      },
+      "new_reference_collided": true,
+      "recovered": false,
+      "recovered_by": [],
+      "candidates": [
+        {
+          "directory": "case0_branch0",
+          "start": 46,
+          "steps": 90,
+          "metrics": {
+            "distance_to_goal": 5.284928321838379,
+            "distance_to_goal_reward": -0.0,
+            "success": 0.0,
+            "did_multi_agents_collide": 1.0,
+            "num_steps": 90.0,
+            "spl": 0.0,
+            "psc": 0.8444444444444444,
+            "human_collision": 1.0
+          },
+          "recovered": false
+        },
+        {
+          "directory": "case0_branch1",
+          "start": 46,
+          "steps": 75,
+          "metrics": {
+            "distance_to_goal": 4.409998893737793,
+            "distance_to_goal_reward": 0.20667457580566406,
+            "success": 0.0,
+            "did_multi_agents_collide": 1.0,
+            "num_steps": 75.0,
+            "spl": 0.0,
+            "psc": 0.9466666666666667,
+            "human_collision": 1.0
+          },
+          "recovered": false
+        },
+        {
+          "directory": "case0_branch2",
+          "start": 58,
+          "steps": 71,
+          "metrics": {
+            "distance_to_goal": 4.805733680725098,
+            "distance_to_goal_reward": 0.20994853973388672,
+            "success": 0.0,
+            "did_multi_agents_collide": 1.0,
+            "num_steps": 71.0,
+            "spl": 0.0,
+            "psc": 0.971830985915493,
+            "human_collision": 1.0
+          },
+          "recovered": false
+        },
+        {
+          "directory": "case0_branch3",
+          "start": 58,
+          "steps": 70,
+          "metrics": {
+            "distance_to_goal": 5.12799072265625,
+            "distance_to_goal_reward": -0.0,
+            "success": 0.0,
+            "did_multi_agents_collide": 1.0,
+            "num_steps": 70.0,
+            "spl": 0.0,
+            "psc": 0.9142857142857143,
+            "human_collision": 1.0
+          },
+          "recovered": false
+        }
+      ]
+    },
+    {
+      "case": 1,
+      "reference_steps": 107,
+      "reference_metrics": {
+        "distance_to_goal": 0.14927494525909424,
+        "distance_to_goal_reward": -0.0,
+        "success": 1.0,
+        "did_multi_agents_collide": 0.0,
+        "num_steps": 107.0,
+        "spl": 0.963400752171267,
+        "psc": 1.0,
+        "human_collision": 0.0
+      },
+      "new_reference_collided": false,
+      "recovered": false,
+      "recovered_by": [],
+      "candidates": []
+    },
+    {
+      "case": 2,
+      "reference_steps": 99,
+      "reference_metrics": {
+        "distance_to_goal": 7.991515159606934,
+        "distance_to_goal_reward": 0.18439483642578125,
+        "success": 0.0,
+        "did_multi_agents_collide": 1.0,
+        "num_steps": 99.0,
+        "spl": 0.0,
+        "psc": 0.9292929292929293,
+        "human_collision": 1.0
+      },
+      "new_reference_collided": true,
+      "recovered": false,
+      "recovered_by": [],
+      "candidates": [
+        {
+          "directory": "case2_branch0",
+          "start": 74,
+          "steps": 95,
+          "metrics": {
+            "distance_to_goal": 7.626766204833984,
+            "distance_to_goal_reward": -0.0,
+            "success": 0.0,
+            "did_multi_agents_collide": 1.0,
+            "num_steps": 95.0,
+            "spl": 0.0,
+            "psc": 0.9263157894736842,
+            "human_collision": 1.0
+          },
+          "recovered": false
+        },
+        {
+          "directory": "case2_branch1",
+          "start": 74,
+          "steps": 101,
+          "metrics": {
+            "distance_to_goal": 8.910042762756348,
+            "distance_to_goal_reward": -0.0,
+            "success": 0.0,
+            "did_multi_agents_collide": 1.0,
+            "num_steps": 101.0,
+            "spl": 0.0,
+            "psc": 0.9504950495049505,
+            "human_collision": 1.0
+          },
+          "recovered": false
+        },
+        {
+          "directory": "case2_branch2",
+          "start": 86,
+          "steps": 97,
+          "metrics": {
+            "distance_to_goal": 7.960907936096191,
+            "distance_to_goal_reward": 0.18438720703125,
+            "success": 0.0,
+            "did_multi_agents_collide": 1.0,
+            "num_steps": 97.0,
+            "spl": 0.0,
+            "psc": 0.9381443298969072,
+            "human_collision": 1.0
+          },
+          "recovered": false
+        },
+        {
+          "directory": "case2_branch3",
+          "start": 86,
+          "steps": 92,
+          "metrics": {
+            "distance_to_goal": 8.57005500793457,
+            "distance_to_goal_reward": 0.20781326293945312,
+            "success": 0.0,
+            "did_multi_agents_collide": 1.0,
+            "num_steps": 92.0,
+            "spl": 0.0,
+            "psc": 0.9782608695652174,
+            "human_collision": 1.0
+          },
+          "recovered": false
+        }
+      ]
+    },
+    {
+      "case": 3,
+      "reference_steps": 254,
+      "reference_metrics": {
+        "distance_to_goal": 6.639146327972412,
+        "distance_to_goal_reward": -0.0,
+        "success": 0.0,
+        "did_multi_agents_collide": 1.0,
+        "num_steps": 254.0,
+        "spl": 0.0,
+        "psc": 0.889763779527559,
+        "human_collision": 1.0
+      },
+      "new_reference_collided": true,
+      "recovered": false,
+      "recovered_by": [],
+      "candidates": [
+        {
+          "directory": "case3_branch0",
+          "start": 229,
+          "steps": 266,
+          "metrics": {
+            "distance_to_goal": 6.60147762298584,
+            "distance_to_goal_reward": 0.5454330444335938,
+            "success": 0.0,
+            "did_multi_agents_collide": 1.0,
+            "num_steps": 266.0,
+            "spl": 0.0,
+            "psc": 0.8909774436090225,
+            "human_collision": 1.0
+          },
+          "recovered": false
+        },
+        {
+          "directory": "case3_branch1",
+          "start": 229,
+          "steps": 255,
+          "metrics": {
+            "distance_to_goal": 6.660933017730713,
+            "distance_to_goal_reward": -0.0,
+            "success": 0.0,
+            "did_multi_agents_collide": 1.0,
+            "num_steps": 255.0,
+            "spl": 0.0,
+            "psc": 0.8666666666666667,
+            "human_collision": 1.0
+          },
+          "recovered": false
+        },
+        {
+          "directory": "case3_branch2",
+          "start": 241,
+          "steps": 266,
+          "metrics": {
+            "distance_to_goal": 6.720973014831543,
+            "distance_to_goal_reward": 0.41261720657348633,
+            "success": 0.0,
+            "did_multi_agents_collide": 1.0,
+            "num_steps": 266.0,
+            "spl": 0.0,
+            "psc": 0.868421052631579,
+            "human_collision": 1.0
+          },
+          "recovered": false
+        },
+        {
+          "directory": "case3_branch3",
+          "start": 241,
+          "steps": 247,
+          "metrics": {
+            "distance_to_goal": 6.138092517852783,
+            "distance_to_goal_reward": -0.03511810302734375,
+            "success": 0.0,
+            "did_multi_agents_collide": 1.0,
+            "num_steps": 247.0,
+            "spl": 0.0,
+            "psc": 0.9271255060728745,
+            "human_collision": 1.0
+          },
+          "recovered": false
+        }
+      ]
+    }
+  ],
+  "no_population_gain_claim": true,
+  "no_active_perception_causal_claim": true
+}

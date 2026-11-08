@@ -1,0 +1,86 @@
+{
+  "source_split": "val",
+  "role": "PREVIOUS_FAILURES_NOW_DEVELOPMENT_EXCLUDED_FROM_CONFIRMATION",
+  "cases": [
+    {
+      "scene_name": "SUHsP6z2gcJ",
+      "scene_id": "hm3d/val/00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+      "episode_id": "19",
+      "old_steps": 76,
+      "old_metrics": {
+        "reward": 5.4510416984558105,
+        "distance_to_goal": 4.648736953735352,
+        "distance_to_goal_reward": -0.0,
+        "success": 0.0,
+        "did_multi_agents_collide": 1.0,
+        "num_steps": 76.0,
+        "spl": 0.0,
+        "psc": 0.9078947368421053,
+        "human_collision": 1.0
+      },
+      "shard_sha256": "83350afd6f9f02733f3beb7eccda7ebd4673caca4070582beaec2b40403bf5e1",
+      "mesh_sha256": "dda6c21dcc5293f854e0dd894b3bad61c5ac35d755ac0ea45d44798ac660c4d0",
+      "navmesh_sha256": "d5065d8e879c7acf7be9efd21068e61683035c0e86ec675407cbb2f3422d5f00"
+    },
+    {
+      "scene_name": "TEEsavR23oF",
+      "scene_id": "hm3d/val/00800-TEEsavR23oF/TEEsavR23oF.basis.glb",
+      "episode_id": "3",
+      "old_steps": 94,
+      "old_metrics": {
+        "reward": 7.674600601196289,
+        "distance_to_goal": 0.5150004625320435,
+        "distance_to_goal_reward": 0.20356082916259766,
+        "success": 0.0,
+        "did_multi_agents_collide": 1.0,
+        "num_steps": 94.0,
+        "spl": 0.0,
+        "psc": 0.8085106382978723,
+        "human_collision": 1.0
+      },
+      "shard_sha256": "a3d4a64f68325bc286667e0efb5efdc6de304d6efef63467fefd03e76d88938d",
+      "mesh_sha256": "56efe1b85e17d010f6ecc942ab56fe82ed32a53c58599ffe3dc74327c20525e9",
+      "navmesh_sha256": "9e3aadacfa80b2e2b8a0f700c1e289f764d7f5173001862655b51e8f8542b2bf"
+    },
+    {
+      "scene_name": "BHXhpBwSMLh",
+      "scene_id": "hm3d/val/00804-BHXhpBwSMLh/BHXhpBwSMLh.basis.glb",
+      "episode_id": "20",
+      "old_steps": 208,
+      "old_metrics": {
+        "reward": 7.644796848297119,
+        "distance_to_goal": 7.641718864440918,
+        "distance_to_goal_reward": 0.18498992919921875,
+        "success": 0.0,
+        "did_multi_agents_collide": 1.0,
+        "num_steps": 208.0,
+        "spl": 0.0,
+        "psc": 0.8509615384615384,
+        "human_collision": 1.0
+      },
+      "shard_sha256": "7efa813248f6706c64ab1cbd57d7f09b508053eb3c856883ad8cdfc965bd0df7",
+      "mesh_sha256": "ae5c87b29ad3a17364df1f4af0aee572a9f34f371d7cbf126d30df4719de8b6b",
+      "navmesh_sha256": "77427898031051f736559502259f6049e7d22afde2a322b9efb5170200998cbc"
+    },
+    {
+      "scene_name": "rsggHU7g7dh",
+      "scene_id": "hm3d/val/00807-rsggHU7g7dh/rsggHU7g7dh.basis.glb",
+      "episode_id": "21",
+      "old_steps": 234,
+      "old_metrics": {
+        "reward": 4.548305511474609,
+        "distance_to_goal": 8.909503936767578,
+        "distance_to_goal_reward": -0.0,
+        "success": 0.0,
+        "did_multi_agents_collide": 1.0,
+        "num_steps": 234.0,
+        "spl": 0.0,
+        "psc": 0.9829059829059829,
+        "human_collision": 1.0
+      },
+      "shard_sha256": "6895b7b852cc1730ece9510d9eed64beeab3d17c4e03a41cabbeb4471468b794",
+      "mesh_sha256": "9c00b155e3c7951d0c08aafb6f55c3ce4c9a31459fd0479b1de780830b6a8e54",
+      "navmesh_sha256": "dccaa0687808f9b67bcd94a9a2651a244e7c3f3b4e696e0f4feb5ca8ec72c883"
+    }
+  ]
+}

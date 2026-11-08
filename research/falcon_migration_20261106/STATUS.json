@@ -1,0 +1,16 @@
+{
+  "status": "REAL_FALCON_INTERFACE_VERIFIED_RELEASED",
+  "job_id": "28283",
+  "gpu": "1x NVIDIA GeForce RTX 3090",
+  "allocated_seconds": 96,
+  "scheduler_exit": "COMPLETED/0:0",
+  "released": true,
+  "sha_verified_outputs": 35,
+  "real_environment_steps": 48,
+  "world_model_deployed": false,
+  "new_method_improvement_verified": false,
+  "training_examples": 0,
+  "paused_benchmark_resumed": false,
+  "next_dependency": "Independent train scenes and terminal-aware transition collection from allowed observations",
+  "adaptive_option_decision": "NO_GO_ON_NEW_40_SCENE_PILOT"
+}

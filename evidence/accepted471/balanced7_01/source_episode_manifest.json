@@ -1,0 +1,1045 @@
+{
+  "status": "ASSETS_PREPARED_NOT_EVALUATED",
+  "date": "2026-11-03",
+  "source_split": "val",
+  "scene_count": 8,
+  "episode_count": 161,
+  "paper_val_total_scenes": 56,
+  "paper_val_total_episodes": 1087,
+  "content_scenes": [
+    "SUHsP6z2gcJ",
+    "tQ5s4ShP627",
+    "rsggHU7g7dh",
+    "6D36GQHuP8H",
+    "dHwjuKfkRUR",
+    "kJJyRFXVpx2",
+    "bxsVRursffK",
+    "XMHNu9rRQ1y"
+  ],
+  "scenes": [
+    {
+      "path": "baselines/assets/falcon/episodes/social-hm3d/val/content/SUHsP6z2gcJ.json.gz",
+      "bytes": 12476,
+      "sha256": "83350afd6f9f02733f3beb7eccda7ebd4673caca4070582beaec2b40403bf5e1",
+      "scene_name": "SUHsP6z2gcJ",
+      "scene_id": "hm3d/val/00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+      "episode_count": 23,
+      "episode_ids": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24"
+      ],
+      "human_num_counts": {
+        "4": 23
+      },
+      "official_v02_annotated_config_paths": [],
+      "official_mapping_limit": "Annotation-only catalog; absence does not mean a scene is absent from the full HM3D meshes.",
+      "required_mesh_tar_members": [
+        "00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+        "00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.navmesh"
+      ],
+      "verified_mesh_tar_members": [
+        "00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+        "00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.navmesh"
+      ]
+    },
+    {
+      "path": "baselines/assets/falcon/episodes/social-hm3d/val/content/tQ5s4ShP627.json.gz",
+      "bytes": 4636,
+      "sha256": "947f3470b37f81932b045755a69e8d41f897d7ab963c394d1fd926a77905ed31",
+      "scene_name": "tQ5s4ShP627",
+      "scene_id": "hm3d/val/00806-tQ5s4ShP627/tQ5s4ShP627.basis.glb",
+      "episode_count": 15,
+      "episode_ids": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "13",
+        "14",
+        "15",
+        "18",
+        "19",
+        "21",
+        "22",
+        "24"
+      ],
+      "human_num_counts": {
+        "2": 15
+      },
+      "official_v02_annotated_config_paths": [],
+      "official_mapping_limit": "Annotation-only catalog; absence does not mean a scene is absent from the full HM3D meshes.",
+      "required_mesh_tar_members": [
+        "00806-tQ5s4ShP627/tQ5s4ShP627.basis.glb",
+        "00806-tQ5s4ShP627/tQ5s4ShP627.basis.navmesh"
+      ],
+      "verified_mesh_tar_members": [
+        "00806-tQ5s4ShP627/tQ5s4ShP627.basis.glb",
+        "00806-tQ5s4ShP627/tQ5s4ShP627.basis.navmesh"
+      ]
+    },
+    {
+      "path": "baselines/assets/falcon/episodes/social-hm3d/val/content/rsggHU7g7dh.json.gz",
+      "bytes": 18958,
+      "sha256": "6895b7b852cc1730ece9510d9eed64beeab3d17c4e03a41cabbeb4471468b794",
+      "scene_name": "rsggHU7g7dh",
+      "scene_id": "hm3d/val/00807-rsggHU7g7dh/rsggHU7g7dh.basis.glb",
+      "episode_count": 22,
+      "episode_ids": [
+        "0",
+        "1",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "23",
+        "24"
+      ],
+      "human_num_counts": {
+        "6": 22
+      },
+      "official_v02_annotated_config_paths": [],
+      "official_mapping_limit": "Annotation-only catalog; absence does not mean a scene is absent from the full HM3D meshes.",
+      "required_mesh_tar_members": [
+        "00807-rsggHU7g7dh/rsggHU7g7dh.basis.glb",
+        "00807-rsggHU7g7dh/rsggHU7g7dh.basis.navmesh"
+      ],
+      "verified_mesh_tar_members": [
+        "00807-rsggHU7g7dh/rsggHU7g7dh.basis.glb",
+        "00807-rsggHU7g7dh/rsggHU7g7dh.basis.navmesh"
+      ]
+    },
+    {
+      "path": "baselines/assets/falcon/episodes/social-hm3d/val/content/6D36GQHuP8H.json.gz",
+      "bytes": 6766,
+      "sha256": "05cfbfcdb197a63289a77fb7f3d7c9d0f7e0f5930b27fc921e1bd62bc9a090f5",
+      "scene_name": "6D36GQHuP8H",
+      "scene_id": "hm3d/val/00819-6D36GQHuP8H/6D36GQHuP8H.basis.glb",
+      "episode_count": 22,
+      "episode_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "24"
+      ],
+      "human_num_counts": {
+        "2": 22
+      },
+      "official_v02_annotated_config_paths": [],
+      "official_mapping_limit": "Annotation-only catalog; absence does not mean a scene is absent from the full HM3D meshes.",
+      "required_mesh_tar_members": [
+        "00819-6D36GQHuP8H/6D36GQHuP8H.basis.glb",
+        "00819-6D36GQHuP8H/6D36GQHuP8H.basis.navmesh"
+      ],
+      "verified_mesh_tar_members": [
+        "00819-6D36GQHuP8H/6D36GQHuP8H.basis.glb",
+        "00819-6D36GQHuP8H/6D36GQHuP8H.basis.navmesh"
+      ]
+    },
+    {
+      "path": "baselines/assets/falcon/episodes/social-hm3d/val/content/dHwjuKfkRUR.json.gz",
+      "bytes": 7449,
+      "sha256": "7d83829cbac76096d48d9f258ddaafc567d29b1d7f9d9cba413a1e17b40c5184",
+      "scene_name": "dHwjuKfkRUR",
+      "scene_id": "hm3d/val/00833-dHwjuKfkRUR/dHwjuKfkRUR.basis.glb",
+      "episode_count": 13,
+      "episode_ids": [
+        "4",
+        "6",
+        "10",
+        "11",
+        "12",
+        "13",
+        "16",
+        "17",
+        "18",
+        "20",
+        "21",
+        "22",
+        "24"
+      ],
+      "human_num_counts": {
+        "4": 13
+      },
+      "official_v02_annotated_config_paths": [],
+      "official_mapping_limit": "Annotation-only catalog; absence does not mean a scene is absent from the full HM3D meshes.",
+      "required_mesh_tar_members": [
+        "00833-dHwjuKfkRUR/dHwjuKfkRUR.basis.glb",
+        "00833-dHwjuKfkRUR/dHwjuKfkRUR.basis.navmesh"
+      ],
+      "verified_mesh_tar_members": [
+        "00833-dHwjuKfkRUR/dHwjuKfkRUR.basis.glb",
+        "00833-dHwjuKfkRUR/dHwjuKfkRUR.basis.navmesh"
+      ]
+    },
+    {
+      "path": "baselines/assets/falcon/episodes/social-hm3d/val/content/kJJyRFXVpx2.json.gz",
+      "bytes": 10944,
+      "sha256": "aef95481bbd09de4a88baf16f0df703af7364ac430e884f532fae5f5fe76c382",
+      "scene_name": "kJJyRFXVpx2",
+      "scene_id": "hm3d/val/00838-kJJyRFXVpx2/kJJyRFXVpx2.basis.glb",
+      "episode_count": 20,
+      "episode_ids": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "11",
+        "12",
+        "13",
+        "14",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "24"
+      ],
+      "human_num_counts": {
+        "4": 20
+      },
+      "official_v02_annotated_config_paths": [],
+      "official_mapping_limit": "Annotation-only catalog; absence does not mean a scene is absent from the full HM3D meshes.",
+      "required_mesh_tar_members": [
+        "00838-kJJyRFXVpx2/kJJyRFXVpx2.basis.glb",
+        "00838-kJJyRFXVpx2/kJJyRFXVpx2.basis.navmesh"
+      ],
+      "verified_mesh_tar_members": [
+        "00838-kJJyRFXVpx2/kJJyRFXVpx2.basis.glb",
+        "00838-kJJyRFXVpx2/kJJyRFXVpx2.basis.navmesh"
+      ]
+    },
+    {
+      "path": "baselines/assets/falcon/episodes/social-hm3d/val/content/bxsVRursffK.json.gz",
+      "bytes": 6685,
+      "sha256": "ca1d2389c8942ad7514be8ef253a7bed59c2903a7be9c57464110625bc8c4d79",
+      "scene_name": "bxsVRursffK",
+      "scene_id": "hm3d/val/00873-bxsVRursffK/bxsVRursffK.basis.glb",
+      "episode_count": 21,
+      "episode_ids": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "11",
+        "13",
+        "14",
+        "15",
+        "17",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24"
+      ],
+      "human_num_counts": {
+        "2": 21
+      },
+      "official_v02_annotated_config_paths": [
+        "val/00873-bxsVRursffK/*.basis.glb"
+      ],
+      "official_mapping_limit": "Annotation-only catalog; absence does not mean a scene is absent from the full HM3D meshes.",
+      "required_mesh_tar_members": [
+        "00873-bxsVRursffK/bxsVRursffK.basis.glb",
+        "00873-bxsVRursffK/bxsVRursffK.basis.navmesh"
+      ],
+      "verified_mesh_tar_members": [
+        "00873-bxsVRursffK/bxsVRursffK.basis.glb",
+        "00873-bxsVRursffK/bxsVRursffK.basis.navmesh"
+      ]
+    },
+    {
+      "path": "baselines/assets/falcon/episodes/social-hm3d/val/content/XMHNu9rRQ1y.json.gz",
+      "bytes": 7916,
+      "sha256": "39625fb39032ee96e40a48edf7bcd3b99cf73c2d461434afca5cf5a46b739770",
+      "scene_name": "XMHNu9rRQ1y",
+      "scene_id": "hm3d/val/00884-XMHNu9rRQ1y/XMHNu9rRQ1y.basis.glb",
+      "episode_count": 25,
+      "episode_ids": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24"
+      ],
+      "human_num_counts": {
+        "2": 25
+      },
+      "official_v02_annotated_config_paths": [],
+      "official_mapping_limit": "Annotation-only catalog; absence does not mean a scene is absent from the full HM3D meshes.",
+      "required_mesh_tar_members": [
+        "00884-XMHNu9rRQ1y/XMHNu9rRQ1y.basis.glb",
+        "00884-XMHNu9rRQ1y/XMHNu9rRQ1y.basis.navmesh"
+      ],
+      "verified_mesh_tar_members": [
+        "00884-XMHNu9rRQ1y/XMHNu9rRQ1y.basis.glb",
+        "00884-XMHNu9rRQ1y/XMHNu9rRQ1y.basis.navmesh"
+      ]
+    }
+  ],
+  "episode_keys": [
+    [
+      "hm3d/val/00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+      "0"
+    ],
+    [
+      "hm3d/val/00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+      "1"
+    ],
+    [
+      "hm3d/val/00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+      "10"
+    ],
+    [
+      "hm3d/val/00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+      "11"
+    ],
+    [
+      "hm3d/val/00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+      "12"
+    ],
+    [
+      "hm3d/val/00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+      "13"
+    ],
+    [
+      "hm3d/val/00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+      "14"
+    ],
+    [
+      "hm3d/val/00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+      "15"
+    ],
+    [
+      "hm3d/val/00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+      "16"
+    ],
+    [
+      "hm3d/val/00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+      "19"
+    ],
+    [
+      "hm3d/val/00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+      "2"
+    ],
+    [
+      "hm3d/val/00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+      "20"
+    ],
+    [
+      "hm3d/val/00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+      "21"
+    ],
+    [
+      "hm3d/val/00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+      "22"
+    ],
+    [
+      "hm3d/val/00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+      "23"
+    ],
+    [
+      "hm3d/val/00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+      "24"
+    ],
+    [
+      "hm3d/val/00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+      "3"
+    ],
+    [
+      "hm3d/val/00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+      "4"
+    ],
+    [
+      "hm3d/val/00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+      "5"
+    ],
+    [
+      "hm3d/val/00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+      "6"
+    ],
+    [
+      "hm3d/val/00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+      "7"
+    ],
+    [
+      "hm3d/val/00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+      "8"
+    ],
+    [
+      "hm3d/val/00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+      "9"
+    ],
+    [
+      "hm3d/val/00806-tQ5s4ShP627/tQ5s4ShP627.basis.glb",
+      "10"
+    ],
+    [
+      "hm3d/val/00806-tQ5s4ShP627/tQ5s4ShP627.basis.glb",
+      "11"
+    ],
+    [
+      "hm3d/val/00806-tQ5s4ShP627/tQ5s4ShP627.basis.glb",
+      "13"
+    ],
+    [
+      "hm3d/val/00806-tQ5s4ShP627/tQ5s4ShP627.basis.glb",
+      "14"
+    ],
+    [
+      "hm3d/val/00806-tQ5s4ShP627/tQ5s4ShP627.basis.glb",
+      "15"
+    ],
+    [
+      "hm3d/val/00806-tQ5s4ShP627/tQ5s4ShP627.basis.glb",
+      "18"
+    ],
+    [
+      "hm3d/val/00806-tQ5s4ShP627/tQ5s4ShP627.basis.glb",
+      "19"
+    ],
+    [
+      "hm3d/val/00806-tQ5s4ShP627/tQ5s4ShP627.basis.glb",
+      "21"
+    ],
+    [
+      "hm3d/val/00806-tQ5s4ShP627/tQ5s4ShP627.basis.glb",
+      "22"
+    ],
+    [
+      "hm3d/val/00806-tQ5s4ShP627/tQ5s4ShP627.basis.glb",
+      "24"
+    ],
+    [
+      "hm3d/val/00806-tQ5s4ShP627/tQ5s4ShP627.basis.glb",
+      "5"
+    ],
+    [
+      "hm3d/val/00806-tQ5s4ShP627/tQ5s4ShP627.basis.glb",
+      "6"
+    ],
+    [
+      "hm3d/val/00806-tQ5s4ShP627/tQ5s4ShP627.basis.glb",
+      "7"
+    ],
+    [
+      "hm3d/val/00806-tQ5s4ShP627/tQ5s4ShP627.basis.glb",
+      "8"
+    ],
+    [
+      "hm3d/val/00806-tQ5s4ShP627/tQ5s4ShP627.basis.glb",
+      "9"
+    ],
+    [
+      "hm3d/val/00807-rsggHU7g7dh/rsggHU7g7dh.basis.glb",
+      "0"
+    ],
+    [
+      "hm3d/val/00807-rsggHU7g7dh/rsggHU7g7dh.basis.glb",
+      "1"
+    ],
+    [
+      "hm3d/val/00807-rsggHU7g7dh/rsggHU7g7dh.basis.glb",
+      "10"
+    ],
+    [
+      "hm3d/val/00807-rsggHU7g7dh/rsggHU7g7dh.basis.glb",
+      "11"
+    ],
+    [
+      "hm3d/val/00807-rsggHU7g7dh/rsggHU7g7dh.basis.glb",
+      "12"
+    ],
+    [
+      "hm3d/val/00807-rsggHU7g7dh/rsggHU7g7dh.basis.glb",
+      "13"
+    ],
+    [
+      "hm3d/val/00807-rsggHU7g7dh/rsggHU7g7dh.basis.glb",
+      "14"
+    ],
+    [
+      "hm3d/val/00807-rsggHU7g7dh/rsggHU7g7dh.basis.glb",
+      "15"
+    ],
+    [
+      "hm3d/val/00807-rsggHU7g7dh/rsggHU7g7dh.basis.glb",
+      "17"
+    ],
+    [
+      "hm3d/val/00807-rsggHU7g7dh/rsggHU7g7dh.basis.glb",
+      "18"
+    ],
+    [
+      "hm3d/val/00807-rsggHU7g7dh/rsggHU7g7dh.basis.glb",
+      "19"
+    ],
+    [
+      "hm3d/val/00807-rsggHU7g7dh/rsggHU7g7dh.basis.glb",
+      "20"
+    ],
+    [
+      "hm3d/val/00807-rsggHU7g7dh/rsggHU7g7dh.basis.glb",
+      "21"
+    ],
+    [
+      "hm3d/val/00807-rsggHU7g7dh/rsggHU7g7dh.basis.glb",
+      "23"
+    ],
+    [
+      "hm3d/val/00807-rsggHU7g7dh/rsggHU7g7dh.basis.glb",
+      "24"
+    ],
+    [
+      "hm3d/val/00807-rsggHU7g7dh/rsggHU7g7dh.basis.glb",
+      "3"
+    ],
+    [
+      "hm3d/val/00807-rsggHU7g7dh/rsggHU7g7dh.basis.glb",
+      "4"
+    ],
+    [
+      "hm3d/val/00807-rsggHU7g7dh/rsggHU7g7dh.basis.glb",
+      "5"
+    ],
+    [
+      "hm3d/val/00807-rsggHU7g7dh/rsggHU7g7dh.basis.glb",
+      "6"
+    ],
+    [
+      "hm3d/val/00807-rsggHU7g7dh/rsggHU7g7dh.basis.glb",
+      "7"
+    ],
+    [
+      "hm3d/val/00807-rsggHU7g7dh/rsggHU7g7dh.basis.glb",
+      "8"
+    ],
+    [
+      "hm3d/val/00807-rsggHU7g7dh/rsggHU7g7dh.basis.glb",
+      "9"
+    ],
+    [
+      "hm3d/val/00819-6D36GQHuP8H/6D36GQHuP8H.basis.glb",
+      "1"
+    ],
+    [
+      "hm3d/val/00819-6D36GQHuP8H/6D36GQHuP8H.basis.glb",
+      "10"
+    ],
+    [
+      "hm3d/val/00819-6D36GQHuP8H/6D36GQHuP8H.basis.glb",
+      "11"
+    ],
+    [
+      "hm3d/val/00819-6D36GQHuP8H/6D36GQHuP8H.basis.glb",
+      "12"
+    ],
+    [
+      "hm3d/val/00819-6D36GQHuP8H/6D36GQHuP8H.basis.glb",
+      "13"
+    ],
+    [
+      "hm3d/val/00819-6D36GQHuP8H/6D36GQHuP8H.basis.glb",
+      "14"
+    ],
+    [
+      "hm3d/val/00819-6D36GQHuP8H/6D36GQHuP8H.basis.glb",
+      "15"
+    ],
+    [
+      "hm3d/val/00819-6D36GQHuP8H/6D36GQHuP8H.basis.glb",
+      "17"
+    ],
+    [
+      "hm3d/val/00819-6D36GQHuP8H/6D36GQHuP8H.basis.glb",
+      "18"
+    ],
+    [
+      "hm3d/val/00819-6D36GQHuP8H/6D36GQHuP8H.basis.glb",
+      "19"
+    ],
+    [
+      "hm3d/val/00819-6D36GQHuP8H/6D36GQHuP8H.basis.glb",
+      "2"
+    ],
+    [
+      "hm3d/val/00819-6D36GQHuP8H/6D36GQHuP8H.basis.glb",
+      "20"
+    ],
+    [
+      "hm3d/val/00819-6D36GQHuP8H/6D36GQHuP8H.basis.glb",
+      "21"
+    ],
+    [
+      "hm3d/val/00819-6D36GQHuP8H/6D36GQHuP8H.basis.glb",
+      "22"
+    ],
+    [
+      "hm3d/val/00819-6D36GQHuP8H/6D36GQHuP8H.basis.glb",
+      "24"
+    ],
+    [
+      "hm3d/val/00819-6D36GQHuP8H/6D36GQHuP8H.basis.glb",
+      "3"
+    ],
+    [
+      "hm3d/val/00819-6D36GQHuP8H/6D36GQHuP8H.basis.glb",
+      "4"
+    ],
+    [
+      "hm3d/val/00819-6D36GQHuP8H/6D36GQHuP8H.basis.glb",
+      "5"
+    ],
+    [
+      "hm3d/val/00819-6D36GQHuP8H/6D36GQHuP8H.basis.glb",
+      "6"
+    ],
+    [
+      "hm3d/val/00819-6D36GQHuP8H/6D36GQHuP8H.basis.glb",
+      "7"
+    ],
+    [
+      "hm3d/val/00819-6D36GQHuP8H/6D36GQHuP8H.basis.glb",
+      "8"
+    ],
+    [
+      "hm3d/val/00819-6D36GQHuP8H/6D36GQHuP8H.basis.glb",
+      "9"
+    ],
+    [
+      "hm3d/val/00833-dHwjuKfkRUR/dHwjuKfkRUR.basis.glb",
+      "10"
+    ],
+    [
+      "hm3d/val/00833-dHwjuKfkRUR/dHwjuKfkRUR.basis.glb",
+      "11"
+    ],
+    [
+      "hm3d/val/00833-dHwjuKfkRUR/dHwjuKfkRUR.basis.glb",
+      "12"
+    ],
+    [
+      "hm3d/val/00833-dHwjuKfkRUR/dHwjuKfkRUR.basis.glb",
+      "13"
+    ],
+    [
+      "hm3d/val/00833-dHwjuKfkRUR/dHwjuKfkRUR.basis.glb",
+      "16"
+    ],
+    [
+      "hm3d/val/00833-dHwjuKfkRUR/dHwjuKfkRUR.basis.glb",
+      "17"
+    ],
+    [
+      "hm3d/val/00833-dHwjuKfkRUR/dHwjuKfkRUR.basis.glb",
+      "18"
+    ],
+    [
+      "hm3d/val/00833-dHwjuKfkRUR/dHwjuKfkRUR.basis.glb",
+      "20"
+    ],
+    [
+      "hm3d/val/00833-dHwjuKfkRUR/dHwjuKfkRUR.basis.glb",
+      "21"
+    ],
+    [
+      "hm3d/val/00833-dHwjuKfkRUR/dHwjuKfkRUR.basis.glb",
+      "22"
+    ],
+    [
+      "hm3d/val/00833-dHwjuKfkRUR/dHwjuKfkRUR.basis.glb",
+      "24"
+    ],
+    [
+      "hm3d/val/00833-dHwjuKfkRUR/dHwjuKfkRUR.basis.glb",
+      "4"
+    ],
+    [
+      "hm3d/val/00833-dHwjuKfkRUR/dHwjuKfkRUR.basis.glb",
+      "6"
+    ],
+    [
+      "hm3d/val/00838-kJJyRFXVpx2/kJJyRFXVpx2.basis.glb",
+      "0"
+    ],
+    [
+      "hm3d/val/00838-kJJyRFXVpx2/kJJyRFXVpx2.basis.glb",
+      "1"
+    ],
+    [
+      "hm3d/val/00838-kJJyRFXVpx2/kJJyRFXVpx2.basis.glb",
+      "11"
+    ],
+    [
+      "hm3d/val/00838-kJJyRFXVpx2/kJJyRFXVpx2.basis.glb",
+      "12"
+    ],
+    [
+      "hm3d/val/00838-kJJyRFXVpx2/kJJyRFXVpx2.basis.glb",
+      "13"
+    ],
+    [
+      "hm3d/val/00838-kJJyRFXVpx2/kJJyRFXVpx2.basis.glb",
+      "14"
+    ],
+    [
+      "hm3d/val/00838-kJJyRFXVpx2/kJJyRFXVpx2.basis.glb",
+      "17"
+    ],
+    [
+      "hm3d/val/00838-kJJyRFXVpx2/kJJyRFXVpx2.basis.glb",
+      "18"
+    ],
+    [
+      "hm3d/val/00838-kJJyRFXVpx2/kJJyRFXVpx2.basis.glb",
+      "19"
+    ],
+    [
+      "hm3d/val/00838-kJJyRFXVpx2/kJJyRFXVpx2.basis.glb",
+      "2"
+    ],
+    [
+      "hm3d/val/00838-kJJyRFXVpx2/kJJyRFXVpx2.basis.glb",
+      "20"
+    ],
+    [
+      "hm3d/val/00838-kJJyRFXVpx2/kJJyRFXVpx2.basis.glb",
+      "21"
+    ],
+    [
+      "hm3d/val/00838-kJJyRFXVpx2/kJJyRFXVpx2.basis.glb",
+      "24"
+    ],
+    [
+      "hm3d/val/00838-kJJyRFXVpx2/kJJyRFXVpx2.basis.glb",
+      "3"
+    ],
+    [
+      "hm3d/val/00838-kJJyRFXVpx2/kJJyRFXVpx2.basis.glb",
+      "4"
+    ],
+    [
+      "hm3d/val/00838-kJJyRFXVpx2/kJJyRFXVpx2.basis.glb",
+      "5"
+    ],
+    [
+      "hm3d/val/00838-kJJyRFXVpx2/kJJyRFXVpx2.basis.glb",
+      "6"
+    ],
+    [
+      "hm3d/val/00838-kJJyRFXVpx2/kJJyRFXVpx2.basis.glb",
+      "7"
+    ],
+    [
+      "hm3d/val/00838-kJJyRFXVpx2/kJJyRFXVpx2.basis.glb",
+      "8"
+    ],
+    [
+      "hm3d/val/00838-kJJyRFXVpx2/kJJyRFXVpx2.basis.glb",
+      "9"
+    ],
+    [
+      "hm3d/val/00873-bxsVRursffK/bxsVRursffK.basis.glb",
+      "0"
+    ],
+    [
+      "hm3d/val/00873-bxsVRursffK/bxsVRursffK.basis.glb",
+      "1"
+    ],
+    [
+      "hm3d/val/00873-bxsVRursffK/bxsVRursffK.basis.glb",
+      "11"
+    ],
+    [
+      "hm3d/val/00873-bxsVRursffK/bxsVRursffK.basis.glb",
+      "13"
+    ],
+    [
+      "hm3d/val/00873-bxsVRursffK/bxsVRursffK.basis.glb",
+      "14"
+    ],
+    [
+      "hm3d/val/00873-bxsVRursffK/bxsVRursffK.basis.glb",
+      "15"
+    ],
+    [
+      "hm3d/val/00873-bxsVRursffK/bxsVRursffK.basis.glb",
+      "17"
+    ],
+    [
+      "hm3d/val/00873-bxsVRursffK/bxsVRursffK.basis.glb",
+      "19"
+    ],
+    [
+      "hm3d/val/00873-bxsVRursffK/bxsVRursffK.basis.glb",
+      "2"
+    ],
+    [
+      "hm3d/val/00873-bxsVRursffK/bxsVRursffK.basis.glb",
+      "20"
+    ],
+    [
+      "hm3d/val/00873-bxsVRursffK/bxsVRursffK.basis.glb",
+      "21"
+    ],
+    [
+      "hm3d/val/00873-bxsVRursffK/bxsVRursffK.basis.glb",
+      "22"
+    ],
+    [
+      "hm3d/val/00873-bxsVRursffK/bxsVRursffK.basis.glb",
+      "23"
+    ],
+    [
+      "hm3d/val/00873-bxsVRursffK/bxsVRursffK.basis.glb",
+      "24"
+    ],
+    [
+      "hm3d/val/00873-bxsVRursffK/bxsVRursffK.basis.glb",
+      "3"
+    ],
+    [
+      "hm3d/val/00873-bxsVRursffK/bxsVRursffK.basis.glb",
+      "4"
+    ],
+    [
+      "hm3d/val/00873-bxsVRursffK/bxsVRursffK.basis.glb",
+      "5"
+    ],
+    [
+      "hm3d/val/00873-bxsVRursffK/bxsVRursffK.basis.glb",
+      "6"
+    ],
+    [
+      "hm3d/val/00873-bxsVRursffK/bxsVRursffK.basis.glb",
+      "7"
+    ],
+    [
+      "hm3d/val/00873-bxsVRursffK/bxsVRursffK.basis.glb",
+      "8"
+    ],
+    [
+      "hm3d/val/00873-bxsVRursffK/bxsVRursffK.basis.glb",
+      "9"
+    ],
+    [
+      "hm3d/val/00884-XMHNu9rRQ1y/XMHNu9rRQ1y.basis.glb",
+      "0"
+    ],
+    [
+      "hm3d/val/00884-XMHNu9rRQ1y/XMHNu9rRQ1y.basis.glb",
+      "1"
+    ],
+    [
+      "hm3d/val/00884-XMHNu9rRQ1y/XMHNu9rRQ1y.basis.glb",
+      "10"
+    ],
+    [
+      "hm3d/val/00884-XMHNu9rRQ1y/XMHNu9rRQ1y.basis.glb",
+      "11"
+    ],
+    [
+      "hm3d/val/00884-XMHNu9rRQ1y/XMHNu9rRQ1y.basis.glb",
+      "12"
+    ],
+    [
+      "hm3d/val/00884-XMHNu9rRQ1y/XMHNu9rRQ1y.basis.glb",
+      "13"
+    ],
+    [
+      "hm3d/val/00884-XMHNu9rRQ1y/XMHNu9rRQ1y.basis.glb",
+      "14"
+    ],
+    [
+      "hm3d/val/00884-XMHNu9rRQ1y/XMHNu9rRQ1y.basis.glb",
+      "15"
+    ],
+    [
+      "hm3d/val/00884-XMHNu9rRQ1y/XMHNu9rRQ1y.basis.glb",
+      "16"
+    ],
+    [
+      "hm3d/val/00884-XMHNu9rRQ1y/XMHNu9rRQ1y.basis.glb",
+      "17"
+    ],
+    [
+      "hm3d/val/00884-XMHNu9rRQ1y/XMHNu9rRQ1y.basis.glb",
+      "18"
+    ],
+    [
+      "hm3d/val/00884-XMHNu9rRQ1y/XMHNu9rRQ1y.basis.glb",
+      "19"
+    ],
+    [
+      "hm3d/val/00884-XMHNu9rRQ1y/XMHNu9rRQ1y.basis.glb",
+      "2"
+    ],
+    [
+      "hm3d/val/00884-XMHNu9rRQ1y/XMHNu9rRQ1y.basis.glb",
+      "20"
+    ],
+    [
+      "hm3d/val/00884-XMHNu9rRQ1y/XMHNu9rRQ1y.basis.glb",
+      "21"
+    ],
+    [
+      "hm3d/val/00884-XMHNu9rRQ1y/XMHNu9rRQ1y.basis.glb",
+      "22"
+    ],
+    [
+      "hm3d/val/00884-XMHNu9rRQ1y/XMHNu9rRQ1y.basis.glb",
+      "23"
+    ],
+    [
+      "hm3d/val/00884-XMHNu9rRQ1y/XMHNu9rRQ1y.basis.glb",
+      "24"
+    ],
+    [
+      "hm3d/val/00884-XMHNu9rRQ1y/XMHNu9rRQ1y.basis.glb",
+      "3"
+    ],
+    [
+      "hm3d/val/00884-XMHNu9rRQ1y/XMHNu9rRQ1y.basis.glb",
+      "4"
+    ],
+    [
+      "hm3d/val/00884-XMHNu9rRQ1y/XMHNu9rRQ1y.basis.glb",
+      "5"
+    ],
+    [
+      "hm3d/val/00884-XMHNu9rRQ1y/XMHNu9rRQ1y.basis.glb",
+      "6"
+    ],
+    [
+      "hm3d/val/00884-XMHNu9rRQ1y/XMHNu9rRQ1y.basis.glb",
+      "7"
+    ],
+    [
+      "hm3d/val/00884-XMHNu9rRQ1y/XMHNu9rRQ1y.basis.glb",
+      "8"
+    ],
+    [
+      "hm3d/val/00884-XMHNu9rRQ1y/XMHNu9rRQ1y.basis.glb",
+      "9"
+    ]
+  ],
+  "source_mesh_package": {
+    "file": "/Users/yuqinli/Downloads/hm3d-val-habitat-v0.2.tar",
+    "bytes": 3530618880,
+    "sha256": "04c97761cb16ed8bd6f6600d4211ab10b9d3649d981401b527f0c0264a60371b",
+    "source": "https://api.matterport.com/resources/habitat/hm3d-val-habitat-v0.2.tar"
+  },
+  "mesh_file_entries_verified": true,
+  "scene_id_rewritten": false,
+  "episode_content_rewritten": false,
+  "base_config": "social_nav_v2/falcon_hm3d.yaml",
+  "dataset_root_path_in_bundle": "data/datasets/pointnav/social-hm3d-fullval/val/val.json.gz",
+  "episode_root": {
+    "path": "baselines/assets/falcon/full_val_prepared/falcon_full_val_20261103/data/datasets/pointnav/social-hm3d-fullval/val/val.json.gz",
+    "bytes": 51,
+    "sha256": "89439f90c490eb0b39106097a2930fd3a9688385c0d1a1c6b11bdcd3f45ec3ba"
+  },
+  "bundle": {
+    "path": "baselines/prep/falcon_full_val_20261103.tar.gz",
+    "bytes": 539138,
+    "sha256": "68cb3008b95f3503ae7bea57358e8fb2ce175ad4f794893e53e5389e1a27f70f"
+  },
+  "evaluation_scope": "One of seven disjoint eight-scene units; restarted stochastic streams, one released checkpoint only.",
+  "existing_9scene_artifacts_modified": false,
+  "mesh_package_scenes": 100,
+  "mesh_qa_manifest": "baselines/prep/falcon_full_val_mesh_qa_20261103.json",
+  "shard_id": "balanced7_01",
+  "parent_full_manifest": "/Users/yuqinli/Documents/ChatGPT/VLN/baselines/prep/falcon_full_val_20261103_manifest.json",
+  "partition_kind": "DETERMINISTIC_LPT_SEVEN_EIGHT_SCENE_GROUPS",
+  "partition_plan": "/Users/yuqinli/Documents/ChatGPT/VLN/baselines/continuation_20261104/prep/PARTITION.json",
+  "recommended_num_environments": 8,
+  "generator_requires_explicit_num_envs": true
+}

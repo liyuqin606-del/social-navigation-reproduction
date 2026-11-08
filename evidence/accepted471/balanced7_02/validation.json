@@ -1,0 +1,24 @@
+{
+  "status": "PASS_SUBSET_COMPLETE",
+  "scope": "Falcon official checkpoint, specified val subset; not full-paper or training-seed reproduction",
+  "expected_episode_count": 153,
+  "observed_records": 153,
+  "observed_unique_episodes": 153,
+  "missing_episode_keys": [],
+  "duplicate_episode_keys": [],
+  "failures": [],
+  "recomputed_aggregate_metrics": {
+    "reward": 6.280730613635159,
+    "distance_to_goal": 3.7794185968289407,
+    "distance_to_goal_reward": 0.10952377802497568,
+    "success": 0.42483660130718953,
+    "did_multi_agents_collide": 0.5294117647058824,
+    "num_steps": 120.52287581699346,
+    "spl": 0.38693047213888637,
+    "psc": 0.8962551070465355,
+    "human_collision": 0.5294117647058824
+  },
+  "num_environments": 8,
+  "seed": 100,
+  "policy_deterministic": false
+}

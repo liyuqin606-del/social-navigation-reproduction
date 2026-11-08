@@ -1,0 +1,17 @@
+{
+  "status": "LOCAL_REFERENCE_PROTOTYPE_TESTED_NOT_TRAINED",
+  "date": "2026-11-05",
+  "cpu_tests_passed": 9,
+  "torch_model_validation": "SYNTAX_ONLY_TORCH_NOT_INSTALLED",
+  "head_parameters_by_arithmetic": 104352,
+  "navigation_results": null,
+  "gpu_jobs_submitted": 0,
+  "baseline616_resume_authorized": false,
+  "next_gate": "Independent train assets, collector event/clock/reset audit, then bounded GPU plan",
+  "files": {
+    "test_core.py": "38e73390a9e974ab53e67c92bba366acb3d63c2c64ba9ab17f40deb80cba346c",
+    "core.py": "02efd652fe6530821499d8caf40cad6da6e956456b1e5834c55b701441712ba4",
+    "model.py": "2e005ad1e29ff1b1f07f1ab5a886a300ed587597fdbf09dffb47fa8fbb89a0cf",
+    "PLAN.md": "69cfa9b75949a0b6c0282ad33cab930d1e8e0c440d8384f29d6fb04281d0d538"
+  }
+}

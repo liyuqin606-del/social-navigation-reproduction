@@ -1,0 +1,63 @@
+{
+  "status": "PARTIAL_ACCEPTED_COVERAGE_NOT_FULL_BENCHMARK",
+  "episodes": 471,
+  "unique_scenes": 24,
+  "expected_full_episodes": 1087,
+  "remaining": 616,
+  "shards": [
+    {
+      "shard": "balanced7_00",
+      "episodes": 157,
+      "scenes": 8,
+      "independently_validated": true,
+      "exported_files": [
+        "run_status.json",
+        "source_episode_manifest.json",
+        "expected_episodes.json",
+        "resolved_config.yaml",
+        "episode_metrics.jsonl",
+        "actions.json",
+        "result.json",
+        "aggregate_metrics.json",
+        "evaluation_complete.json",
+        "validation.json"
+      ]
+    },
+    {
+      "shard": "balanced7_01",
+      "episodes": 161,
+      "scenes": 8,
+      "independently_validated": true,
+      "exported_files": [
+        "run_status.json",
+        "source_episode_manifest.json",
+        "expected_episodes.json",
+        "resolved_config.yaml",
+        "episode_metrics.jsonl",
+        "actions.json",
+        "result.json",
+        "aggregate_metrics.json",
+        "evaluation_complete.json",
+        "validation.json"
+      ]
+    },
+    {
+      "shard": "balanced7_02",
+      "episodes": 153,
+      "scenes": 8,
+      "independently_validated": true,
+      "exported_files": [
+        "run_status.json",
+        "source_episode_manifest.json",
+        "expected_episodes.json",
+        "resolved_config.yaml",
+        "episode_metrics.jsonl",
+        "actions.json",
+        "result.json",
+        "aggregate_metrics.json",
+        "evaluation_complete.json",
+        "validation.json"
+      ]
+    }
+  ]
+}

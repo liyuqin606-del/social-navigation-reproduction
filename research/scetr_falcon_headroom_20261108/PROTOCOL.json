@@ -1,0 +1,23 @@
+{
+  "date":"2026-11-08",
+  "authorization":"User: 开冲SOTA, following SCET-R design and explicit request for high-headroom entry points",
+  "scope":"Real Falcon finite-controller recoverability diagnosis; no learned SCET-R model or SOTA claim",
+  "allocation_limit":1,
+  "gpus":1,
+  "wall_minutes":60,
+  "maximum_cases":24,
+  "maximum_episode_steps":500,
+  "seed":100,
+  "environments":1,
+  "selection":"From existing nonrandom174 development subset: collision failures with40..300 actions, one per scene; scenes ranked by eligible count then name; episode chosen by smallest SHA256(scene|episode); first4 scenes. No selection from intervention outcomes.",
+  "dataset_role":"Failure-selected development only. Neither population success rate nor held-out evaluation. All selected episodes excluded from future confirmation.",
+  "baseline":"Original frozen checkpoint with stochastic actions; new single-env runs are not expected to replicate old4-env trajectories",
+  "matching":"Fresh seeded process replay from episode start. Baseline duplicated to full terminal. Branch prefixes must match all observations, recurrent inputs, sampled actions, other-agent actions, RNG and features before intervention. No unverified simulator snapshot restore.",
+  "interventions":[{"lead_steps":24,"sequence":[2,2,2,1,1,1,1]},{"lead_steps":24,"sequence":[3,3,3,1,1,1,1]},{"lead_steps":12,"sequence":[2,2,2,1,1,1,1]},{"lead_steps":12,"sequence":[3,3,3,1,1,1,1]}],
+  "schedule":"One fresh reference and repeat per selected episode. If reference has no human collision, no interventions for that episode. Otherwise start at max(0,first_collision_zero_based_step-lead_steps). Deduplicate identical start/sequence. Resume original Falcon after sequence.",
+  "metrics":"Terminal success,human_collision,SPL,PSC,steps,distance; repaired requires success==1 and human_collision==0. Delayed collision or timeout is not repaired.",
+  "failure_handling":"Any prefix/replay/weight/termination mismatch fails validation; no candidate comparison reported as causal. Preserve failure outputs. No retries within allocation.",
+  "limitations":"Oracle intervention timing uses reference collision and retrospective best candidate. This establishes only witnessed finite-library recoverability, not a deployable selector, general optimality gap, active-perception effect or population gain.",
+  "paused_benchmark_resumed":false,
+  "storage":{"local_reserve_gib":4,"remote_reserve_gib":4,"output_mib":128,"temporary_mib":128,"remote_peak_mib":256}
+}

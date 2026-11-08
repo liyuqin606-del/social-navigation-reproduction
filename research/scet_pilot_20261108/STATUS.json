@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-08",
+  "phase": "FIRST_LEARNED_MECHANISM_PILOT_VALIDATED",
+  "decision": "NO_GO_FOR_THIS_CONSISTENCY_LOSS_ON_THIS_ENVIRONMENT",
+  "fits": 24,
+  "independent_evaluation_contexts": 1024,
+  "model_context_expectations": 24576,
+  "local_checks_passed": 12,
+  "independent_cost_validation": "runs/pilot_a_VALIDATION.json",
+  "diagnosis": "runs/pilot_a_DIAGNOSIS.json",
+  "next_operator_implemented": "Observable stopping boundary composition with fixed original deadlines",
+  "next_experiment": "Assess active-information environment oracle headroom before training; retain belief-aware primitive baseline",
+  "falcon_new_method_deployed": false,
+  "sota_demonstrated": false,
+  "paused_baseline_resumed": false,
+  "new_gpu_jobs": 0
+}

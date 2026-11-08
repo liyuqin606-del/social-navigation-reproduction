@@ -1,0 +1,1994 @@
+{
+  "export_date": "2026-11-08",
+  "policy": "Selected verbatim research files; operational credentials, datasets, model weights, source-paper full texts and full translations excluded. Local original frozen evidence remains authoritative. Historical machine-specific paths are retained as provenance, not configured launch targets.",
+  "files": [
+    {
+      "path": "baselines/scripts/aggregate_falcon_full_val.py",
+      "source": "baselines/scripts/aggregate_falcon_full_val.py",
+      "bytes": 3659,
+      "sha256": "e1dfa804402b7c4f0b081f74e3dd2a0461f16318a6571cdda1907c8b4ad1338d",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/scripts/audit_falcon_checkpoint_metadata.py",
+      "source": "baselines/scripts/audit_falcon_checkpoint_metadata.py",
+      "bytes": 4105,
+      "sha256": "393a017531df40a4eb19fbe1d7489ea61c387b286de1c84c2f3c1c7500853cdb",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/scripts/audit_nav_dped_inputs.py",
+      "source": "baselines/scripts/audit_nav_dped_inputs.py",
+      "bytes": 13546,
+      "sha256": "584eada2c58734ea23f220c19af550b12f396104bb3f79d4c5c462f6f9f71b3c",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/scripts/build_navthinker_import_overlay.py",
+      "source": "baselines/scripts/build_navthinker_import_overlay.py",
+      "bytes": 4178,
+      "sha256": "e13a5ae2140b041559722a11407616180f450b27584191179fab131ffd74df0d",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/scripts/check_falcon_completion_guards.py",
+      "source": "baselines/scripts/check_falcon_completion_guards.py",
+      "bytes": 10912,
+      "sha256": "26936981ce6fa6220fcb83d89d6e3fd722e3e53a381ebd1f2c541acabf5c6db0",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/scripts/check_falcon_parallel_offline.py",
+      "source": "baselines/scripts/check_falcon_parallel_offline.py",
+      "bytes": 13387,
+      "sha256": "06a5b5115c052dfad24650df3e85b21b66e7ccac78f33e2fc9cbd1d640a91e45",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/scripts/check_falcon_shard_completion.py",
+      "source": "baselines/scripts/check_falcon_shard_completion.py",
+      "bytes": 2497,
+      "sha256": "31bca21c9593774c2ada86f3774b96da75a1a50e17b56ce76134a8dde71b225e",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/scripts/check_remote_prep.py",
+      "source": "baselines/scripts/check_remote_prep.py",
+      "bytes": 456,
+      "sha256": "bfee00dbab3b93b72e06a0343e6f48ee2c803c723969db258a211ecba50b8262",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/scripts/check_socialwm_readiness.py",
+      "source": "baselines/scripts/check_socialwm_readiness.py",
+      "bytes": 4381,
+      "sha256": "5f48cb7e85d614cb49fc130662c29b0130e91dff45cc5912c20fd3baf75d1953",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/scripts/continuous_reproduction_queue.README.md",
+      "source": "baselines/scripts/continuous_reproduction_queue.README.md",
+      "bytes": 9846,
+      "sha256": "2ce3b9cc450e12df57e4581a51e384cce1f5cd1aa08ac0ea480a0991cdf3d3c1",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/scripts/continuous_reproduction_queue.py",
+      "source": "baselines/scripts/continuous_reproduction_queue.py",
+      "bytes": 33199,
+      "sha256": "653ce1d748a6373df9db328632dd02955cf8ea946610ee3f9b716bed42b8cddf",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/scripts/diagnose_habitat_egl.py",
+      "source": "baselines/scripts/diagnose_habitat_egl.py",
+      "bytes": 12844,
+      "sha256": "dc6ba9783e4d471a947b76f081c6b18dbb2567c23dc3bf14376688d95ddf6d92",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/scripts/falcon_full_val_integrity.py",
+      "source": "baselines/scripts/falcon_full_val_integrity.py",
+      "bytes": 16140,
+      "sha256": "bd52e9277dfdc514bc049dd4f15bbc5ead6af025258923bb750525de97ecf33c",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/scripts/falcon_gpu_smoke.py",
+      "source": "baselines/scripts/falcon_gpu_smoke.py",
+      "bytes": 7170,
+      "sha256": "1aa330e9deac09455949bd28e8b77fb170fefe2e8221bbf3d93165fec2e1fe0c",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/scripts/falcon_shard_completion_evidence.py",
+      "source": "baselines/scripts/falcon_shard_completion_evidence.py",
+      "bytes": 12717,
+      "sha256": "7d32b3ae09bb3436a0b818a446911cced9a42524ad385bac128c0620da4f64ed",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/scripts/finalize_falcon_continuous_queue.py",
+      "source": "baselines/scripts/finalize_falcon_continuous_queue.py",
+      "bytes": 11254,
+      "sha256": "f81bbe8be926ad8449ce04ae12ae87407b101fb663c1baf0a1cd1b3bb99654e0",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/scripts/make_diagnostics_spec.py",
+      "source": "baselines/scripts/make_diagnostics_spec.py",
+      "bytes": 3091,
+      "sha256": "c3bcd9c1a4c0c415a1af81adf79923c8c0068a572dea0e2a67b38f9d125c79ce",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/scripts/make_falcon_eval_spec.py",
+      "source": "baselines/scripts/make_falcon_eval_spec.py",
+      "bytes": 15834,
+      "sha256": "221891c54935b2b3c999e3e786214418f929d58efe8dd64ae8325a4f41900108",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/scripts/make_falcon_parallel_spec.py",
+      "source": "baselines/scripts/make_falcon_parallel_spec.py",
+      "bytes": 9333,
+      "sha256": "eabf7c0eb2d8b754f86722abb3fd4b29597c1462b88e418409fb775a16d01c25",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/scripts/make_habitat_egl_diagnostic_spec.py",
+      "source": "baselines/scripts/make_habitat_egl_diagnostic_spec.py",
+      "bytes": 3529,
+      "sha256": "4fab19abcf8f74c961fee0bea626969e8d16fadd7a0bab4a96e3f0646fca06c1",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/scripts/make_nav_diagnostics_spec.py",
+      "source": "baselines/scripts/make_nav_diagnostics_spec.py",
+      "bytes": 5851,
+      "sha256": "ddc41a869160e3a58ba77f022bbad58225d3b1bac57ac79f85f9e171dbcb6e24",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/scripts/prepare_falcon_continuation_20261104.py",
+      "source": "baselines/scripts/prepare_falcon_continuation_20261104.py",
+      "bytes": 5282,
+      "sha256": "1a82fe8af37fe6a06d1b52ca5886400070bc207e76aa7dd4cff16c1aa6b551d1",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/scripts/prepare_falcon_observed.py",
+      "source": "baselines/scripts/prepare_falcon_observed.py",
+      "bytes": 5613,
+      "sha256": "9f813c54d4e8007b84af71f7516e7483c9b46915e412d94fc9d699e6a8f51df1",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/scripts/read_falcon_continuous_progress.py",
+      "source": "baselines/scripts/read_falcon_continuous_progress.py",
+      "bytes": 11003,
+      "sha256": "842664d78632f5a9f9f760d6e71c0b79127cea31ecea382070779ab25767b243",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/scripts/recover_completed_falcon_transport.py",
+      "source": "baselines/scripts/recover_completed_falcon_transport.py",
+      "bytes": 5126,
+      "sha256": "d2aa69c1e50cf900337ef7e949d89f3efa91ff0463545a2ab5853100d8eedfbb",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/scripts/recover_failed_falcon_owner.py",
+      "source": "baselines/scripts/recover_failed_falcon_owner.py",
+      "bytes": 18896,
+      "sha256": "0eb957866cf022d8f2f04e447b2366c06ac20ebbd88b4114be00ff6b8c995668",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/scripts/recover_released_falcon_download.py",
+      "source": "baselines/scripts/recover_released_falcon_download.py",
+      "bytes": 13389,
+      "sha256": "b2f10fee1ed0f951021330235995c87850ccab4c36113aa354a5475a070ea8f4",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/scripts/remote_data_prepare.py",
+      "source": "baselines/scripts/remote_data_prepare.py",
+      "bytes": 2736,
+      "sha256": "71e860b26eb381ca506e22e56daa4e6c2281e2c5a5034a3f459734c9c8d2d191",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/scripts/remote_falcon_prepare.py",
+      "source": "baselines/scripts/remote_falcon_prepare.py",
+      "bytes": 9734,
+      "sha256": "ca28409807d23aae3c4ce78e12cce3b9b8ee8427cbe97e09cb01efbdb3df3ddd",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/scripts/remote_full_val_prepare.py",
+      "source": "baselines/scripts/remote_full_val_prepare.py",
+      "bytes": 2179,
+      "sha256": "589221506ef0773ff1594d48ba293be6370ee27fd7adecb6bbd50e8bf95a0e4d",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/scripts/remote_inspect_preparation.py",
+      "source": "baselines/scripts/remote_inspect_preparation.py",
+      "bytes": 940,
+      "sha256": "3837dea52d743bae5b6a333a2fc13a64787fb03b8d6a4caf7125cbc6edb344c8",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/scripts/run_falcon_parallel.py",
+      "source": "baselines/scripts/run_falcon_parallel.py",
+      "bytes": 10791,
+      "sha256": "77a06b42a79e839e6b52c839722c6cc294456a2770764781082255290dc73a82",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/scripts/run_falcon_subset.py",
+      "source": "baselines/scripts/run_falcon_subset.py",
+      "bytes": 11554,
+      "sha256": "90a4ebaa72091c36b6b77152889465c6df9c8114a2ad0672ee398271d4d291ae",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/scripts/run_reproduction_diagnostics.py",
+      "source": "baselines/scripts/run_reproduction_diagnostics.py",
+      "bytes": 4431,
+      "sha256": "b320abfe814caa8d7e8caaf188282dba863ba0dbc4a86696d84cd9ef076f51c4",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/scripts/smoke_navthinker_official.py",
+      "source": "baselines/scripts/smoke_navthinker_official.py",
+      "bytes": 11784,
+      "sha256": "712ff4647d1a17a460a36508f0cf6313ca006964b24882bac671ba19e41a1bea",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/scripts/tacc_prepare_transport.py",
+      "source": "baselines/scripts/tacc_prepare_transport.py",
+      "bytes": 752,
+      "sha256": "fe47604c00a66b1d4a496d15694aa43fab6f6337576be554a443a6817f3c78c2",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/scripts/tacc_read_run_progress.py",
+      "source": "baselines/scripts/tacc_read_run_progress.py",
+      "bytes": 2239,
+      "sha256": "7639c5c090099c9cd869b682be0e6169fcef5687ddf994d63fabb0456c45ed13",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/scripts/tacc_upload_file.py",
+      "source": "baselines/scripts/tacc_upload_file.py",
+      "bytes": 1842,
+      "sha256": "ed6bd91d1fdd1f3d289d43ea237c7752d0aa3fa735b51ce9da172146a64cf3d9",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/scripts/test_continuous_reproduction_queue.py",
+      "source": "baselines/scripts/test_continuous_reproduction_queue.py",
+      "bytes": 16478,
+      "sha256": "98488e91e05d077686843ebd850e670ad176448c13c58cbffe7fb05d9985e8c8",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/scripts/test_recover_failed_falcon_owner.py",
+      "source": "baselines/scripts/test_recover_failed_falcon_owner.py",
+      "bytes": 13250,
+      "sha256": "39eb0188f0a77c6bb7997966a0327a9f9dec560ffc9b5ff76f39365275a5a602",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/scripts/validate_falcon_full_val_aggregate.py",
+      "source": "baselines/scripts/validate_falcon_full_val_aggregate.py",
+      "bytes": 5139,
+      "sha256": "dcaf79b82b4f0acf1fa2c495f93581f3e828890b978d0c71c676f7cc058dd54b",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/scripts/validate_falcon_parallel.py",
+      "source": "baselines/scripts/validate_falcon_parallel.py",
+      "bytes": 8852,
+      "sha256": "cc5ec687ab286bcbdc2acc6c31a140d705d7ca8fd4a74e074db4dc629a984c49",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/scripts/validate_falcon_smoke.py",
+      "source": "baselines/scripts/validate_falcon_smoke.py",
+      "bytes": 1660,
+      "sha256": "4d21648201db42caad1be380b64942375d18a98f1c602531fc8e99439273d947",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/scripts/validate_falcon_subset.py",
+      "source": "baselines/scripts/validate_falcon_subset.py",
+      "bytes": 6922,
+      "sha256": "87c68d792b5727107245f7ef9e8850142b5f97ae23136e551bdb300a9560bc96",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/scripts/validate_habitat_egl.py",
+      "source": "baselines/scripts/validate_habitat_egl.py",
+      "bytes": 6308,
+      "sha256": "6b0004fa16be01f936efa2d422ec043cd0f4bbc245d09be8885a4de86209a663",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/scripts/validate_navthinker_smoke.py",
+      "source": "baselines/scripts/validate_navthinker_smoke.py",
+      "bytes": 5462,
+      "sha256": "a023fd4a5e6109d74762dd10245be9679e49b5552492f22cb7d45388bbbb8951",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/scripts/validate_reproduction_diagnostics.py",
+      "source": "baselines/scripts/validate_reproduction_diagnostics.py",
+      "bytes": 2567,
+      "sha256": "6ef82e9aabad7df844fa0c64e71421f8f87bc529cb00b93f3f39daae1775deac",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/lifecycle/README.md",
+      "source": "baselines/lifecycle/README.md",
+      "bytes": 4500,
+      "sha256": "8501f74db0755cbed2aa6bcb2082212a032b143997ced4d7d7dce09b2933130b",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/lifecycle/check_adapter.py",
+      "source": "baselines/lifecycle/check_adapter.py",
+      "bytes": 5462,
+      "sha256": "eddca9e34f2d14e154f0640f7167cdfd736a95be1ca279f91d89676311092926",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/lifecycle/check_managed.py",
+      "source": "baselines/lifecycle/check_managed.py",
+      "bytes": 14214,
+      "sha256": "60b73a08f07320552ece40e6fdeb43b41262d7b52e236ce7d575be811e0407c2",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/lifecycle/incremental_saver.py",
+      "source": "baselines/lifecycle/incremental_saver.py",
+      "bytes": 991,
+      "sha256": "5bcc1f00469bd104f3a13602ce2a51f512264bf419ffef4e7bc5a217c44a24b2",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/lifecycle/manage_storage.py",
+      "source": "baselines/lifecycle/manage_storage.py",
+      "bytes": 5096,
+      "sha256": "1bdf2f1f5d691cd3147a41821218fba4f4fc3947c618cb4c7016fbdd9f058995",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/lifecycle/managed_run.py",
+      "source": "baselines/lifecycle/managed_run.py",
+      "bytes": 16024,
+      "sha256": "1705385ac44da30c1dc266631037bf948da1279993059cb50bab17d30eec8231",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/lifecycle/owner.py",
+      "source": "baselines/lifecycle/owner.py",
+      "bytes": 13406,
+      "sha256": "54ec3af0ba423b34532a850f5bf29456d2570cae7c04bf0bff0721c8ac52bb93",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/lifecycle/preflight.py",
+      "source": "baselines/lifecycle/preflight.py",
+      "bytes": 10043,
+      "sha256": "3d303826877fca08e479523bf7a640c456a29734c9329e53c1dc12d81a019119",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/lifecycle/prepare_run.py",
+      "source": "baselines/lifecycle/prepare_run.py",
+      "bytes": 8508,
+      "sha256": "d338d376d9cb5016b7546f9f3b991360311227f5374396a1e7cbfde0a73897de",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/lifecycle/transport.py",
+      "source": "baselines/lifecycle/transport.py",
+      "bytes": 3821,
+      "sha256": "334985295c2fcbc14fd073fa3f63e64f06150aa02303cd98ff1a9ccbc952f398",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/lifecycle/worker.py",
+      "source": "baselines/lifecycle/worker.py",
+      "bytes": 11780,
+      "sha256": "f6b0c757a0d625940290a6b9a30eca3bbbcdd8be7e25f535e19551926c4020f3",
+      "copy": "verbatim"
+    },
+    {
+      "path": "weightlab/README.md",
+      "source": "weightlab/README.md",
+      "bytes": 10616,
+      "sha256": "cf5bfa4a0e9a509057fafff88c41bc1f8e44cd21bcb3767a4affeee8d48968c6",
+      "copy": "verbatim"
+    },
+    {
+      "path": "weightlab/__init__.py",
+      "source": "weightlab/__init__.py",
+      "bytes": 106,
+      "sha256": "4f4ee77d11e6717f146b7cfcded9e66f7baf1673813d1a2b381348ded2a17308",
+      "copy": "verbatim"
+    },
+    {
+      "path": "weightlab/__main__.py",
+      "source": "weightlab/__main__.py",
+      "bytes": 13842,
+      "sha256": "b1585ac0fcc19948ebead7cee40dd1ff2356408fb749090b517e8166bbd52fd7",
+      "copy": "verbatim"
+    },
+    {
+      "path": "weightlab/code_runner.py",
+      "source": "weightlab/code_runner.py",
+      "bytes": 6192,
+      "sha256": "14072b06d0594900102337a4f951e41016069dc42a10abf1f6155a02a75948fe",
+      "copy": "verbatim"
+    },
+    {
+      "path": "weightlab/code_worker.py",
+      "source": "weightlab/code_worker.py",
+      "bytes": 3944,
+      "sha256": "2534ccde4b0329c7bb380b8a6148fdc5c91d5d0bbba569256c0da349e8aa2459",
+      "copy": "verbatim"
+    },
+    {
+      "path": "weightlab/falcon_checkpoint.py",
+      "source": "weightlab/falcon_checkpoint.py",
+      "bytes": 10086,
+      "sha256": "224cf90f4819f0650b9c08f6a2f92d5fb629fe790a57be7fdf9bdaaee6cb7a25",
+      "copy": "verbatim"
+    },
+    {
+      "path": "weightlab/falcon_forward.py",
+      "source": "weightlab/falcon_forward.py",
+      "bytes": 30280,
+      "sha256": "ca0d8f10ffbc97d3955ad08941cd797290f1f341b749f2bd0d6ba2ad10afcf1d",
+      "copy": "verbatim"
+    },
+    {
+      "path": "weightlab/falcon_runtime.py",
+      "source": "weightlab/falcon_runtime.py",
+      "bytes": 14944,
+      "sha256": "f3de16be414eedb43b076ee42fbd41b7e757b8263f1449800d5ea01e83edc66f",
+      "copy": "verbatim"
+    },
+    {
+      "path": "weightlab/io.py",
+      "source": "weightlab/io.py",
+      "bytes": 3776,
+      "sha256": "3aac3db50d4dc5c84ea88ad2936b0e092e01990e93230954e6b12980176c6c06",
+      "copy": "verbatim"
+    },
+    {
+      "path": "weightlab/managed.py",
+      "source": "weightlab/managed.py",
+      "bytes": 25814,
+      "sha256": "b06fb327c9ce03f91c7ff9ad2b8e3fdfbe7c8ba5c90b9e1ceea14864c76bce35",
+      "copy": "verbatim"
+    },
+    {
+      "path": "weightlab/patches.py",
+      "source": "weightlab/patches.py",
+      "bytes": 3324,
+      "sha256": "bf0f0baf0ec0b060cf2479a24d9fb06323e4360a4fb3acf1abe0057d49afc700",
+      "copy": "verbatim"
+    },
+    {
+      "path": "weightlab/replay.py",
+      "source": "weightlab/replay.py",
+      "bytes": 15706,
+      "sha256": "599b7953a6a4d91157f47b261f4a59e7d4f7333acf6906acc150895aa636b407",
+      "copy": "verbatim"
+    },
+    {
+      "path": "weightlab/session.py",
+      "source": "weightlab/session.py",
+      "bytes": 26358,
+      "sha256": "477d96e62a183725855edcc3e6d9d5a459dc1c5990e10878b38794ea8ed5439b",
+      "copy": "verbatim"
+    },
+    {
+      "path": "eventnav/README.md",
+      "source": "eventnav/README.md",
+      "bytes": 5160,
+      "sha256": "702c2f1e171876696f840c2b2321e28759d894044cc6c958da5542d1667530c5",
+      "copy": "verbatim"
+    },
+    {
+      "path": "eventnav/RELATIVE.md",
+      "source": "eventnav/RELATIVE.md",
+      "bytes": 874,
+      "sha256": "e887aa87a9a7d984a24d9a8e9817d5d69ca144ea56383aa6d2cec57e21865c3f",
+      "copy": "verbatim"
+    },
+    {
+      "path": "eventnav/__init__.py",
+      "source": "eventnav/__init__.py",
+      "bytes": 172,
+      "sha256": "f37d6d11d3e2da7daea783369898db1a7f66270f8d050f2402ec00fc252cc554",
+      "copy": "verbatim"
+    },
+    {
+      "path": "eventnav/audit.py",
+      "source": "eventnav/audit.py",
+      "bytes": 2051,
+      "sha256": "b29777c939b0a084136e986f759a4814217209657b95940319dff9761d15ac0e",
+      "copy": "verbatim"
+    },
+    {
+      "path": "eventnav/demo.py",
+      "source": "eventnav/demo.py",
+      "bytes": 1015,
+      "sha256": "3ead700c0ae5507b35ef27f6cba0b36012fd58b962d402714ed0454465771066",
+      "copy": "verbatim"
+    },
+    {
+      "path": "eventnav/execution.py",
+      "source": "eventnav/execution.py",
+      "bytes": 1100,
+      "sha256": "056463986360701e13846ec0572a1806bba382dfb9175f64a0df5420ce7b8a92",
+      "copy": "verbatim"
+    },
+    {
+      "path": "eventnav/planner.py",
+      "source": "eventnav/planner.py",
+      "bytes": 6812,
+      "sha256": "79886fc7743a0857cb9c668d01072912f87f413bdd5cefe081d78f5b449537e8",
+      "copy": "verbatim"
+    },
+    {
+      "path": "eventnav/relative.py",
+      "source": "eventnav/relative.py",
+      "bytes": 2625,
+      "sha256": "17e81051e1de66b7d4395fa670d64ca77541356ed5e3e61d274e92b9f4debb5a",
+      "copy": "verbatim"
+    },
+    {
+      "path": "tests/eventnav/test_planner.py",
+      "source": "tests/eventnav/test_planner.py",
+      "bytes": 5725,
+      "sha256": "bbf3e92b757acda1643a4190ec643188c356a51f09c11744386e8e3a3fcefc6b",
+      "copy": "verbatim"
+    },
+    {
+      "path": "tests/eventnav/test_relative.py",
+      "source": "tests/eventnav/test_relative.py",
+      "bytes": 1712,
+      "sha256": "409d9384f23a6f6d0d4f34ad1eaa41f1a830d8632f16b3ee41d6fd739635ac56",
+      "copy": "verbatim"
+    },
+    {
+      "path": "tests/test_weightlab_cli.py",
+      "source": "tests/test_weightlab_cli.py",
+      "bytes": 9606,
+      "sha256": "f7c15071787c1a27a28f018e1620851b9b36c45c5979a98917ea7f597032c84c",
+      "copy": "verbatim"
+    },
+    {
+      "path": "tests/test_weightlab_falcon_forward.py",
+      "source": "tests/test_weightlab_falcon_forward.py",
+      "bytes": 14024,
+      "sha256": "2432cf25b159fe14f269a4732b9e5e84e5bfc4b1947e7387b962bf5c4be68e37",
+      "copy": "verbatim"
+    },
+    {
+      "path": "tests/test_weightlab_managed.py",
+      "source": "tests/test_weightlab_managed.py",
+      "bytes": 19508,
+      "sha256": "c5e7da8122e8b3b166b4d14078e6f125a7dca16d611d206116c356fbaeb7ac5a",
+      "copy": "verbatim"
+    },
+    {
+      "path": "tests/test_weightlab_replay.py",
+      "source": "tests/test_weightlab_replay.py",
+      "bytes": 8379,
+      "sha256": "6283875212259ce0482e43636a144854cd06824d836c0fbc7fe9a4dc15318586",
+      "copy": "verbatim"
+    },
+    {
+      "path": "tests/test_weightlab_session.py",
+      "source": "tests/test_weightlab_session.py",
+      "bytes": 14789,
+      "sha256": "3d71d4d861e2fdea575bd87387c08eb683d70576936731cb0531f9e732f34a35",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/continuation_20261104/scripts/continuous_reproduction_queue.py",
+      "source": "baselines/continuation_20261104/scripts/continuous_reproduction_queue.py",
+      "bytes": 33236,
+      "sha256": "1b3027f83a9f03975f3fc405bc9ccc56c11c4ecc78f26c4bc42144754d29e081",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/continuation_20261104/scripts/finalize_falcon_continuous_queue.py",
+      "source": "baselines/continuation_20261104/scripts/finalize_falcon_continuous_queue.py",
+      "bytes": 11271,
+      "sha256": "a090f08656870929e482e12a71aca6b2ccd3262aa7ac5c4c21325ca917345c78",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/continuation_20261104/scripts/test_continuous_reproduction_queue.py",
+      "source": "baselines/continuation_20261104/scripts/test_continuous_reproduction_queue.py",
+      "bytes": 16478,
+      "sha256": "98488e91e05d077686843ebd850e670ad176448c13c58cbffe7fb05d9985e8c8",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/continuation_20261104/lifecycle/check_adapter.py",
+      "source": "baselines/continuation_20261104/lifecycle/check_adapter.py",
+      "bytes": 5462,
+      "sha256": "eddca9e34f2d14e154f0640f7167cdfd736a95be1ca279f91d89676311092926",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/continuation_20261104/lifecycle/check_managed.py",
+      "source": "baselines/continuation_20261104/lifecycle/check_managed.py",
+      "bytes": 14214,
+      "sha256": "60b73a08f07320552ece40e6fdeb43b41262d7b52e236ce7d575be811e0407c2",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/continuation_20261104/lifecycle/incremental_saver.py",
+      "source": "baselines/continuation_20261104/lifecycle/incremental_saver.py",
+      "bytes": 991,
+      "sha256": "5bcc1f00469bd104f3a13602ce2a51f512264bf419ffef4e7bc5a217c44a24b2",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/continuation_20261104/lifecycle/manage_storage.py",
+      "source": "baselines/continuation_20261104/lifecycle/manage_storage.py",
+      "bytes": 5096,
+      "sha256": "1bdf2f1f5d691cd3147a41821218fba4f4fc3947c618cb4c7016fbdd9f058995",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/continuation_20261104/lifecycle/managed_run.py",
+      "source": "baselines/continuation_20261104/lifecycle/managed_run.py",
+      "bytes": 16024,
+      "sha256": "1705385ac44da30c1dc266631037bf948da1279993059cb50bab17d30eec8231",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/continuation_20261104/lifecycle/owner.py",
+      "source": "baselines/continuation_20261104/lifecycle/owner.py",
+      "bytes": 13406,
+      "sha256": "54ec3af0ba423b34532a850f5bf29456d2570cae7c04bf0bff0721c8ac52bb93",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/continuation_20261104/lifecycle/preflight.py",
+      "source": "baselines/continuation_20261104/lifecycle/preflight.py",
+      "bytes": 10043,
+      "sha256": "3d303826877fca08e479523bf7a640c456a29734c9329e53c1dc12d81a019119",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/continuation_20261104/lifecycle/prepare_run.py",
+      "source": "baselines/continuation_20261104/lifecycle/prepare_run.py",
+      "bytes": 8508,
+      "sha256": "d338d376d9cb5016b7546f9f3b991360311227f5374396a1e7cbfde0a73897de",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/continuation_20261104/lifecycle/transport.py",
+      "source": "baselines/continuation_20261104/lifecycle/transport.py",
+      "bytes": 3821,
+      "sha256": "334985295c2fcbc14fd073fa3f63e64f06150aa02303cd98ff1a9ccbc952f398",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/continuation_20261104/lifecycle/worker.py",
+      "source": "baselines/continuation_20261104/lifecycle/worker.py",
+      "bytes": 12653,
+      "sha256": "4e0bc5115ce6cf2510ed9f3520094c15c01be1c855ede89278aed719699a0d68",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/repair_20261104_e/scripts/continuous_reproduction_queue.py",
+      "source": "baselines/repair_20261104_e/scripts/continuous_reproduction_queue.py",
+      "bytes": 33236,
+      "sha256": "1b3027f83a9f03975f3fc405bc9ccc56c11c4ecc78f26c4bc42144754d29e081",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/repair_20261104_e/scripts/finalize_falcon_continuous_queue.py",
+      "source": "baselines/repair_20261104_e/scripts/finalize_falcon_continuous_queue.py",
+      "bytes": 12707,
+      "sha256": "fea864c9988454b6aeb559b44ae4b67aebb2bbff6ec18eade689a8018fe86886",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/repair_20261104_e/scripts/launch_after_approval.py",
+      "source": "baselines/repair_20261104_e/scripts/launch_after_approval.py",
+      "bytes": 1999,
+      "sha256": "addc1958aafb371ca27b073714cd9a51ffb1f98fa190c8f77785a6656610de45",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/repair_20261104_e/scripts/recover_completed_falcon_transport.py",
+      "source": "baselines/repair_20261104_e/scripts/recover_completed_falcon_transport.py",
+      "bytes": 5145,
+      "sha256": "cd93ff306b46647de577af7345cfd4ef417f73b898f3d16112b6d1730ca58d1b",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/repair_20261104_e/scripts/recover_failed_falcon_owner.py",
+      "source": "baselines/repair_20261104_e/scripts/recover_failed_falcon_owner.py",
+      "bytes": 18896,
+      "sha256": "0eb957866cf022d8f2f04e447b2366c06ac20ebbd88b4114be00ff6b8c995668",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/repair_20261104_e/scripts/test_continuous_reproduction_queue.py",
+      "source": "baselines/repair_20261104_e/scripts/test_continuous_reproduction_queue.py",
+      "bytes": 16478,
+      "sha256": "98488e91e05d077686843ebd850e670ad176448c13c58cbffe7fb05d9985e8c8",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/repair_20261104_e/scripts/test_repair.py",
+      "source": "baselines/repair_20261104_e/scripts/test_repair.py",
+      "bytes": 3470,
+      "sha256": "4cf4c947dc997e9c8ddf74b0a7f9907cc73f588501d1605a9e7ca24f3c07371d",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/repair_20261104_e/lifecycle/check_adapter.py",
+      "source": "baselines/repair_20261104_e/lifecycle/check_adapter.py",
+      "bytes": 5462,
+      "sha256": "eddca9e34f2d14e154f0640f7167cdfd736a95be1ca279f91d89676311092926",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/repair_20261104_e/lifecycle/check_managed.py",
+      "source": "baselines/repair_20261104_e/lifecycle/check_managed.py",
+      "bytes": 14214,
+      "sha256": "60b73a08f07320552ece40e6fdeb43b41262d7b52e236ce7d575be811e0407c2",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/repair_20261104_e/lifecycle/incremental_saver.py",
+      "source": "baselines/repair_20261104_e/lifecycle/incremental_saver.py",
+      "bytes": 991,
+      "sha256": "5bcc1f00469bd104f3a13602ce2a51f512264bf419ffef4e7bc5a217c44a24b2",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/repair_20261104_e/lifecycle/manage_storage.py",
+      "source": "baselines/repair_20261104_e/lifecycle/manage_storage.py",
+      "bytes": 5096,
+      "sha256": "1bdf2f1f5d691cd3147a41821218fba4f4fc3947c618cb4c7016fbdd9f058995",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/repair_20261104_e/lifecycle/managed_run.py",
+      "source": "baselines/repair_20261104_e/lifecycle/managed_run.py",
+      "bytes": 16024,
+      "sha256": "1705385ac44da30c1dc266631037bf948da1279993059cb50bab17d30eec8231",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/repair_20261104_e/lifecycle/owner.py",
+      "source": "baselines/repair_20261104_e/lifecycle/owner.py",
+      "bytes": 14491,
+      "sha256": "f86149efcf8fc3ade8b6d8568bedd13bca8f463bffeb452bca3fa19377fe7611",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/repair_20261104_e/lifecycle/preflight.py",
+      "source": "baselines/repair_20261104_e/lifecycle/preflight.py",
+      "bytes": 10043,
+      "sha256": "3d303826877fca08e479523bf7a640c456a29734c9329e53c1dc12d81a019119",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/repair_20261104_e/lifecycle/prepare_run.py",
+      "source": "baselines/repair_20261104_e/lifecycle/prepare_run.py",
+      "bytes": 8508,
+      "sha256": "d338d376d9cb5016b7546f9f3b991360311227f5374396a1e7cbfde0a73897de",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/repair_20261104_e/lifecycle/transport.py",
+      "source": "baselines/repair_20261104_e/lifecycle/transport.py",
+      "bytes": 4391,
+      "sha256": "0de62bd02550187044f7fe5dd5d1ff10a563b453da1f754d73eec757f517a4e9",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/repair_20261104_e/lifecycle/worker.py",
+      "source": "baselines/repair_20261104_e/lifecycle/worker.py",
+      "bytes": 12653,
+      "sha256": "4e0bc5115ce6cf2510ed9f3520094c15c01be1c855ede89278aed719699a0d68",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/repair_20261104_e/REVIEW.md",
+      "source": "baselines/repair_20261104_e/REVIEW.md",
+      "bytes": 4655,
+      "sha256": "3de7e29021f9c43347c3982a6331786e6f449decb70d292a17c08aab09895be5",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/trace_repair_20261104_f/scripts/check_preparation.py",
+      "source": "baselines/trace_repair_20261104_f/scripts/check_preparation.py",
+      "bytes": 5604,
+      "sha256": "a8b8c34a532c920bd152a9cb1dab24a661259ae90e412313c758c40d355d5531",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/trace_repair_20261104_f/scripts/continuous_reproduction_queue.py",
+      "source": "baselines/trace_repair_20261104_f/scripts/continuous_reproduction_queue.py",
+      "bytes": 33236,
+      "sha256": "1b3027f83a9f03975f3fc405bc9ccc56c11c4ecc78f26c4bc42144754d29e081",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/trace_repair_20261104_f/scripts/finalize_falcon_continuous_queue.py",
+      "source": "baselines/trace_repair_20261104_f/scripts/finalize_falcon_continuous_queue.py",
+      "bytes": 12812,
+      "sha256": "5c31cee99db8b42ddace53bc03f8aee6c9b5b802540b2077adbe760855640c86",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/trace_repair_20261104_f/scripts/launch_after_approval.py",
+      "source": "baselines/trace_repair_20261104_f/scripts/launch_after_approval.py",
+      "bytes": 2069,
+      "sha256": "4e66f66c9c04aae1d242c1e2f34c474218080f2f0a629aae18537976710a0b78",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/trace_repair_20261104_f/scripts/recover_completed_falcon_transport.py",
+      "source": "baselines/trace_repair_20261104_f/scripts/recover_completed_falcon_transport.py",
+      "bytes": 5145,
+      "sha256": "cd93ff306b46647de577af7345cfd4ef417f73b898f3d16112b6d1730ca58d1b",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/trace_repair_20261104_f/scripts/recover_failed_falcon_owner.py",
+      "source": "baselines/trace_repair_20261104_f/scripts/recover_failed_falcon_owner.py",
+      "bytes": 18896,
+      "sha256": "0eb957866cf022d8f2f04e447b2366c06ac20ebbd88b4114be00ff6b8c995668",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/trace_repair_20261104_f/scripts/recover_released_falcon_download.py",
+      "source": "baselines/trace_repair_20261104_f/scripts/recover_released_falcon_download.py",
+      "bytes": 13389,
+      "sha256": "b2f10fee1ed0f951021330235995c87850ccab4c36113aa354a5475a070ea8f4",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/trace_repair_20261104_f/scripts/test_continuous_reproduction_queue.py",
+      "source": "baselines/trace_repair_20261104_f/scripts/test_continuous_reproduction_queue.py",
+      "bytes": 16478,
+      "sha256": "98488e91e05d077686843ebd850e670ad176448c13c58cbffe7fb05d9985e8c8",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/trace_repair_20261104_f/scripts/test_repair.py",
+      "source": "baselines/trace_repair_20261104_f/scripts/test_repair.py",
+      "bytes": 3470,
+      "sha256": "4cf4c947dc997e9c8ddf74b0a7f9907cc73f588501d1605a9e7ca24f3c07371d",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/trace_repair_20261104_f/lifecycle/check_adapter.py",
+      "source": "baselines/trace_repair_20261104_f/lifecycle/check_adapter.py",
+      "bytes": 5462,
+      "sha256": "eddca9e34f2d14e154f0640f7167cdfd736a95be1ca279f91d89676311092926",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/trace_repair_20261104_f/lifecycle/check_managed.py",
+      "source": "baselines/trace_repair_20261104_f/lifecycle/check_managed.py",
+      "bytes": 14214,
+      "sha256": "60b73a08f07320552ece40e6fdeb43b41262d7b52e236ce7d575be811e0407c2",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/trace_repair_20261104_f/lifecycle/incremental_saver.py",
+      "source": "baselines/trace_repair_20261104_f/lifecycle/incremental_saver.py",
+      "bytes": 991,
+      "sha256": "5bcc1f00469bd104f3a13602ce2a51f512264bf419ffef4e7bc5a217c44a24b2",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/trace_repair_20261104_f/lifecycle/manage_storage.py",
+      "source": "baselines/trace_repair_20261104_f/lifecycle/manage_storage.py",
+      "bytes": 5096,
+      "sha256": "1bdf2f1f5d691cd3147a41821218fba4f4fc3947c618cb4c7016fbdd9f058995",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/trace_repair_20261104_f/lifecycle/managed_run.py",
+      "source": "baselines/trace_repair_20261104_f/lifecycle/managed_run.py",
+      "bytes": 16024,
+      "sha256": "1705385ac44da30c1dc266631037bf948da1279993059cb50bab17d30eec8231",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/trace_repair_20261104_f/lifecycle/owner.py",
+      "source": "baselines/trace_repair_20261104_f/lifecycle/owner.py",
+      "bytes": 14491,
+      "sha256": "f86149efcf8fc3ade8b6d8568bedd13bca8f463bffeb452bca3fa19377fe7611",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/trace_repair_20261104_f/lifecycle/preflight.py",
+      "source": "baselines/trace_repair_20261104_f/lifecycle/preflight.py",
+      "bytes": 10043,
+      "sha256": "3d303826877fca08e479523bf7a640c456a29734c9329e53c1dc12d81a019119",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/trace_repair_20261104_f/lifecycle/prepare_run.py",
+      "source": "baselines/trace_repair_20261104_f/lifecycle/prepare_run.py",
+      "bytes": 8508,
+      "sha256": "d338d376d9cb5016b7546f9f3b991360311227f5374396a1e7cbfde0a73897de",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/trace_repair_20261104_f/lifecycle/transport.py",
+      "source": "baselines/trace_repair_20261104_f/lifecycle/transport.py",
+      "bytes": 4391,
+      "sha256": "0de62bd02550187044f7fe5dd5d1ff10a563b453da1f754d73eec757f517a4e9",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/trace_repair_20261104_f/lifecycle/worker.py",
+      "source": "baselines/trace_repair_20261104_f/lifecycle/worker.py",
+      "bytes": 12653,
+      "sha256": "4e0bc5115ce6cf2510ed9f3520094c15c01be1c855ede89278aed719699a0d68",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/trace_repair_20261104_f/REVIEW.md",
+      "source": "baselines/trace_repair_20261104_f/REVIEW.md",
+      "bytes": 5051,
+      "sha256": "25e521b5c7d1a92b163919a71fd137432c03365ff8d2824a4f5f675d3619ad28",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/audits/cancellation_probe_20261104.md",
+      "source": "baselines/audits/cancellation_probe_20261104.md",
+      "bytes": 1351,
+      "sha256": "f14d90d45a72ff00882f6d9fdf9b5744f9f165e738fc4532a3c2822365ce84b0",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/audits/continuation7_20261104.md",
+      "source": "baselines/audits/continuation7_20261104.md",
+      "bytes": 1279,
+      "sha256": "2a90fe612f81a8230028146c83e496c1e8159986d14d654ded1d9be1a04dd1c8",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/audits/egl_linkage_repair_20261103.md",
+      "source": "baselines/audits/egl_linkage_repair_20261103.md",
+      "bytes": 5022,
+      "sha256": "5b92af6db189d688f9638b0fb5c690f789253fe1fab0f046bf173ff0098aa8cf",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/audits/falcon_diagnostics_review_20261103.md",
+      "source": "baselines/audits/falcon_diagnostics_review_20261103.md",
+      "bytes": 3626,
+      "sha256": "5b4f9ca9e94e7b921108a370d91d69bd52b241332a93a95a67871c2f53258a7c",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/audits/falcon_edit_entrypoints_20261103.md",
+      "source": "baselines/audits/falcon_edit_entrypoints_20261103.md",
+      "bytes": 5885,
+      "sha256": "e284cdac9413866f4d6a22412bfa01e2fb7f74904eecbb63fcbab17ddad96d88",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/audits/falcon_eval_spec_readiness_20261103.md",
+      "source": "baselines/audits/falcon_eval_spec_readiness_20261103.md",
+      "bytes": 5510,
+      "sha256": "b14cb53c124d3e2179c0a81545971968ca7a452edf71358281bfe0e36dc88cbb",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/audits/falcon_full_val_aggregation_readiness_20261103.md",
+      "source": "baselines/audits/falcon_full_val_aggregation_readiness_20261103.md",
+      "bytes": 4997,
+      "sha256": "2309281e12d190bb7ae1c0f2e471da21a8cf03efd2275e79ca1b73b489c732e5",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/audits/falcon_gpu_binding_review_20261103.md",
+      "source": "baselines/audits/falcon_gpu_binding_review_20261103.md",
+      "bytes": 2460,
+      "sha256": "4a37244d421f65aeb9e43cf50b8fe2467600e5ab4d8025728b868402f4606d11",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/audits/falcon_paper_checkpoint_comparability_20261103.md",
+      "source": "baselines/audits/falcon_paper_checkpoint_comparability_20261103.md",
+      "bytes": 5862,
+      "sha256": "f3461b7626188d1a9c3e30a4d7c6900b8562fba71faad49c0a32bc0d2571ec62",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/audits/falcon_queue_recovery_20261104.md",
+      "source": "baselines/audits/falcon_queue_recovery_20261104.md",
+      "bytes": 3241,
+      "sha256": "45f040742763b8531fd498fee8bb8fe954e43c55424f0355bc01546958ea8478",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/audits/falcon_readiness.md",
+      "source": "baselines/audits/falcon_readiness.md",
+      "bytes": 7951,
+      "sha256": "eebcdc1a8a24fe6561963999771acbea9e20c04f0137773b9fe56ad8a189e133",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/audits/falcon_shard_checkpoint_contract_20261103.md",
+      "source": "baselines/audits/falcon_shard_checkpoint_contract_20261103.md",
+      "bytes": 3868,
+      "sha256": "f03aa54339d0a884512a56d097a347f5062afad9de8ec18baba2df035a692cbc",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/audits/habitat_egl_node_diagnostic_plan_20261103.md",
+      "source": "baselines/audits/habitat_egl_node_diagnostic_plan_20261103.md",
+      "bytes": 6256,
+      "sha256": "2d6d220e370b2fde0988c8b69eb849d4a62db013f00a426246b7e8f7950df9ad",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/audits/nav_actual_diagnostics_20261103.md",
+      "source": "baselines/audits/nav_actual_diagnostics_20261103.md",
+      "bytes": 2307,
+      "sha256": "1cbe5885df093ea82de588d29b9cb57cf37c2f2a5e6a03706b68deac1d618aa9",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/audits/nav_diagnostic_exit_and_import_order_20261103.md",
+      "source": "baselines/audits/nav_diagnostic_exit_and_import_order_20261103.md",
+      "bytes": 3630,
+      "sha256": "c6d2e26b4e82cf82682692ff400f08b028cb6c8cf0656ab90fc46dacb18192d8",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/audits/nav_dped_readiness.md",
+      "source": "baselines/audits/nav_dped_readiness.md",
+      "bytes": 6698,
+      "sha256": "3d9cf4374cc6921b9a37386ccc3f7075183f6546c3043a964d94f167dc0dec43",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/audits/nav_dped_refresh_20261103.md",
+      "source": "baselines/audits/nav_dped_refresh_20261103.md",
+      "bytes": 9125,
+      "sha256": "a66a363f5089ac93bb02b4cf8d6a037c9b2548f7a9e7fc9fd29c2ca57646e3c9",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/audits/nav_falcon_dependency_review_20261103.md",
+      "source": "baselines/audits/nav_falcon_dependency_review_20261103.md",
+      "bytes": 7949,
+      "sha256": "bbf2361e77d092c6165b0c11907edd836cbfa8274a22b7e14455700d7eb374ee",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/audits/nav_import_order_review_20261103.md",
+      "source": "baselines/audits/nav_import_order_review_20261103.md",
+      "bytes": 2785,
+      "sha256": "db58997f637e322f695f73d009c8b48915f7ac5986cf92b2b088081338bcd515",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/audits/socialwm_readiness.md",
+      "source": "baselines/audits/socialwm_readiness.md",
+      "bytes": 6527,
+      "sha256": "510664ad69df7de3f3bedd2f542ae9d12817c30a87236077e632c1c7f63d096b",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/audits/tacc_gpu_identity_review_20261103.md",
+      "source": "baselines/audits/tacc_gpu_identity_review_20261103.md",
+      "bytes": 5256,
+      "sha256": "bfb1e1fed235b7a6de449caeb397aed31ec71a5e10df4708c1de43178f6254f9",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/audits/tacc_time_limits_20261103.md",
+      "source": "baselines/audits/tacc_time_limits_20261103.md",
+      "bytes": 4235,
+      "sha256": "b38ea5e943d1a9cbe52aac04917baf6e34bbba945f03763b0abae6e8752f9011",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/results/falcon_subset174_20261103.json",
+      "source": "baselines/results/falcon_subset174_20261103.json",
+      "bytes": 2052,
+      "sha256": "bb93b91d4c55ae908f4368f810a9bd830a7d338789a72f6cb04b6b40cc5343f6",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/results/falcon_subset174_20261103.md",
+      "source": "baselines/results/falcon_subset174_20261103.md",
+      "bytes": 852,
+      "sha256": "cc296f7fd87495ad29e476ebe09f686ed08067e2bbbfa735de0e79729b22c758",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/REPRODUCTION_STATUS.json",
+      "source": "baselines/REPRODUCTION_STATUS.json",
+      "bytes": 30687,
+      "sha256": "7487f423c06c280484f6c9f6cb2be9fc27d97a5edb012230ec0125fad4f6e8b3",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/prep/environment_evidence.json",
+      "source": "baselines/prep/environment_evidence.json",
+      "bytes": 102012,
+      "sha256": "ca692c8f2804f22f7a124ff5c039016d6268be8843e4fa4b93e0a65b8cdfa3bf",
+      "copy": "verbatim"
+    },
+    {
+      "path": "baselines/audits/falcon_source_manifest.json",
+      "source": "baselines/audits/falcon_source_manifest.json",
+      "bytes": 141004,
+      "sha256": "0b2059bbfac323f41457ac3a0e29080c309c25c00830b8025c99ebef04c200b5",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/PAUSED_20261108.json",
+      "source": "research/PAUSED_20261108.json",
+      "bytes": 361,
+      "sha256": "c9f87193357631a9e861ee17e411be2570e8de95e6f6331cacc06b4fa9518ea9",
+      "copy": "verbatim"
+    },
+    {
+      "path": "evidence/subset174/actions.json",
+      "source": "baselines/runs/falcon_subset174_20261103_b/run/vm/eval/actions.json",
+      "bytes": 1512681,
+      "sha256": "05ab0c83961a5285b57637e6dfd96aa79985f7524c4d4d9252c7f93c21509c67",
+      "copy": "verbatim"
+    },
+    {
+      "path": "evidence/subset174/aggregate_metrics.json",
+      "source": "baselines/runs/falcon_subset174_20261103_b/run/vm/eval/aggregate_metrics.json",
+      "bytes": 342,
+      "sha256": "84ab85fc68749de043a71a1b61c2a6626f8b062c991a5875803449b29a41efc1",
+      "copy": "verbatim"
+    },
+    {
+      "path": "evidence/subset174/episode_metrics.jsonl",
+      "source": "baselines/runs/falcon_subset174_20261103_b/run/vm/eval/episode_metrics.jsonl",
+      "bytes": 79961,
+      "sha256": "e715a3294f86bbdba188908ea5ecd7d033e841940f7b5532589b616059d1dcc2",
+      "copy": "verbatim"
+    },
+    {
+      "path": "evidence/subset174/evaluation_complete.json",
+      "source": "baselines/runs/falcon_subset174_20261103_b/run/vm/eval/evaluation_complete.json",
+      "bytes": 147,
+      "sha256": "b79ec7620ec0b949d9f104a37afa26c16599920517cd90b5365d905ab116f6c8",
+      "copy": "verbatim"
+    },
+    {
+      "path": "evidence/subset174/expected_episodes.json",
+      "source": "baselines/runs/falcon_subset174_20261103_b/run/vm/eval/expected_episodes.json",
+      "bytes": 42606,
+      "sha256": "62a7a261bbb741ac3e7112131e673503e95b0753e92a869946ab03250dbc25b4",
+      "copy": "verbatim"
+    },
+    {
+      "path": "evidence/subset174/resolved_config.yaml",
+      "source": "baselines/runs/falcon_subset174_20261103_b/run/vm/eval/resolved_config.yaml",
+      "bytes": 26966,
+      "sha256": "3d12025be223c6a2c1eb6d8466418ddefa3dc51ce3fcbfcf8d463f4b249bf71a",
+      "copy": "verbatim"
+    },
+    {
+      "path": "evidence/subset174/result.json",
+      "source": "baselines/runs/falcon_subset174_20261103_b/run/vm/eval/result.json",
+      "bytes": 89,
+      "sha256": "649e7ea6c17b6f9373de32e6cfee344032fcd7d21cd487603ff4ad3797b062f1",
+      "copy": "verbatim"
+    },
+    {
+      "path": "evidence/subset174/run_status.json",
+      "source": "baselines/runs/falcon_subset174_20261103_b/run/vm/eval/run_status.json",
+      "bytes": 146,
+      "sha256": "97d22ca7fcf7950686e58f2a16e406cc04ec13f7f86ba430d2537487f585ae33",
+      "copy": "verbatim"
+    },
+    {
+      "path": "evidence/subset174/source_episode_manifest.json",
+      "source": "baselines/runs/falcon_subset174_20261103_b/run/vm/eval/source_episode_manifest.json",
+      "bytes": 27336,
+      "sha256": "4a1a9057ae2e483c979ebde77c0a35e31442796ccdefedfd70d722efbc419322",
+      "copy": "verbatim"
+    },
+    {
+      "path": "evidence/subset174/validation.json",
+      "source": "baselines/runs/falcon_subset174_20261103_b/run/vm/eval/validation.json",
+      "bytes": 794,
+      "sha256": "f4efd232c11aba0d8035348317d39762cd36c247d54744139c66aa6e34a49c21",
+      "copy": "verbatim"
+    },
+    {
+      "path": "evidence/accepted471/balanced7_00/run_status.json",
+      "source": "baselines/runs/falcon_continuation7_20261104_a/attempts/balanced7_00_0_c02b978f4d58/plan/run/vm/eval/run_status.json",
+      "bytes": 146,
+      "sha256": "7c821fab41c0718b2e112735e6a18cd27c6aba4d359f09171e68621a953d609b",
+      "copy": "verbatim"
+    },
+    {
+      "path": "evidence/accepted471/balanced7_00/source_episode_manifest.json",
+      "source": "baselines/runs/falcon_continuation7_20261104_a/attempts/balanced7_00_0_c02b978f4d58/plan/run/vm/eval/source_episode_manifest.json",
+      "bytes": 24453,
+      "sha256": "e8fcc820cdc09fb8f1d2bae91c448b0245189d33b613b10432d11c59d91e5b54",
+      "copy": "verbatim"
+    },
+    {
+      "path": "evidence/accepted471/balanced7_00/expected_episodes.json",
+      "source": "baselines/runs/falcon_continuation7_20261104_a/attempts/balanced7_00_0_c02b978f4d58/plan/run/vm/eval/expected_episodes.json",
+      "bytes": 38319,
+      "sha256": "2e9f1b45c7911d6b45730f647c5c5e3c8af1f127f336667440b4b887692a8f7f",
+      "copy": "verbatim"
+    },
+    {
+      "path": "evidence/accepted471/balanced7_00/resolved_config.yaml",
+      "source": "baselines/runs/falcon_continuation7_20261104_a/attempts/balanced7_00_0_c02b978f4d58/plan/run/vm/eval/resolved_config.yaml",
+      "bytes": 26895,
+      "sha256": "7ff47798ad15fc3acda3fe95ad80099b11c41242b51609f1cf1fe4633f399659",
+      "copy": "verbatim"
+    },
+    {
+      "path": "evidence/accepted471/balanced7_00/episode_metrics.jsonl",
+      "source": "baselines/runs/falcon_continuation7_20261104_a/attempts/balanced7_00_0_c02b978f4d58/plan/run/vm/eval/episode_metrics.jsonl",
+      "bytes": 72235,
+      "sha256": "5bc9722b233b5c0e8d6550f33ec86c7f3b51282c15325d60b63af5f1e5d33d6c",
+      "copy": "verbatim"
+    },
+    {
+      "path": "evidence/accepted471/balanced7_00/actions.json",
+      "source": "baselines/runs/falcon_continuation7_20261104_a/attempts/balanced7_00_0_c02b978f4d58/plan/run/vm/eval/actions.json",
+      "bytes": 1073560,
+      "sha256": "5a7e3fd2afea4544e86af2152443a69ecfe18cc2dd244488289c26004883e884",
+      "copy": "verbatim"
+    },
+    {
+      "path": "evidence/accepted471/balanced7_00/result.json",
+      "source": "baselines/runs/falcon_continuation7_20261104_a/attempts/balanced7_00_0_c02b978f4d58/plan/run/vm/eval/result.json",
+      "bytes": 90,
+      "sha256": "ffabfbecf30eac7c3570faf90f8f5a0885c6c7bda4b9cae53815355914686da2",
+      "copy": "verbatim"
+    },
+    {
+      "path": "evidence/accepted471/balanced7_00/aggregate_metrics.json",
+      "source": "baselines/runs/falcon_continuation7_20261104_a/attempts/balanced7_00_0_c02b978f4d58/plan/run/vm/eval/aggregate_metrics.json",
+      "bytes": 343,
+      "sha256": "4e6954b94292ded1b80f588cd27ac9fee4c798b2a48461693aa773590550bbb9",
+      "copy": "verbatim"
+    },
+    {
+      "path": "evidence/accepted471/balanced7_00/evaluation_complete.json",
+      "source": "baselines/runs/falcon_continuation7_20261104_a/attempts/balanced7_00_0_c02b978f4d58/plan/run/vm/eval/evaluation_complete.json",
+      "bytes": 147,
+      "sha256": "76a98c60da183bf354e8c1c508177fc4c004cbd7d277a2f3eebe4605eafc433f",
+      "copy": "verbatim"
+    },
+    {
+      "path": "evidence/accepted471/balanced7_00/validation.json",
+      "source": "baselines/runs/falcon_continuation7_20261104_a/attempts/balanced7_00_0_c02b978f4d58/plan/run/vm/eval/validation.json",
+      "bytes": 795,
+      "sha256": "e8d493c9be4121ce8edb37e6276f0a0e04988e46a7f1745893faeb9ae38e1664",
+      "copy": "verbatim"
+    },
+    {
+      "path": "evidence/accepted471/balanced7_01/run_status.json",
+      "source": "baselines/runs/falcon_repair6_20261104_e/attempts/balanced7_01_0_10a01b92cb59/plan/run/vm/eval/run_status.json",
+      "bytes": 146,
+      "sha256": "7ed5935c2f4e91e488a5d221af64f136fd55d76bb3cc52714acbd6255adb7c41",
+      "copy": "verbatim"
+    },
+    {
+      "path": "evidence/accepted471/balanced7_01/source_episode_manifest.json",
+      "source": "baselines/runs/falcon_repair6_20261104_e/attempts/balanced7_01_0_10a01b92cb59/plan/run/vm/eval/source_episode_manifest.json",
+      "bytes": 24735,
+      "sha256": "cb8b910a994a3c7f5bb63b6c19b38e003b4cf1564c7d3a7012389a1b9f4caad7",
+      "copy": "verbatim"
+    },
+    {
+      "path": "evidence/accepted471/balanced7_01/expected_episodes.json",
+      "source": "baselines/runs/falcon_repair6_20261104_e/attempts/balanced7_01_0_10a01b92cb59/plan/run/vm/eval/expected_episodes.json",
+      "bytes": 39287,
+      "sha256": "042bb59ae42b680a7864738fd3983e3e56b6ccd9d9cc6f367f6f2e29c3894d06",
+      "copy": "verbatim"
+    },
+    {
+      "path": "evidence/accepted471/balanced7_01/resolved_config.yaml",
+      "source": "baselines/runs/falcon_repair6_20261104_e/attempts/balanced7_01_0_10a01b92cb59/plan/run/vm/eval/resolved_config.yaml",
+      "bytes": 26911,
+      "sha256": "0bea5a0e5daa5fd2b84be1ffaaa1d3943d9c15eb0661f5666b931c48b23c3afc",
+      "copy": "verbatim"
+    },
+    {
+      "path": "evidence/accepted471/balanced7_01/episode_metrics.jsonl",
+      "source": "baselines/runs/falcon_repair6_20261104_e/attempts/balanced7_01_0_10a01b92cb59/plan/run/vm/eval/episode_metrics.jsonl",
+      "bytes": 73738,
+      "sha256": "a511dc3f04e43428dd4c1ca13ed6188a2d32f62a78f2f2892c4b9aeb93da217d",
+      "copy": "verbatim"
+    },
+    {
+      "path": "evidence/accepted471/balanced7_01/actions.json",
+      "source": "baselines/runs/falcon_repair6_20261104_e/attempts/balanced7_01_0_10a01b92cb59/plan/run/vm/eval/actions.json",
+      "bytes": 1570282,
+      "sha256": "0218bd6c08684953580e9789e28c27485a63072218d56b1aff91f831feea7f30",
+      "copy": "verbatim"
+    },
+    {
+      "path": "evidence/accepted471/balanced7_01/result.json",
+      "source": "baselines/runs/falcon_repair6_20261104_e/attempts/balanced7_01_0_10a01b92cb59/plan/run/vm/eval/result.json",
+      "bytes": 90,
+      "sha256": "a15804fb8cd9a68249dacd94b087edf5b5ada51b0dc1618c4e32a7010fbcf88b",
+      "copy": "verbatim"
+    },
+    {
+      "path": "evidence/accepted471/balanced7_01/aggregate_metrics.json",
+      "source": "baselines/runs/falcon_repair6_20261104_e/attempts/balanced7_01_0_10a01b92cb59/plan/run/vm/eval/aggregate_metrics.json",
+      "bytes": 342,
+      "sha256": "3f729b8f0627bf30c48491ec799c57d3d68b684de63d77d09821416705b55c57",
+      "copy": "verbatim"
+    },
+    {
+      "path": "evidence/accepted471/balanced7_01/evaluation_complete.json",
+      "source": "baselines/runs/falcon_repair6_20261104_e/attempts/balanced7_01_0_10a01b92cb59/plan/run/vm/eval/evaluation_complete.json",
+      "bytes": 147,
+      "sha256": "2b467d7b9db82d0a272ca94c3722693b1ab3527138c6d3771188e200015abb59",
+      "copy": "verbatim"
+    },
+    {
+      "path": "evidence/accepted471/balanced7_01/validation.json",
+      "source": "baselines/runs/falcon_repair6_20261104_e/attempts/balanced7_01_0_10a01b92cb59/plan/run/vm/eval/validation.json",
+      "bytes": 794,
+      "sha256": "e3a881b11a5004756e3b1255314f27eb27d6003eb4cc14207e4df9034724ae1e",
+      "copy": "verbatim"
+    },
+    {
+      "path": "evidence/accepted471/balanced7_02/run_status.json",
+      "source": "baselines/runs/falcon_repair6_20261104_e/attempts/balanced7_02_0_bce4db9a99cd/plan/run/vm/eval/run_status.json",
+      "bytes": 146,
+      "sha256": "1223a14aacb23c4373fbd87d44acb254117e2bc9ba11c9a1c490108014baf333",
+      "copy": "verbatim"
+    },
+    {
+      "path": "evidence/accepted471/balanced7_02/source_episode_manifest.json",
+      "source": "baselines/runs/falcon_repair6_20261104_e/attempts/balanced7_02_0_bce4db9a99cd/plan/run/vm/eval/source_episode_manifest.json",
+      "bytes": 24168,
+      "sha256": "51a055511f40acabb8b893f5f96e9659b02f1162c558158cf92da1032f1500f2",
+      "copy": "verbatim"
+    },
+    {
+      "path": "evidence/accepted471/balanced7_02/expected_episodes.json",
+      "source": "baselines/runs/falcon_repair6_20261104_e/attempts/balanced7_02_0_bce4db9a99cd/plan/run/vm/eval/expected_episodes.json",
+      "bytes": 37341,
+      "sha256": "7fb8da83cf3bd19f33be82241abf518b7e92b5ad636deaa83f9191ac375d7c12",
+      "copy": "verbatim"
+    },
+    {
+      "path": "evidence/accepted471/balanced7_02/resolved_config.yaml",
+      "source": "baselines/runs/falcon_repair6_20261104_e/attempts/balanced7_02_0_bce4db9a99cd/plan/run/vm/eval/resolved_config.yaml",
+      "bytes": 26911,
+      "sha256": "7dcca4b9689b6f9b8cee954776807eaea5762e89cb1dc5d6e2c821fbf2a5b5fa",
+      "copy": "verbatim"
+    },
+    {
+      "path": "evidence/accepted471/balanced7_02/episode_metrics.jsonl",
+      "source": "baselines/runs/falcon_repair6_20261104_e/attempts/balanced7_02_0_bce4db9a99cd/plan/run/vm/eval/episode_metrics.jsonl",
+      "bytes": 70038,
+      "sha256": "171f2cf6f049e155c7837c5e01bc97528cd2d88b40fb555d6280ef3d4d42a854",
+      "copy": "verbatim"
+    },
+    {
+      "path": "evidence/accepted471/balanced7_02/actions.json",
+      "source": "baselines/runs/falcon_repair6_20261104_e/attempts/balanced7_02_0_bce4db9a99cd/plan/run/vm/eval/actions.json",
+      "bytes": 1331208,
+      "sha256": "5bad48520acad8d5083af6b02f78a932f23de17bb0625540b42c4009c6669e15",
+      "copy": "verbatim"
+    },
+    {
+      "path": "evidence/accepted471/balanced7_02/result.json",
+      "source": "baselines/runs/falcon_repair6_20261104_e/attempts/balanced7_02_0_bce4db9a99cd/plan/run/vm/eval/result.json",
+      "bytes": 91,
+      "sha256": "f3ef7446aa286141358c50d12601d1d4473ed91207f55172549ae98655a87200",
+      "copy": "verbatim"
+    },
+    {
+      "path": "evidence/accepted471/balanced7_02/aggregate_metrics.json",
+      "source": "baselines/runs/falcon_repair6_20261104_e/attempts/balanced7_02_0_bce4db9a99cd/plan/run/vm/eval/aggregate_metrics.json",
+      "bytes": 344,
+      "sha256": "00464e6695ab1f8eaeff7531a6113f8c3e9ff9cbff5adb7e97948c9161e029fb",
+      "copy": "verbatim"
+    },
+    {
+      "path": "evidence/accepted471/balanced7_02/evaluation_complete.json",
+      "source": "baselines/runs/falcon_repair6_20261104_e/attempts/balanced7_02_0_bce4db9a99cd/plan/run/vm/eval/evaluation_complete.json",
+      "bytes": 147,
+      "sha256": "e2ce6a9d6f71af736f084b32f8d76e50216aa85b930dbad63a901adc18dc3f23",
+      "copy": "verbatim"
+    },
+    {
+      "path": "evidence/accepted471/balanced7_02/validation.json",
+      "source": "baselines/runs/falcon_repair6_20261104_e/attempts/balanced7_02_0_bce4db9a99cd/plan/run/vm/eval/validation.json",
+      "bytes": 796,
+      "sha256": "b3a5c3cdd630e1e4b1d85a420c91276894f97f7320f8ae40d145abd2e6e19c08",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/falcon_migration_20261106/PROTOCOL.json",
+      "source": "research/falcon_migration_20261106/PROTOCOL.json",
+      "bytes": 865,
+      "sha256": "a7820608bb6666f8dc6b8d5d0b0ab9102babf5eaf769c8d62aad823454da2f7e",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/falcon_migration_20261106/REPORT.md",
+      "source": "research/falcon_migration_20261106/REPORT.md",
+      "bytes": 5391,
+      "sha256": "5f3717acec08e7a8806585606d884010d1357a6358d6de2d1e0546b07763daa7",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/falcon_migration_20261106/STATUS.json",
+      "source": "research/falcon_migration_20261106/STATUS.json",
+      "bytes": 581,
+      "sha256": "26d814d362b07394fdc3877d0cf95734e46582488e8d8078900fe1261f23526e",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/falcon_migration_20261106/bridge.py",
+      "source": "research/falcon_migration_20261106/bridge.py",
+      "bytes": 7690,
+      "sha256": "f5856ce209963202778df30ea4aba737c8cbfe64d03bc0835d435d316cb832d8",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/falcon_migration_20261106/derive.py",
+      "source": "research/falcon_migration_20261106/derive.py",
+      "bytes": 2269,
+      "sha256": "d27d908559250028e282c098fb29cdae49e6e242e88dff06fd9b6dc6708c5ef0",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/falcon_migration_20261106/run_case.py",
+      "source": "research/falcon_migration_20261106/run_case.py",
+      "bytes": 6406,
+      "sha256": "fee8f40523ae693f2c7cb9d85e3def243f96023d6ef5122ddc57fac858129303",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/falcon_migration_20261106/run_probe.py",
+      "source": "research/falcon_migration_20261106/run_probe.py",
+      "bytes": 1119,
+      "sha256": "75ddc805f116a030ca53983d9fbc297b93f661b301aa8d7bccb9b4dcc35f890f",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/falcon_migration_20261106/test_bridge.py",
+      "source": "research/falcon_migration_20261106/test_bridge.py",
+      "bytes": 3068,
+      "sha256": "cb187aa867f2715129f4b6d9f9c35b9f8777cbfd2a1d06666872e27121c0e510",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/falcon_migration_20261106/validate_probe.py",
+      "source": "research/falcon_migration_20261106/validate_probe.py",
+      "bytes": 2940,
+      "sha256": "deca2ce7dacf5877b8e5b00428c54dd45261a8061c1f91805eb77137583893c6",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scetr_falcon_headroom_20261108/NEXT_METHOD.md",
+      "source": "research/scetr_falcon_headroom_20261108/NEXT_METHOD.md",
+      "bytes": 3383,
+      "sha256": "f2292a3e9cb321f4770a2130319cf5e9275d9feb2e0bc48f0d8375f5fcd6f654",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scetr_falcon_headroom_20261108/PROTOCOL.json",
+      "source": "research/scetr_falcon_headroom_20261108/PROTOCOL.json",
+      "bytes": 2519,
+      "sha256": "3428a1c6e80bd985b76d9c826a239465ff4e8e102fb00f1caf35d52ff8e84a93",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scetr_falcon_headroom_20261108/REPORT.md",
+      "source": "research/scetr_falcon_headroom_20261108/REPORT.md",
+      "bytes": 3942,
+      "sha256": "5648dcf1894c6c9e4444f8a8e37ff0de1fcd6eef79e92d247d9da1622b49498c",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scetr_falcon_headroom_20261108/STATUS.json",
+      "source": "research/scetr_falcon_headroom_20261108/STATUS.json",
+      "bytes": 1006,
+      "sha256": "6747b29b4277725d19ab8cb9fb6ed96f80d3708c1a1899ba6ffd50fe79eb6f41",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scetr_falcon_headroom_20261108/audit_collected.py",
+      "source": "research/scetr_falcon_headroom_20261108/audit_collected.py",
+      "bytes": 4819,
+      "sha256": "71670fe05dbb029b1a6ee9f8d85379ef37c99640951084ad7ddf8d9f21c301bf",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scetr_falcon_headroom_20261108/bridge.py",
+      "source": "research/scetr_falcon_headroom_20261108/bridge.py",
+      "bytes": 6116,
+      "sha256": "4e1c03e6d94f630632c83937f6639f1339921ff77696c6e213e265f221adcfae",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scetr_falcon_headroom_20261108/derive.py",
+      "source": "research/scetr_falcon_headroom_20261108/derive.py",
+      "bytes": 2269,
+      "sha256": "d27d908559250028e282c098fb29cdae49e6e242e88dff06fd9b6dc6708c5ef0",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scetr_falcon_headroom_20261108/episodes.json",
+      "source": "research/scetr_falcon_headroom_20261108/episodes.json",
+      "bytes": 3242,
+      "sha256": "366071976be37ab0e910ebd911515f63272a47881bc2250f694442339cf4bb64",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scetr_falcon_headroom_20261108/prepare.py",
+      "source": "research/scetr_falcon_headroom_20261108/prepare.py",
+      "bytes": 5669,
+      "sha256": "d71e2641e9044adec0c7e9e3fbe30c4a4b1c46c5e0e95cc57ef15a2c5e6501be",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scetr_falcon_headroom_20261108/progress.py",
+      "source": "research/scetr_falcon_headroom_20261108/progress.py",
+      "bytes": 1172,
+      "sha256": "7013a4baf0e5860bad6bc43f463d6eab78668bd58cda7b8b4006729efb11bcb9",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scetr_falcon_headroom_20261108/run.py",
+      "source": "research/scetr_falcon_headroom_20261108/run.py",
+      "bytes": 3025,
+      "sha256": "e62e15936786527241502c9509c4b3bb1bd69379e2ca491ff2c7fbdb530f42f6",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scetr_falcon_headroom_20261108/run_case.py",
+      "source": "research/scetr_falcon_headroom_20261108/run_case.py",
+      "bytes": 5218,
+      "sha256": "6cea9f95e5d2cbd46bee856334e882b7f7c1dd4ec8803a97ab3469474a68f354",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scetr_falcon_headroom_20261108/test_headroom.py",
+      "source": "research/scetr_falcon_headroom_20261108/test_headroom.py",
+      "bytes": 1612,
+      "sha256": "cb6041242ed012b34674579d23afc383c96a9876a0d89c53eb9a49ee235e6981",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scetr_falcon_headroom_20261108/validate.py",
+      "source": "research/scetr_falcon_headroom_20261108/validate.py",
+      "bytes": 4455,
+      "sha256": "d14a9ea1b6cf56b8429724eb088f8a093d8c6f54fab26b53ecd41b50f7983358",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scetr_closedloop_20261108_a/PROTOCOL.json",
+      "source": "research/scetr_closedloop_20261108_a/PROTOCOL.json",
+      "bytes": 2136,
+      "sha256": "665b01b8a94779b52fe30b22bf257935eeaeddd847d6726348111950929a0232",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scetr_closedloop_20261108_a/STATUS.json",
+      "source": "research/scetr_closedloop_20261108_a/STATUS.json",
+      "bytes": 8705,
+      "sha256": "4d58f597612e5f75fabb4df133e90a2eb7ef57ca38d1d4bd437257b7af6d2a42",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scetr_closedloop_20261108_a/audit_collected.py",
+      "source": "research/scetr_closedloop_20261108_a/audit_collected.py",
+      "bytes": 3454,
+      "sha256": "d904137f94fa021be26dc5a6227d8c1e8e5213df2f8882da5dd75ee04c28c2a4",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scetr_closedloop_20261108_a/bridge.py",
+      "source": "research/scetr_closedloop_20261108_a/bridge.py",
+      "bytes": 6285,
+      "sha256": "6397dd56729047c4084d7f227f879e34276bb2313486943c0c66a6ffb434a4d4",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scetr_closedloop_20261108_a/controller.py",
+      "source": "research/scetr_closedloop_20261108_a/controller.py",
+      "bytes": 3948,
+      "sha256": "457b3d02a15ebd3a21384ec0b03941f91e7975e086915f34bd884ac1e4c23a31",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scetr_closedloop_20261108_a/derive.py",
+      "source": "research/scetr_closedloop_20261108_a/derive.py",
+      "bytes": 2269,
+      "sha256": "d27d908559250028e282c098fb29cdae49e6e242e88dff06fd9b6dc6708c5ef0",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scetr_closedloop_20261108_a/episodes.json",
+      "source": "research/scetr_closedloop_20261108_a/episodes.json",
+      "bytes": 3242,
+      "sha256": "366071976be37ab0e910ebd911515f63272a47881bc2250f694442339cf4bb64",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scetr_closedloop_20261108_a/prepare.py",
+      "source": "research/scetr_closedloop_20261108_a/prepare.py",
+      "bytes": 1509,
+      "sha256": "c3b639e76a4b0b08a715a962adbab3ca59a5916b04020431d5aa2271b9bbcbb7",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scetr_closedloop_20261108_a/progress.py",
+      "source": "research/scetr_closedloop_20261108_a/progress.py",
+      "bytes": 1418,
+      "sha256": "53af2f68c4616aabec6399141805c66b406e3c5088950a620e0dd76d5d2b33a9",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scetr_closedloop_20261108_a/run.py",
+      "source": "research/scetr_closedloop_20261108_a/run.py",
+      "bytes": 2093,
+      "sha256": "3b7c6c8ce5472ee403409f510a6bd3715515f2cd5395500ee39e914ff6351e02",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scetr_closedloop_20261108_a/run_case.py",
+      "source": "research/scetr_closedloop_20261108_a/run_case.py",
+      "bytes": 5306,
+      "sha256": "5bd49213faaace08d15641496453f7faa237f4d0c29cd82e37dfc6f184d84e05",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scetr_closedloop_20261108_a/test_controller.py",
+      "source": "research/scetr_closedloop_20261108_a/test_controller.py",
+      "bytes": 1782,
+      "sha256": "4e5c70ff61dc6abc583407c53c1989feda5c2e3eedeaf71e2e44abf1096ffd02",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scetr_closedloop_20261108_a/validate.py",
+      "source": "research/scetr_closedloop_20261108_a/validate.py",
+      "bytes": 4971,
+      "sha256": "918382ff7d6e68966fc191baa2b2fe87abb9ae2f2e91f0c12f856d339d252458",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scetr_closedloop_20261108_b/METHOD.md",
+      "source": "research/scetr_closedloop_20261108_b/METHOD.md",
+      "bytes": 1839,
+      "sha256": "d394f3e3857d3d3c0a7db3ea85b9fa5cd6573fe5b80a4bb3bdbc33ae9a245047",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scetr_closedloop_20261108_b/PROTOCOL.json",
+      "source": "research/scetr_closedloop_20261108_b/PROTOCOL.json",
+      "bytes": 2298,
+      "sha256": "057888ee8e940495ca1bccefa8a6721fbfa7f5a8fef570919694dad0c71e7284",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scetr_closedloop_20261108_b/audit_collected.py",
+      "source": "research/scetr_closedloop_20261108_b/audit_collected.py",
+      "bytes": 3454,
+      "sha256": "d904137f94fa021be26dc5a6227d8c1e8e5213df2f8882da5dd75ee04c28c2a4",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scetr_closedloop_20261108_b/bridge.py",
+      "source": "research/scetr_closedloop_20261108_b/bridge.py",
+      "bytes": 6285,
+      "sha256": "6397dd56729047c4084d7f227f879e34276bb2313486943c0c66a6ffb434a4d4",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scetr_closedloop_20261108_b/controller.py",
+      "source": "research/scetr_closedloop_20261108_b/controller.py",
+      "bytes": 4171,
+      "sha256": "c8b42c9604dc27ab84eb26c8aad5915b0e4e11ab5cb6887a4beb5ffe81248f24",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scetr_closedloop_20261108_b/derive.py",
+      "source": "research/scetr_closedloop_20261108_b/derive.py",
+      "bytes": 2269,
+      "sha256": "d27d908559250028e282c098fb29cdae49e6e242e88dff06fd9b6dc6708c5ef0",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scetr_closedloop_20261108_b/episodes.json",
+      "source": "research/scetr_closedloop_20261108_b/episodes.json",
+      "bytes": 3242,
+      "sha256": "366071976be37ab0e910ebd911515f63272a47881bc2250f694442339cf4bb64",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scetr_closedloop_20261108_b/prepare.py",
+      "source": "research/scetr_closedloop_20261108_b/prepare.py",
+      "bytes": 1509,
+      "sha256": "51e434a929a8b216c9657f944de00c0543cf11e2314c0c2be1940527284b9c6a",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scetr_closedloop_20261108_b/progress.py",
+      "source": "research/scetr_closedloop_20261108_b/progress.py",
+      "bytes": 1254,
+      "sha256": "42a4d9aad8d8801315d73d1b3195430c3ce1fbbcb6c465facd353741807eadd0",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scetr_closedloop_20261108_b/run.py",
+      "source": "research/scetr_closedloop_20261108_b/run.py",
+      "bytes": 2093,
+      "sha256": "3b7c6c8ce5472ee403409f510a6bd3715515f2cd5395500ee39e914ff6351e02",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scetr_closedloop_20261108_b/run_case.py",
+      "source": "research/scetr_closedloop_20261108_b/run_case.py",
+      "bytes": 5306,
+      "sha256": "5bd49213faaace08d15641496453f7faa237f4d0c29cd82e37dfc6f184d84e05",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scetr_closedloop_20261108_b/test_controller.py",
+      "source": "research/scetr_closedloop_20261108_b/test_controller.py",
+      "bytes": 1498,
+      "sha256": "2ffc6f87aed1bceea61eeb0e3e960f2f3adff2918e0cbc6444513ccccb0eeddd",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scetr_closedloop_20261108_b/validate.py",
+      "source": "research/scetr_closedloop_20261108_b/validate.py",
+      "bytes": 4971,
+      "sha256": "918382ff7d6e68966fc191baa2b2fe87abb9ae2f2e91f0c12f856d339d252458",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scetr_motion_20261108/motion.py",
+      "source": "research/scetr_motion_20261108/motion.py",
+      "bytes": 2153,
+      "sha256": "5ebd6a9ec3fa7e44b20f50152d7a5c1e308a029a2ef8975176436844b3d5bb42",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scet_pilot_20261108/PROTOCOL.json",
+      "source": "research/scet_pilot_20261108/PROTOCOL.json",
+      "bytes": 2727,
+      "sha256": "c75462ea85848222c1b4a541a75cde1f71e8fe5d1f11a874badd8686132a0899",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scet_pilot_20261108/README.md",
+      "source": "research/scet_pilot_20261108/README.md",
+      "bytes": 4557,
+      "sha256": "19641e9648a94843d01c54ebe24c92ed993729aa2b9be59d7247623b9671ab84",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scet_pilot_20261108/STATUS.json",
+      "source": "research/scet_pilot_20261108/STATUS.json",
+      "bytes": 751,
+      "sha256": "2e869f9b481cc20d012d51b63479ce8a70e2ea253df291f9cad1e13cadb67452",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scet_pilot_20261108/core.py",
+      "source": "research/scet_pilot_20261108/core.py",
+      "bytes": 8450,
+      "sha256": "7ce24bc095c3531f31e8e6205e7da39890b871fa7dc20a76110230f41333e1e0",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scet_pilot_20261108/diagnose.py",
+      "source": "research/scet_pilot_20261108/diagnose.py",
+      "bytes": 2799,
+      "sha256": "3cca20d8bbedaf830cbda8bc7f7a1403e53409c6ab10f0b01861afb1b75c5e77",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scet_pilot_20261108/run.py",
+      "source": "research/scet_pilot_20261108/run.py",
+      "bytes": 8897,
+      "sha256": "6a420c65f69b6d4f603306aefeb9e2be62301a440f2aa3cd51c0ee6c118bdf87",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scet_pilot_20261108/stopped_operator.py",
+      "source": "research/scet_pilot_20261108/stopped_operator.py",
+      "bytes": 3988,
+      "sha256": "d5c2aed2e1da9cd03eefe6c8f704dc817b61c0a4de94164b61558bb8f233a7ad",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scet_pilot_20261108/test_core.py",
+      "source": "research/scet_pilot_20261108/test_core.py",
+      "bytes": 3151,
+      "sha256": "65a22d0f588f56c634e8fc3476b9cb9e8549a1b0c2e71122145b6fe15cfe4d44",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scet_pilot_20261108/test_stopped_operator.py",
+      "source": "research/scet_pilot_20261108/test_stopped_operator.py",
+      "bytes": 2455,
+      "sha256": "8e40ace77182aa3ae90e1df1dedfe6b2312b3cabb6ca42d4beb8b0e44151bd71",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scet_pilot_20261108/validate.py",
+      "source": "research/scet_pilot_20261108/validate.py",
+      "bytes": 4255,
+      "sha256": "f8f3a087dbcd17f7af3e9bdb4089e1b5586aec9a13cf7d64f8713f13d8493df0",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/scet_pilot_20261108/runs/pilot_a/REPORT.md",
+      "source": "research/scet_pilot_20261108/runs/pilot_a/REPORT.md",
+      "bytes": 2011,
+      "sha256": "577b12c544999a7d4ada4e5bf4ba8e940558f7e51488326754aab63b1b88e7f9",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/sota_temporal_20261105/PLAN.md",
+      "source": "research/sota_temporal_20261105/PLAN.md",
+      "bytes": 6013,
+      "sha256": "69cfa9b75949a0b6c0282ad33cab930d1e8e0c440d8384f29d6fb04281d0d538",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/sota_temporal_20261105/STATUS.json",
+      "source": "research/sota_temporal_20261105/STATUS.json",
+      "bytes": 773,
+      "sha256": "f748ff7d3e5a16147c8a858bf6d1662a2a8eba44601d4f414634783ed779ed6b",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/sota_temporal_20261105/THEORY.md",
+      "source": "research/sota_temporal_20261105/THEORY.md",
+      "bytes": 11211,
+      "sha256": "c153b9d053a6214e20552ec0649c17b76c783128daca9714ca104fef755982d4",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/sota_temporal_20261105/THEORY_ADVANCED.md",
+      "source": "research/sota_temporal_20261105/THEORY_ADVANCED.md",
+      "bytes": 9285,
+      "sha256": "98afc5d9df33cf4b3fe88d648ace7f764847b4ba44006c584a1d753fc6ceebef",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/sota_temporal_20261105/check_theory.py",
+      "source": "research/sota_temporal_20261105/check_theory.py",
+      "bytes": 2516,
+      "sha256": "c51e6a1095ac1224b7f40e238766dd8003974662d151f1a530e3e6fd6404e22c",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/sota_temporal_20261105/core.py",
+      "source": "research/sota_temporal_20261105/core.py",
+      "bytes": 3737,
+      "sha256": "02efd652fe6530821499d8caf40cad6da6e956456b1e5834c55b701441712ba4",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/sota_temporal_20261105/model.py",
+      "source": "research/sota_temporal_20261105/model.py",
+      "bytes": 1650,
+      "sha256": "2e005ad1e29ff1b1f07f1ab5a886a300ed587597fdbf09dffb47fa8fbb89a0cf",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/sota_temporal_20261105/test_core.py",
+      "source": "research/sota_temporal_20261105/test_core.py",
+      "bytes": 1828,
+      "sha256": "38e73390a9e974ab53e67c92bba366acb3d63c2c64ba9ab17f40deb80cba346c",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/sota_temporal_20261105/adaptive_option_20261106/REPORT.md",
+      "source": "research/sota_temporal_20261105/adaptive_option_20261106/REPORT.md",
+      "bytes": 3167,
+      "sha256": "9edcda2def4c857d75f4dcbbf8fbd9f8571ab1b64648fd61d2307d3e566f8e9a",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/sota_temporal_20261105/bold_pilot_20261106/REPORT.md",
+      "source": "research/sota_temporal_20261105/bold_pilot_20261106/REPORT.md",
+      "bytes": 6426,
+      "sha256": "86055641ab314c4a4aeb221a06abadad946545f1288b574df8027ae272db0a90",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/sota_temporal_20261105/pilot_20261106/REPORT.md",
+      "source": "research/sota_temporal_20261105/pilot_20261106/REPORT.md",
+      "bytes": 4432,
+      "sha256": "7f82a017e6f09944b42a5857d560d3354cf6e9ff15c1cc71030f3d75ed6dcf02",
+      "copy": "verbatim"
+    },
+    {
+      "path": "research/sota_temporal_20261105/pilot_relative_20261106/REPORT.md",
+      "source": "research/sota_temporal_20261105/pilot_relative_20261106/REPORT.md",
+      "bytes": 4425,
+      "sha256": "36574c9b10ea805b4cd6a98a1e17349b50c23a73b2df5e05f9468080eb64a563",
+      "copy": "verbatim"
+    },
+    {
+      "path": "evidence/experiments/headroom.json",
+      "source": "research/scetr_falcon_headroom_20261108/collected_a/VALIDATION.json",
+      "bytes": 8062,
+      "sha256": "86f989a5d88c4ecc4988c922d23879022b133e82af23047555ae41205048a3b2",
+      "copy": "verbatim"
+    },
+    {
+      "path": "evidence/experiments/closedloop_a.json",
+      "source": "research/scetr_closedloop_20261108_a/recovery_completed_28439_pause/raw/headroom/VALIDATION.json",
+      "bytes": 7863,
+      "sha256": "22461b27699c866065fdb664e5979ac5d3adde8dc4271e1cb53d0f506cadada1",
+      "copy": "verbatim"
+    },
+    {
+      "path": "evidence/experiments/28439_recovery.json",
+      "source": "research/scetr_closedloop_20261108_a/recovery_completed_28439_pause/RECOVERY.json",
+      "bytes": 9812,
+      "sha256": "9a523b8d7ca612f22624693075f83b564cd86d13a5cdf37b8a7b83f5929594a9",
+      "copy": "verbatim"
+    },
+    {
+      "path": "evidence/experiments/28439_failed_owner_preserved.json",
+      "source": "research/scetr_closedloop_20261108_a/plan/run/DRIVER_RECEIPT.json",
+      "bytes": 1534,
+      "sha256": "5c5ab0d6d22af53f4ab1211922ae622c80d99d41068381653e2cd689e7cf44ef",
+      "copy": "verbatim"
+    },
+    {
+      "path": "third_party_licenses/Falcon.txt",
+      "source": "baselines/repos/Falcon/LICENSE",
+      "bytes": 1092,
+      "sha256": "2d4c3d00d67067461412a2d9a2f3f8b7b9cda62b3db501e4b6844ccf35c949aa",
+      "copy": "verbatim"
+    },
+    {
+      "path": "third_party_licenses/NavThinker.txt",
+      "source": "baselines/repos/NavThinker/LICENSE",
+      "bytes": 1092,
+      "sha256": "2d4c3d00d67067461412a2d9a2f3f8b7b9cda62b3db501e4b6844ccf35c949aa",
+      "copy": "verbatim"
+    }
+  ]
+}

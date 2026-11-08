@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Falcon",
+    "url": "https://github.com/Zeying-Gong/Falcon.git",
+    "commit": "d15ef512c4b1451f9daeaf6d4d7ecc702ed57430",
+    "vendored": false
+  },
+  {
+    "name": "NavThinker",
+    "url": "https://github.com/hutslib/NavThinker.git",
+    "commit": "fc3421b6991080a367a348f7f80fa899358f9a0b",
+    "vendored": false
+  },
+  {
+    "name": "DPedVLN",
+    "url": "https://github.com/tju-dhj/DPedVLN.git",
+    "commit": "eaa8e4383cccb27fd4229f0a267ddd362bdbbbab",
+    "vendored": false
+  }
+]

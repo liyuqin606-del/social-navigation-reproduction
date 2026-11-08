@@ -1,0 +1,292 @@
+{
+  "status": "PAUSED_BY_USER",
+  "last_run": "28439",
+  "released": true,
+  "recovery": "research/scetr_closedloop_20261108_a/recovery_completed_28439_pause/RECOVERY.json",
+  "completed_experiment_summary": {
+    "status": "PASS",
+    "scope": "FOUR_DEVELOPMENT_CASES_ONLINE_OBSERVATION_ONLY_HEURISTIC_OPTIONS_NOT_TRAINED_SCET",
+    "episodes": 4,
+    "rollouts": 20,
+    "steps": 3113,
+    "prefix_transitions": 291,
+    "actor_sha256": "7a2106b161fff34e77364812b9fedefe597e146fcc8d6df0711ee6cb8bf542a2",
+    "baseline_successes": 1,
+    "aggregate": {
+      "yield24": {
+        "wins": 0,
+        "regressions": 0,
+        "successes": 1,
+        "collisions": 3
+      },
+      "yield_clear": {
+        "wins": 0,
+        "regressions": 0,
+        "successes": 1,
+        "collisions": 3
+      },
+      "sidestep": {
+        "wins": 0,
+        "regressions": 0,
+        "successes": 1,
+        "collisions": 3
+      }
+    },
+    "cases": [
+      {
+        "case": 0,
+        "reference": {
+          "distance_to_goal": 4.820915222167969,
+          "distance_to_goal_reward": 0.21030426025390625,
+          "success": 0.0,
+          "did_multi_agents_collide": 1.0,
+          "num_steps": 71.0,
+          "spl": 0.0,
+          "psc": 0.971830985915493,
+          "human_collision": 1.0
+        },
+        "policies": {
+          "yield24": {
+            "metrics": {
+              "distance_to_goal": 12.520936965942383,
+              "distance_to_goal_reward": -0.0,
+              "success": 0.0,
+              "did_multi_agents_collide": 1.0,
+              "num_steps": 242.0,
+              "spl": 0.0,
+              "psc": 0.9586776859504132,
+              "human_collision": 1.0
+            },
+            "steps": 242,
+            "changed_actions": 45,
+            "events": 3,
+            "first_change": 12
+          },
+          "yield_clear": {
+            "metrics": {
+              "distance_to_goal": 8.344378471374512,
+              "distance_to_goal_reward": -0.0,
+              "success": 0.0,
+              "did_multi_agents_collide": 1.0,
+              "num_steps": 143.0,
+              "spl": 0.0,
+              "psc": 0.951048951048951,
+              "human_collision": 1.0
+            },
+            "steps": 143,
+            "changed_actions": 63,
+            "events": 2,
+            "first_change": 12
+          },
+          "sidestep": {
+            "metrics": {
+              "distance_to_goal": 7.775379180908203,
+              "distance_to_goal_reward": -0.0,
+              "success": 0.0,
+              "did_multi_agents_collide": 1.0,
+              "num_steps": 133.0,
+              "spl": 0.0,
+              "psc": 0.9624060150375939,
+              "human_collision": 1.0
+            },
+            "steps": 133,
+            "changed_actions": 30,
+            "events": 3,
+            "first_change": 12
+          }
+        }
+      },
+      {
+        "case": 1,
+        "reference": {
+          "distance_to_goal": 0.14927494525909424,
+          "distance_to_goal_reward": -0.0,
+          "success": 1.0,
+          "did_multi_agents_collide": 0.0,
+          "num_steps": 107.0,
+          "spl": 0.963400752171267,
+          "psc": 1.0,
+          "human_collision": 0.0
+        },
+        "policies": {
+          "yield24": {
+            "metrics": {
+              "distance_to_goal": 0.14994016289710999,
+              "distance_to_goal_reward": -0.0,
+              "success": 1.0,
+              "did_multi_agents_collide": 0.0,
+              "num_steps": 178.0,
+              "spl": 0.9635215535672427,
+              "psc": 1.0,
+              "human_collision": 0.0
+            },
+            "steps": 178,
+            "changed_actions": 69,
+            "events": 3,
+            "first_change": 19
+          },
+          "yield_clear": {
+            "metrics": {
+              "distance_to_goal": 0.12990647554397583,
+              "distance_to_goal_reward": -0.0,
+              "success": 1.0,
+              "did_multi_agents_collide": 0.0,
+              "num_steps": 299.0,
+              "spl": 0.9663697158812523,
+              "psc": 1.0,
+              "human_collision": 0.0
+            },
+            "steps": 299,
+            "changed_actions": 150,
+            "events": 3,
+            "first_change": 19
+          },
+          "sidestep": {
+            "metrics": {
+              "distance_to_goal": 0.11707916855812073,
+              "distance_to_goal_reward": -0.0,
+              "success": 1.0,
+              "did_multi_agents_collide": 0.0,
+              "num_steps": 178.0,
+              "spl": 0.8728305550708257,
+              "psc": 1.0,
+              "human_collision": 0.0
+            },
+            "steps": 178,
+            "changed_actions": 55,
+            "events": 3,
+            "first_change": 19
+          }
+        }
+      },
+      {
+        "case": 2,
+        "reference": {
+          "distance_to_goal": 7.991515159606934,
+          "distance_to_goal_reward": 0.18439483642578125,
+          "success": 0.0,
+          "did_multi_agents_collide": 1.0,
+          "num_steps": 99.0,
+          "spl": 0.0,
+          "psc": 0.9292929292929293,
+          "human_collision": 1.0
+        },
+        "policies": {
+          "yield24": {
+            "metrics": {
+              "distance_to_goal": 13.124120712280273,
+              "distance_to_goal_reward": -0.0,
+              "success": 0.0,
+              "did_multi_agents_collide": 1.0,
+              "num_steps": 97.0,
+              "spl": 0.0,
+              "psc": 0.9278350515463918,
+              "human_collision": 1.0
+            },
+            "steps": 97,
+            "changed_actions": 25,
+            "events": 2,
+            "first_change": 40
+          },
+          "yield_clear": {
+            "metrics": {
+              "distance_to_goal": 15.166495323181152,
+              "distance_to_goal_reward": -0.0,
+              "success": 0.0,
+              "did_multi_agents_collide": 1.0,
+              "num_steps": 93.0,
+              "spl": 0.0,
+              "psc": 0.9354838709677419,
+              "human_collision": 1.0
+            },
+            "steps": 93,
+            "changed_actions": 40,
+            "events": 1,
+            "first_change": 40
+          },
+          "sidestep": {
+            "metrics": {
+              "distance_to_goal": 13.124120712280273,
+              "distance_to_goal_reward": -0.0,
+              "success": 0.0,
+              "did_multi_agents_collide": 1.0,
+              "num_steps": 100.0,
+              "spl": 0.0,
+              "psc": 0.9,
+              "human_collision": 1.0
+            },
+            "steps": 100,
+            "changed_actions": 36,
+            "events": 2,
+            "first_change": 40
+          }
+        }
+      },
+      {
+        "case": 3,
+        "reference": {
+          "distance_to_goal": 6.639146327972412,
+          "distance_to_goal_reward": -0.0,
+          "success": 0.0,
+          "did_multi_agents_collide": 1.0,
+          "num_steps": 254.0,
+          "spl": 0.0,
+          "psc": 0.889763779527559,
+          "human_collision": 1.0
+        },
+        "policies": {
+          "yield24": {
+            "metrics": {
+              "distance_to_goal": 8.181463241577148,
+              "distance_to_goal_reward": 0.03862953186035156,
+              "success": 0.0,
+              "did_multi_agents_collide": 1.0,
+              "num_steps": 218.0,
+              "spl": 0.0,
+              "psc": 0.9403669724770642,
+              "human_collision": 1.0
+            },
+            "steps": 218,
+            "changed_actions": 37,
+            "events": 2,
+            "first_change": 26
+          },
+          "yield_clear": {
+            "metrics": {
+              "distance_to_goal": 7.496116638183594,
+              "distance_to_goal_reward": -0.0,
+              "success": 0.0,
+              "did_multi_agents_collide": 1.0,
+              "num_steps": 241.0,
+              "spl": 0.0,
+              "psc": 0.946058091286307,
+              "human_collision": 1.0
+            },
+            "steps": 241,
+            "changed_actions": 59,
+            "events": 2,
+            "first_change": 26
+          },
+          "sidestep": {
+            "metrics": {
+              "distance_to_goal": 14.10260009765625,
+              "distance_to_goal_reward": -0.0,
+              "success": 0.0,
+              "did_multi_agents_collide": 1.0,
+              "num_steps": 129.0,
+              "spl": 0.0,
+              "psc": 0.9457364341085271,
+              "human_collision": 1.0
+            },
+            "steps": 129,
+            "changed_actions": 16,
+            "events": 1,
+            "first_change": 26
+          }
+        }
+      }
+    ]
+  },
+  "next_round_b_submitted": false,
+  "transfer_submitted": false
+}

@@ -1,0 +1,3699 @@
+{
+  "repository": "https://github.com/Zeying-Gong/Falcon",
+  "commit": "d15ef512c4b1451f9daeaf6d4d7ecc702ed57430",
+  "local_path": "/Users/yuqinli/Documents/ChatGPT/VLN/baselines/repos/Falcon",
+  "tracked_files": [
+    {
+      "path": ".circleci/config.yml",
+      "bytes": 19690,
+      "sha256": "33a5d1790fd69fcd3ec99ee1e9e0a11802f4470b5dd4b3a9bedca1b6adb0343f"
+    },
+    {
+      "path": ".editorconfig",
+      "bytes": 566,
+      "sha256": "8cf8c7cd24ab6dc3d4bc3fbcee02a6da1de1450e4ff331c1c192d69f37e2d50a"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug-report.md",
+      "bytes": 1220,
+      "sha256": "1c0e5cbadd362c72f1a17093281e7a678f265ce5a27934c022b26b9055e37c63"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature-request.md",
+      "bytes": 717,
+      "sha256": "5be24e9bf42f3f3fa7dea962db184072f6793cd0994258ffc2e915c66616d81d"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/questions-help-support.md",
+      "bytes": 1000,
+      "sha256": "ef74b1ac203020904b08496be51d31685e538a4fa53559b586aa468bbf07730a"
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "bytes": 2371,
+      "sha256": "6aa9f65e21f1b5b38c948530d19264d845fcf2f6e4ef04de90c04941a320509e"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 1611,
+      "sha256": "8447d29361581ee1a7dfa2aa080db3420fcedb97913b09c388b1bd05fe7e9ea1"
+    },
+    {
+      "path": ".pre-commit-config.yaml",
+      "bytes": 3293,
+      "sha256": "e47369baefdbfdbefdd26c7ea44907255f5ca5db58d95f97a83e27cfa9ff6811"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "bytes": 240,
+      "sha256": "92df889ab232e0395fd2d87ba0e969711893d089df46ce5ef21c692aad9632a8"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 4122,
+      "sha256": "c3a209d8f74eeb6b4af6778e331fa1c47bc30d50c0d191a580d0ac5c9fa7ddcb"
+    },
+    {
+      "path": "DATASETS.md",
+      "bytes": 9209,
+      "sha256": "06d2afddd11aac58d3f8138321f6907f4480db5ab01e1f945e8194792f917ef6"
+    },
+    {
+      "path": "DETAILS.md",
+      "bytes": 2448,
+      "sha256": "d5161ce54e3435ce737fa28d5c5a6d353ce61600e27d6bde8e2e8eb2fd22dc65"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1092,
+      "sha256": "2d4c3d00d67067461412a2d9a2f3f8b7b9cda62b3db501e4b6844ccf35c949aa"
+    },
+    {
+      "path": "README.md",
+      "bytes": 9070,
+      "sha256": "b35b7dde6883be478deb7d85b32aaa9e935e9ae1179604e549661b2bd188b301"
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "bytes": 5159,
+      "sha256": "7469e55a9fa5067154f7c91cdb5ab9252152f103fadda5cd0b22e5e6eb6676cc"
+    },
+    {
+      "path": "examples/__init__.py",
+      "bytes": 205,
+      "sha256": "e1ef9e48d7724c9ddc982349eab3cc1af56f720448562b2440be2c69b810ec26"
+    },
+    {
+      "path": "examples/benchmark.py",
+      "bytes": 981,
+      "sha256": "60d65a6d6507d3ef07e6c01f0535e75885fbbcc5d364fab3f7dc20e62db628a9"
+    },
+    {
+      "path": "examples/display_utils.py",
+      "bytes": 485,
+      "sha256": "660da41d71ca355e2a1d22662df8d82ae6ac9c2b70dbee4f1c9b7cfec25f9fbd"
+    },
+    {
+      "path": "examples/example.py",
+      "bytes": 907,
+      "sha256": "33b7f6ce3cbfc849a9fd43fe5ab453a6104c0d1b7e7a65b976b350b43fd2706a"
+    },
+    {
+      "path": "examples/franka_example.py",
+      "bytes": 1492,
+      "sha256": "cab2d4c8dbc3e38549b3876d86badd33645f0c3efac575073bfed27c0c3a1275"
+    },
+    {
+      "path": "examples/hitl/basic_viewer/README.md",
+      "bytes": 988,
+      "sha256": "9790cc506d630e47ffa46ced1fd82312e3c1e4770098e46505231809207f0de9"
+    },
+    {
+      "path": "examples/hitl/basic_viewer/basic_viewer.py",
+      "bytes": 7240,
+      "sha256": "e9509556c544e08a9223afca0b04932d6c18e2ebe48024052b387f9a23bfb861"
+    },
+    {
+      "path": "examples/hitl/basic_viewer/config/basic_viewer.yaml",
+      "bytes": 526,
+      "sha256": "8b1fccf04adce98dd32c8c71b74b770b5e08d43585ca8b1837e05322f51347b0"
+    },
+    {
+      "path": "examples/hitl/minimal/README.md",
+      "bytes": 277,
+      "sha256": "09fd0faa2cd4a2cf844faf2abe7b9dda2ad899e2689465dd803f2ae9c20ca343"
+    },
+    {
+      "path": "examples/hitl/minimal/minimal.py",
+      "bytes": 1780,
+      "sha256": "3749374b50477bfd61336d6e65e91f4fd6427042d9d354e4e5ddfbe98a363154"
+    },
+    {
+      "path": "examples/hitl/minimal/minimal_cfg.yaml",
+      "bytes": 440,
+      "sha256": "aaf5901a3948beddc3976a065536f99ce25b6cab84988fbdb0c06564d413205a"
+    },
+    {
+      "path": "examples/hitl/pick_throw_vr/README.md",
+      "bytes": 12054,
+      "sha256": "d3ce323b81e0f4bf2667401d95a1c9a788cde5aeb92f9b913a605ac16dd8b5af"
+    },
+    {
+      "path": "examples/hitl/pick_throw_vr/config/experiment/headless_server.yaml",
+      "bytes": 338,
+      "sha256": "dabf1631bc4f86643544a324148fdbae64438b47ab730d1d4a1c7a747cbfb035"
+    },
+    {
+      "path": "examples/hitl/pick_throw_vr/config/pick_throw_vr.yaml",
+      "bytes": 717,
+      "sha256": "39754a1351b80821bd050dcb0fd0eb8f7527d360a83d0af746cfe0c556a8659f"
+    },
+    {
+      "path": "examples/hitl/pick_throw_vr/pick_throw_vr.py",
+      "bytes": 26538,
+      "sha256": "d75267780b0e124e3cb7afdc36a740c28884a92a171d5106f77334b7a62bd3a1"
+    },
+    {
+      "path": "examples/hitl/rearrange/README.md",
+      "bytes": 1144,
+      "sha256": "d3643f44f60f5850ae4bf49d6531ce4689dbdc22946e0a67968e427040b214fd"
+    },
+    {
+      "path": "examples/hitl/rearrange/config/hitl_rearrange.yaml",
+      "bytes": 942,
+      "sha256": "7b6849b58e97ce5ff6b818d71602a40ea3c8f3693462b5a00796333b95a051b7"
+    },
+    {
+      "path": "examples/hitl/rearrange/rearrange.py",
+      "bytes": 19877,
+      "sha256": "f7b32b1a325b17007c204dc9f035008cab22c4a7097c6497c215e2a7475d56a5"
+    },
+    {
+      "path": "examples/hitl/rearrange_v2/README.md",
+      "bytes": 2625,
+      "sha256": "5a2edcd67542ee82cd9893550f9320acd1ebc4bb3a826ec42937d2b4e652475b"
+    },
+    {
+      "path": "examples/hitl/rearrange_v2/app_data.py",
+      "bytes": 526,
+      "sha256": "4204d09b5739a6eb8eb5f876dcfab97eb66be08c42b3f30b8cadda0916b658f1"
+    },
+    {
+      "path": "examples/hitl/rearrange_v2/app_data/demo.json.gz",
+      "bytes": 1927,
+      "sha256": "e4d8ef033d2d8e1e0b26ad0947b23b8b26f17c61382afe8a357fdcd028df5a59"
+    },
+    {
+      "path": "examples/hitl/rearrange_v2/app_state_base.py",
+      "bytes": 2461,
+      "sha256": "c5971fbe9c1208c587915f5c675cc2103f2046474ab7068b3c4328f8e7d00b1c"
+    },
+    {
+      "path": "examples/hitl/rearrange_v2/app_state_end_session.py",
+      "bytes": 4800,
+      "sha256": "3c749b0ab0ceae66948c83987ab038690d6ec76f811f3093386eafcc1f281595"
+    },
+    {
+      "path": "examples/hitl/rearrange_v2/app_state_feedback.py",
+      "bytes": 5611,
+      "sha256": "5e1528552eb5d1cc3110bb323393f71e567d9c493a108e5adf57c4b93962d9ef"
+    },
+    {
+      "path": "examples/hitl/rearrange_v2/app_state_load_episode.py",
+      "bytes": 6110,
+      "sha256": "2893aabf34661e5c96e170d34f29ac95cb63e53a791c607f8e9bcc4f8a2214f8"
+    },
+    {
+      "path": "examples/hitl/rearrange_v2/app_state_lobby.py",
+      "bytes": 2387,
+      "sha256": "c61e8820c506d3c566b835a8322d52088c809d8c357a87a03d2ea8ca3fb627bc"
+    },
+    {
+      "path": "examples/hitl/rearrange_v2/app_state_reset.py",
+      "bytes": 1047,
+      "sha256": "7ac98b6d6891818a5eb6636980d876e1a2a56deb183d55dbaec419377b6d8038"
+    },
+    {
+      "path": "examples/hitl/rearrange_v2/app_state_start_screen.py",
+      "bytes": 4970,
+      "sha256": "c5c525207494797b22189ba41cf730728c8af4bfa15af6a87f08519449ff167f"
+    },
+    {
+      "path": "examples/hitl/rearrange_v2/app_state_start_session.py",
+      "bytes": 5227,
+      "sha256": "00df8dc187d1a9087b818040c4abd17be23b23880ad3a52048a016f408919c34"
+    },
+    {
+      "path": "examples/hitl/rearrange_v2/app_states.py",
+      "bytes": 2596,
+      "sha256": "471893f403b1200a1313a8b5928f0fe176c541d5083843e3e1c57244bf5edaeb"
+    },
+    {
+      "path": "examples/hitl/rearrange_v2/config/dataset.yaml",
+      "bytes": 1021,
+      "sha256": "57bae10780891a8ecc0a3612173f91797ba63f95a3fb33fbecd3f902669ad535"
+    },
+    {
+      "path": "examples/hitl/rearrange_v2/config/experiment/habitat_llm_base.yaml",
+      "bytes": 248,
+      "sha256": "b82c8c80fba0ff880bdd8feb3b792af6912803e67c965dfcd767ee913172b760"
+    },
+    {
+      "path": "examples/hitl/rearrange_v2/config/experiment/habitat_llm_multi.yaml",
+      "bytes": 357,
+      "sha256": "59784a874394d8aee3373870f3986ad2d741f816cb3234cf1f2fdb7fed7e7fc2"
+    },
+    {
+      "path": "examples/hitl/rearrange_v2/config/hitl_multi.yaml",
+      "bytes": 467,
+      "sha256": "83ef3bb89aef8bc8c5394e1b2c7939466bba516286c0ed8dc5520582b7ee7adf"
+    },
+    {
+      "path": "examples/hitl/rearrange_v2/config/hitl_single.yaml",
+      "bytes": 329,
+      "sha256": "70939de50577105552fda172ead99b539db0c68225325ff284567e1d577a4cbc"
+    },
+    {
+      "path": "examples/hitl/rearrange_v2/config/lang_rearrange_humanoid_only.yaml",
+      "bytes": 684,
+      "sha256": "1c7bb8e7d90a112e2082aa9ed036fb03c8be9fefbd6f79691694c33ec429540c"
+    },
+    {
+      "path": "examples/hitl/rearrange_v2/config/lang_rearrange_spot_humanoid.yaml",
+      "bytes": 760,
+      "sha256": "7c97dd79a174dc25e14aab90f8b0b7af99fa68954fe1c3ec557ccd033acee7d6"
+    },
+    {
+      "path": "examples/hitl/rearrange_v2/config/language_rearrange.yaml",
+      "bytes": 1988,
+      "sha256": "caf1db290a67c95803318169683d75274d5e768e126fcdf654e12498acd37702"
+    },
+    {
+      "path": "examples/hitl/rearrange_v2/config/language_rearrange_multi_agent.yaml",
+      "bytes": 992,
+      "sha256": "921f2fd78e54029c922822cf12b03713b8d19626e42fb86064e0075d6999d812"
+    },
+    {
+      "path": "examples/hitl/rearrange_v2/config/server.yaml",
+      "bytes": 304,
+      "sha256": "7a71f92d49a3340b35cb7e31a45d3c37b6f50730d3c52b948f62bcc9d6beb7d5"
+    },
+    {
+      "path": "examples/hitl/rearrange_v2/end_episode_form.py",
+      "bytes": 7730,
+      "sha256": "66c41b8e1bdd9b7c1b56424951e304e03a68168e0cd3228955c694c31a5ff104"
+    },
+    {
+      "path": "examples/hitl/rearrange_v2/habitat_llm_loader.py",
+      "bytes": 1894,
+      "sha256": "f5dff106dac28d46aee36340b7ba2a87320d5a4f9c532fdf4c76307630c361ce"
+    },
+    {
+      "path": "examples/hitl/rearrange_v2/main.py",
+      "bytes": 1209,
+      "sha256": "aec51789eadc4e08755f0dc5b90f4386cd8c557ac607616fdb17361e3e648308"
+    },
+    {
+      "path": "examples/hitl/rearrange_v2/metrics.py",
+      "bytes": 1086,
+      "sha256": "2cbd7fb262795652b75a74a06374a70c1579b52c0bd138fb4c405ca010b97efb"
+    },
+    {
+      "path": "examples/hitl/rearrange_v2/object_state_manipulator.py",
+      "bytes": 6837,
+      "sha256": "d0f1491acac83c6556233f8dc3848cea174d7ae8eee1ede4ee859c9162a7c36a"
+    },
+    {
+      "path": "examples/hitl/rearrange_v2/rearrange_v2.py",
+      "bytes": 35825,
+      "sha256": "4148a7aa19f4b63c65ca38539b65e7c079497eebbc9457736db567138ce42aa9"
+    },
+    {
+      "path": "examples/hitl/rearrange_v2/s3_upload.py",
+      "bytes": 3715,
+      "sha256": "b7bc138ac9f4f68bb2a658d4b6d5faec6d943bd6297983276738c765a8fcb622"
+    },
+    {
+      "path": "examples/hitl/rearrange_v2/session.py",
+      "bytes": 1717,
+      "sha256": "b4c689304c72264e578c34e6e078c4634293b398b1e5c2338cd7019fdf58ab02"
+    },
+    {
+      "path": "examples/hitl/rearrange_v2/session_recorder.py",
+      "bytes": 5884,
+      "sha256": "4389030e6c76562e608c1339805b014c8a629c8ab4814e5ea651f4e9cee018f4"
+    },
+    {
+      "path": "examples/hitl/rearrange_v2/state_machine.py",
+      "bytes": 3412,
+      "sha256": "8e4367a85af32358fb78bf4ee934dc14ad5ef0085d0a4bdc14e36134a178422e"
+    },
+    {
+      "path": "examples/hitl/rearrange_v2/ui.py",
+      "bytes": 42585,
+      "sha256": "850de23c750660fde827bb9f156ec763bcb36d3384319c88007d3b0023ce953e"
+    },
+    {
+      "path": "examples/hitl/rearrange_v2/ui_overlay.py",
+      "bytes": 9659,
+      "sha256": "a851d8278dff225f9fedffb6eab22e070e8be6b87ee7d0681d166b3f508dac99"
+    },
+    {
+      "path": "examples/hitl/rearrange_v2/util.py",
+      "bytes": 1124,
+      "sha256": "97bca681f25dd7fbb26ae23d350206de5cde7a909c5a601e39ad97d64f24855b"
+    },
+    {
+      "path": "examples/hitl/rearrange_v2/world.py",
+      "bytes": 12580,
+      "sha256": "3424b8c7b8825adf50161bf3c15e42802e6a45cf4658957553ef50849c7fbd94"
+    },
+    {
+      "path": "examples/interactive_play.py",
+      "bytes": 27379,
+      "sha256": "74ad229bb8dbd42b7eeb2894b83d7d450ce597056012360a41be0bb9f7d37202"
+    },
+    {
+      "path": "examples/new_actions.py",
+      "bytes": 4921,
+      "sha256": "e82f31a9fff38cbd5a2f7295d7cbab00126baa70c4ba4cf1154e7b305c4bf001"
+    },
+    {
+      "path": "examples/register_new_sensors_and_measures.py",
+      "bytes": 4469,
+      "sha256": "0611bed789e7244ad5fcc7733b9772fa438611ac119ebb49e882f7a46058b315"
+    },
+    {
+      "path": "examples/shortest_path_follower_example.py",
+      "bytes": 2754,
+      "sha256": "6aee921c64e509c5cc346cd47933e49595bf22f4c89aefe6194eb06102cf540e"
+    },
+    {
+      "path": "examples/tutorials/articulated_agents_tutorial.ipynb",
+      "bytes": 41133,
+      "sha256": "80529f09adc522de33f43a39deec7bb0c1e2c5f64e4d6511db4e12b4e91bdcc6"
+    },
+    {
+      "path": "examples/tutorials/humanoids_tutorial.ipynb",
+      "bytes": 23675,
+      "sha256": "4bcb8723a48a26e4bb0172b8c3d8a8b2571dddf8a9faa489f4225139ffc8f18c"
+    },
+    {
+      "path": "examples/tutorials/nb_python/Habitat2_Quickstart.py",
+      "bytes": 18920,
+      "sha256": "a607932a10153cc552d25708af04d9ffd57ba78c195af3d8f7024043a77c0d6e"
+    },
+    {
+      "path": "examples/tutorials/nb_python/Habitat_Lab.py",
+      "bytes": 13034,
+      "sha256": "e03fccd1e84ff93a985da65b571943fedaf657ad13d7558d8d7eccb85208774f"
+    },
+    {
+      "path": "examples/tutorials/nb_python/Habitat_Lab_TopdownMap_Visualization.py",
+      "bytes": 10574,
+      "sha256": "8aaa636186dd0b480e0eb664303b7cfa9622eb984797cd79b10949ea88d170a3"
+    },
+    {
+      "path": "examples/tutorials/nb_python/habitat2_gym_tutorial.py",
+      "bytes": 4591,
+      "sha256": "f0c8257a1da59f52ea51da32145a1a357f5f45d7d2b5b4eaf4f07e0d6e3c41ea"
+    },
+    {
+      "path": "examples/tutorials/notebooks/Habitat2_Quickstart.ipynb",
+      "bytes": 25365,
+      "sha256": "9f333dde2bc208cd9c2d97b939acd7d1ffb2769d4974289c045344fd8e02abcd"
+    },
+    {
+      "path": "examples/tutorials/notebooks/Habitat_Lab.ipynb",
+      "bytes": 18797,
+      "sha256": "56ba9ddeadebeff97c87d2a4b4228fca3e90d604a085d064587fa3c90ca88200"
+    },
+    {
+      "path": "examples/tutorials/notebooks/Habitat_Lab_TopdownMap_Visualization.ipynb",
+      "bytes": 14271,
+      "sha256": "e5859d7f0652651e447a9d139d0236f69fee32d2b6796ce4d08b992895789839"
+    },
+    {
+      "path": "examples/tutorials/notebooks/habitat2_gym_tutorial.ipynb",
+      "bytes": 6196,
+      "sha256": "947166a49f920765dc9a13b1e7edb64059a9a2f87c71309b94358e1c91ed8001"
+    },
+    {
+      "path": "examples/tutorials/polymetis_example.ipynb",
+      "bytes": 5939,
+      "sha256": "823b7406092b0a618c5a60014e873bb177fd3cad43b47a7ceafa3cb2456f6b1d"
+    },
+    {
+      "path": "examples/vln_benchmark.py",
+      "bytes": 2524,
+      "sha256": "3129dee8d529a4e135a3fae8c8aa782b4b7b2bfbdcdbc050b804f97306327d70"
+    },
+    {
+      "path": "examples/vln_reference_path_follower_example.py",
+      "bytes": 3718,
+      "sha256": "0cd1256905817ebe1bc6699f93250498df67d3a4a02c8f4e52c2cdd28ed421a1"
+    },
+    {
+      "path": "falcon/__init__.py",
+      "bytes": 157,
+      "sha256": "d04db7b829b3f10d9e5b328ab1f9e2e1ec5c0910dfa1480d0d8ae4f221f1c454"
+    },
+    {
+      "path": "falcon/additional_action.py",
+      "bytes": 47149,
+      "sha256": "dc67a1742a5c335855181cfdaacd4297ab088d8edbe3a36a9c4dea9ddf5bf930"
+    },
+    {
+      "path": "falcon/additional_metric.py",
+      "bytes": 20928,
+      "sha256": "e670bb87f56e5901c55b003642c3ca1c419edc2b5f1afec62356a8ed3d6aad1c"
+    },
+    {
+      "path": "falcon/additional_sensor.py",
+      "bytes": 16286,
+      "sha256": "177093cceda28c8f0d64549488bbfe53fa69dfcdad8a7f3523ba6bc11d9f3aa2"
+    },
+    {
+      "path": "falcon/auxiliary_tasks.py",
+      "bytes": 11444,
+      "sha256": "229dd814f69b8d84505f099dbcbb18141a026fdcd2ff502d2bea8b8010780579"
+    },
+    {
+      "path": "falcon/rearrange_sim_v2.py",
+      "bytes": 45110,
+      "sha256": "5918354fe4835b914a52fc0c988c5c105da96b814131136a949a2cf6466f00b4"
+    },
+    {
+      "path": "habitat-baselines/MANIFEST.in",
+      "bytes": 88,
+      "sha256": "b06ec12ca0e1f22597062f7468647afb8e329a01d121e88549da7c614e21e04a"
+    },
+    {
+      "path": "habitat-baselines/README.md",
+      "bytes": 16525,
+      "sha256": "676f8df0a87dbf18e817a6f98e447efe00684c196a97192e45b23170af409445"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/__init__.py",
+      "bytes": 1221,
+      "sha256": "942f4b6fae2937d3911c65e87698b41ad418395adacd4b3dc3f121315781113c"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/agents/__init__.py",
+      "bytes": 280,
+      "sha256": "b84a8b744f7686fb58c32c354dcea7d8e44c211666a69b221a7c9551b4e75756"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/agents/ppo_agents.py",
+      "bytes": 5517,
+      "sha256": "fd9da42e72835d2c4b8e27dd1b3ee60be54e574da888dddbcffe498b51988cfb"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/agents/simple_agents.py",
+      "bytes": 4929,
+      "sha256": "321d8141a29fad75fc509b8a61cb87e06dad736299d92417f17201b8028b8dd5"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/common/__init__.py",
+      "bytes": 361,
+      "sha256": "85de1ca011eb007122e7a2d76bf3f5c95593e70e55226d3ebc8c5a83f6c05f1e"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/common/base_il_trainer.py",
+      "bytes": 3386,
+      "sha256": "7e5fbd0e7abd983ea5502ff5ec55f498a7e8baf1f8cd521e29e40fd3df545593"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/common/base_trainer.py",
+      "bytes": 11840,
+      "sha256": "db626a8d97cc02a42ce1f8808c13d38228e91c744e436ba6114efcbf0eec308a"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/common/baseline_registry.py",
+      "bytes": 5711,
+      "sha256": "aa530f0d8a976f81a4978570967290492ccae124b5d98f712708d6debce1cb43"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/common/env_factory.py",
+      "bytes": 1210,
+      "sha256": "c90304040b7da7b097e58fe075dea930eac090810672a3203d85dfd7246ce234"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/common/env_spec.py",
+      "bytes": 534,
+      "sha256": "1167daa6054e6a3fee9d4514b458b8025a5e2206f1aec8d82201d15562c22684"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/common/habitat_env_factory.py",
+      "bytes": 4697,
+      "sha256": "bc3bbec8d1427bd505b798c4b603c2dc2efc34547c8dfbe57a4087b6a1039717"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/common/logging.py",
+      "bytes": 511,
+      "sha256": "fe8331f41d7e316cb7554e0f8a2cdeba55c7238ce596702801c193e7c86bd996"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/common/obs_transformers.py",
+      "bytes": 47288,
+      "sha256": "6dae10d62a949ac93df7f633182265465e6ee7483d1ddd4db8c92238de14924d"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/common/rollout_storage.py",
+      "bytes": 9561,
+      "sha256": "f2ff32b46ff9188b03a218fba1ca79be10a3d1c027ba0ed49bccbcf0b586f5b0"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/common/storage.py",
+      "bytes": 1027,
+      "sha256": "ee5545e1f574691589f8e076f8bf6e464c3f29d47529bf7a32c33851eb9a701e"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/common/tensor_dict.py",
+      "bytes": 12061,
+      "sha256": "cde72d0290a190ed0c92df1b08c2d66ae135d69bd63b097a9add4093d9d58e12"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/common/tensorboard_utils.py",
+      "bytes": 5433,
+      "sha256": "9455a999f321dd44a1d7dd84f9ae698a6d2e89b2f66560b87b661be06386f719"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/common/windowed_running_mean.py",
+      "bytes": 2141,
+      "sha256": "09238656f6e9e1235c1b205aa7169e0637f7c1116ef4d5335172e400eca9615e"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/config/README.md",
+      "bytes": 498,
+      "sha256": "da8f482e679c3f3eb0f9ff76bbacc3468c908f5430c10538eeff55d28df58235"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/config/__init__.py",
+      "bytes": 181,
+      "sha256": "66e2c554cb7d1cdbe20aefc90c800d60bc96d357be732e3b9e6bd17705b390cf"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/config/default.py",
+      "bytes": 1604,
+      "sha256": "e43bb9385c350f46bd3956875c09109d2aa84620e9f4effc44a5ad4754755403"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/config/default_structured_configs.py",
+      "bytes": 16946,
+      "sha256": "57e2274fafb54170339727381c2cef0e49b0c8970869de59745a1bc67b873bd1"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/config/eqa/il_eqa_cnn_pretrain.yaml",
+      "bytes": 910,
+      "sha256": "fb0801a9647591211b5986c7f3b50b8d5c6f62cae7c2f25947b93b1acdd0def7"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/config/eqa/il_pacman_nav.yaml",
+      "bytes": 1466,
+      "sha256": "f7d9aff8e7b477fcfd3dc8cc17521c8b8e9e9d535c3c2df51a461882f7b628a3"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/config/eqa/il_vqa.yaml",
+      "bytes": 1172,
+      "sha256": "b4277dc0b4839aed9118ac2c9e7baed1c6f0a4ee771fd6336405a724e59578a0"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/config/habitat_baselines/rl/policy/hierarchical_policy/defined_skills/nn_skills.yaml",
+      "bytes": 1129,
+      "sha256": "f1ed988390e35cb2538ef70a874c7b0de62cfe93c9f1635c2b03266d5d7804fc"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/config/habitat_baselines/rl/policy/hierarchical_policy/defined_skills/oracle_skills.yaml",
+      "bytes": 2569,
+      "sha256": "22c5946c952cbbf03c816755c2a4e09ff3f67a97cd981e7a379634f1265bb053"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/config/habitat_baselines/rl/policy/hierarchical_policy/defined_skills/oracle_skills_human_multi_agent.yaml",
+      "bytes": 1750,
+      "sha256": "415726fecb60ac7d1319e679cd3f168991c3b8a0bca9623f923e00190c5352b5"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/config/habitat_baselines/rl/policy/hierarchical_policy/defined_skills/oracle_skills_multi_agent.yaml",
+      "bytes": 2245,
+      "sha256": "9d323f7ab3f2bc5b2528d1e338ba0d5c312fe0bc5d6c1c73130e424883bf3ce0"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/config/habitat_baselines/rl/policy/hl_fixed.yaml",
+      "bytes": 237,
+      "sha256": "0329afa0fac4c0e692c4242a866b06539a7c69e96580de511791acce81ce8de8"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/config/habitat_baselines/rl/policy/hl_neural.yaml",
+      "bytes": 660,
+      "sha256": "151fb8587db5eb04ed3b0547cbe825d46b92baa9c5d9e582319823412698897f"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/config/habitat_baselines/rl/policy/hl_neural_multi_agent.yaml",
+      "bytes": 615,
+      "sha256": "921a92eb573c60d667449003a2317d1ffdee6627d36d3386eb8c30941c834398"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/config/habitat_baselines/rl/policy/hl_planner.yaml",
+      "bytes": 822,
+      "sha256": "6c34c4f696f7b99d972fa542207c069c8969cf4f4810b30446c9164dfbf6d8ff"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/config/habitat_baselines/rl/policy/monolithic.yaml",
+      "bytes": 99,
+      "sha256": "63b35a18f03df98ed538dfdc8a48f4e113a4b408a2dcbff73f2365878dde4728"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/config/habitat_baselines/rl/policy/single_fixed.yaml",
+      "bytes": 19,
+      "sha256": "26a87635b76e6d95399a44b9bb303f47f92e2a24e1084b994b99f39b3b603640"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/config/imagenav/ddppo_imagenav_example.yaml",
+      "bytes": 1820,
+      "sha256": "78dec4a697271fa0b9d5b3d97b7c863ca5706d1bef8e49f99910e170d7f98ceb"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/config/imagenav/ddppo_imagenav_gibson.yaml",
+      "bytes": 2048,
+      "sha256": "5af914e44051f810173b279474d3a0bf678d824fdcd2e17ee4c54702c60e4c5c"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/config/imagenav/ppo_imagenav_example.yaml",
+      "bytes": 1045,
+      "sha256": "09a74fe2f806a41a96e0ae6363e7d9eefd60210accff16a30683f773cce4acb3"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/config/instance_imagenav/ddppo_instance_imagenav.yaml",
+      "bytes": 2340,
+      "sha256": "2ef5c0c08a692406e76f9b748047096e85ab8306daa2be9f13ff2bd5577e622c"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/config/objectnav/ddppo_objectnav.yaml",
+      "bytes": 1916,
+      "sha256": "d81be432517bb3c1de74dbad89a438421fc1c5154f782c26985cacc1b0a1951a"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/config/objectnav/ddppo_objectnav_hm3d.yaml",
+      "bytes": 2204,
+      "sha256": "0b3bf618fb2d4b344888ebfda049ff5a85817a95c648aec0ef06a9c4fa2d889c"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/config/objectnav/ddppo_objectnav_hssd-hab.yaml",
+      "bytes": 2208,
+      "sha256": "27151a87acf00ae06f628dcf910366bbffc4d25b4394c46edcd3e705436ac849"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/config/objectnav/ddppo_objectnav_procthor-hab.yaml",
+      "bytes": 2212,
+      "sha256": "b4e073645dd1180fd5e44cb10f911540e4e399e3fbf45d6e379a46934162f59a"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/config/pointnav/ddppo_pointnav.yaml",
+      "bytes": 1984,
+      "sha256": "b8b443ace3e48556e500260606b96390963a84ecdb1e23253918348bf9b3077a"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/config/pointnav/ppo_pointnav.yaml",
+      "bytes": 1426,
+      "sha256": "612cb620bace41ca3659a7927aa0bc7b25715dc9ff9ce2d01a01b29c04aa2290"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/config/pointnav/ppo_pointnav_example.yaml",
+      "bytes": 1261,
+      "sha256": "dba023d78bb7e0b965083ae80580ed1f41cb48077d60dead4f027a36c1a65353"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/config/pointnav/ppo_pointnav_habitat_iccv19.yaml",
+      "bytes": 1472,
+      "sha256": "c924b9cfee6a7735f9d7f6e9bf45fbe381f2c0a2e0cced99f96821b3f116826e"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/config/rearrange/rl_hierarchical.yaml",
+      "bytes": 2585,
+      "sha256": "4b8f73ea16d49f63b897aa215ad009c8a4c11c52cce28ed2698dc58811a7749b"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/config/rearrange/rl_hierarchical_oracle_nav.yaml",
+      "bytes": 1232,
+      "sha256": "0ea7e014ef54c280d8238357f7136211939146b117530006b78284672aec2e21"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/config/rearrange/rl_hierarchical_oracle_nav_human.yaml",
+      "bytes": 3700,
+      "sha256": "bd34a31f9e61fd81010fb2d83ce1040f922447645c8f09f7a31a2eef5b9da797"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/config/rearrange/rl_rearrange.yaml",
+      "bytes": 2250,
+      "sha256": "b4af449e7dd0bff4b0d6833c8569e2862ca133b17dba5f7e6529dc316b81534b"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/config/rearrange/rl_rearrange_easy.yaml",
+      "bytes": 2255,
+      "sha256": "22a0eec6ab2669e99284f6d583b7894545b07c44abc1a9ecba8dc41363dd4727"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/config/rearrange/rl_skill.yaml",
+      "bytes": 2443,
+      "sha256": "475051e230b754f3019fa101eb07d6d468fec84f45a7cbedd850e5f41aab33f4"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/config/social_nav/social_nav.yaml",
+      "bytes": 3926,
+      "sha256": "0ea5218809ab503ec5a76b28c8e8cf778a81d83ab5eb0d6f49f4daf535ad5342"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/config/social_nav_v2/astar_hm3d.yaml",
+      "bytes": 6511,
+      "sha256": "cee19782c3304ba7f00364b923500ab9b19fb16f8ce8c9930286a7ccd258f494"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/config/social_nav_v2/astar_mp3d.yaml",
+      "bytes": 6510,
+      "sha256": "0dd077211a4f2baa77d215f5ec41b29628a02373a887cd50e7f417aecd37af0a"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/config/social_nav_v2/falcon_hm3d.yaml",
+      "bytes": 6546,
+      "sha256": "1c9b3a903bc682054ad7afab8bac8ed41f1535740bb35ae20fd24f14a910e092"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/config/social_nav_v2/falcon_hm3d_mini.yaml",
+      "bytes": 6000,
+      "sha256": "66176d898fcdcbc22d31b7fa9dfbe3ad478d36b5fde67310d266902cff440870"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/config/social_nav_v2/falcon_hm3d_replay.yaml",
+      "bytes": 5812,
+      "sha256": "770730141763b16f9091f94dded98d2e42f4e45fd14dff75c3ef4c489a8aa90e"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/config/social_nav_v2/falcon_hm3d_train.yaml",
+      "bytes": 6813,
+      "sha256": "ce5203e00d10cb8521dd27f417d82e77dcbed2ebe3343c82623728ae1eb9562f"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/config/social_nav_v2/falcon_hm3d_train_mini.yaml",
+      "bytes": 6809,
+      "sha256": "a55c262339ab4aabf2b8121e3c00efa08dea94b46f688c4655247b6fcd6b26d2"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/config/social_nav_v2/falcon_hm3d_train_resume.yaml",
+      "bytes": 6872,
+      "sha256": "f62f940e1b193240b1bd8f632e40ec75d97b3185615eb9c38161a0b26a150c94"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/config/social_nav_v2/falcon_mp3d.yaml",
+      "bytes": 6323,
+      "sha256": "3382d53aa0fd6e0201017243f4364523b4162156e87a47d007a977b0c54dddf6"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/config/social_nav_v2/orca_hm3d.yaml",
+      "bytes": 6542,
+      "sha256": "f246bfc0da86a603158ea2a009adea91ecb7ee0b6c4f9cbc405d17d136f047d1"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/config/social_nav_v2/orca_mp3d.yaml",
+      "bytes": 6541,
+      "sha256": "8006df16782fdf92339c8807923d75869a5403a98925c3610ae60ded09ad0085"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/config/social_rearrange/plan_pop.yaml",
+      "bytes": 5509,
+      "sha256": "1f99c0866df4eeba9a4300b1a9ec177c5b3d903eb56e2c019f8efa04624b0293"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/config/social_rearrange/pop_play.yaml",
+      "bytes": 4584,
+      "sha256": "ce93a220c89b43e42a793b086ea840c4ea83d84f350c9a7523f0741336afed61"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/eval.py",
+      "bytes": 5661,
+      "sha256": "92d99ce6ba49001b1cf0acd89f6778f6e9ef3d403059205d557ae3f537cb0fd3"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/il/README.md",
+      "bytes": 5509,
+      "sha256": "c2d1156acbdbb45c4612b4e14ff8ac73eff5a1cfabf34c51bc8f2e2e9185e65a"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/il/__init__.py",
+      "bytes": 205,
+      "sha256": "e1ef9e48d7724c9ddc982349eab3cc1af56f720448562b2440be2c69b810ec26"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/il/data/__init__.py",
+      "bytes": 205,
+      "sha256": "e1ef9e48d7724c9ddc982349eab3cc1af56f720448562b2440be2c69b810ec26"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/il/data/data.py",
+      "bytes": 9286,
+      "sha256": "7b67af3cbc1023c14f3f82c94aab886d51f117f401a80877e49697763fc34d5a"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/il/data/eqa_cnn_pretrain_data.py",
+      "bytes": 6001,
+      "sha256": "77eea5f1a086a9f6473262a230537f6650fac907084cb2546b4d96a83607bcf3"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/il/data/nav_data.py",
+      "bytes": 19190,
+      "sha256": "ab8b4ccc56c20426a2e4509bf9ca165442dac72606e0558a29f364aada33d7ad"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/il/metrics.py",
+      "bytes": 3620,
+      "sha256": "577814cc90c999f9bbc05c03142af305e02abad765c3f013e1db80d768a6869f"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/il/models/__init__.py",
+      "bytes": 205,
+      "sha256": "e1ef9e48d7724c9ddc982349eab3cc1af56f720448562b2440be2c69b810ec26"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/il/models/models.py",
+      "bytes": 23402,
+      "sha256": "6a1353c98be5f190b73aedd7339131c6a36f1a97c4b3240fcebc4d7cfe6e6d99"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/il/requirements.txt",
+      "bytes": 30,
+      "sha256": "c9f9e46a8eb05f27bb2084e54de98ee44fd4a2646b332f4e925a84f3e01640e3"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/il/trainers/__init__.py",
+      "bytes": 205,
+      "sha256": "e1ef9e48d7724c9ddc982349eab3cc1af56f720448562b2440be2c69b810ec26"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/il/trainers/eqa_cnn_pretrain_trainer.py",
+      "bytes": 9920,
+      "sha256": "4280a6aefd4a30a3e0e71fce04897ed0db717f450d19d6f4fcf606d13f0e3cd1"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/il/trainers/pacman_trainer.py",
+      "bytes": 26464,
+      "sha256": "391c3ea2f511d5db969a83f59696fc45ad1e3997f4ad7ecf069ca9aba1ef24d4"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/il/trainers/vqa_trainer.py",
+      "bytes": 14516,
+      "sha256": "5f27bfd4a105523fdadd77af2959b3afe2899a7be775f7156b3b8e374459b860"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/py.typed",
+      "bytes": 79,
+      "sha256": "a7b0b0f3e3add3a2de61a45886ee2af2ca44c3bcd0c70004556c54624b21b773"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/__init__.py",
+      "bytes": 205,
+      "sha256": "e1ef9e48d7724c9ddc982349eab3cc1af56f720448562b2440be2c69b810ec26"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ddppo/README.md",
+      "bytes": 4459,
+      "sha256": "04bc20d7f18fce0099fadcfb84055a0036c3e485b4bea54f44aeb2853648bd7e"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ddppo/__init__.py",
+      "bytes": 205,
+      "sha256": "e1ef9e48d7724c9ddc982349eab3cc1af56f720448562b2440be2c69b810ec26"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ddppo/algo/__init__.py",
+      "bytes": 262,
+      "sha256": "61206b809137e6458754c12c0940d6a9f5bf44d62ecc5de135ed7aa6e0a290bc"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ddppo/algo/ddppo.py",
+      "bytes": 5451,
+      "sha256": "6aedde003667339e27479f11dddb3ebee9cedd85b730083a803e9d4827ed7fc1"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ddppo/data_generation/create_gibson_large_dataset.py",
+      "bytes": 3209,
+      "sha256": "a5c6922fec8e7ba1283031b8ddd62b6cafede9468a54310ae722020f683ec26b"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ddppo/data_generation/gibson_dset_with_qual.json",
+      "bytes": 144565,
+      "sha256": "3e84558b0633d58ac30ea11b964a88313857a59e5f1dac0299c1f54251f1f3a9"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ddppo/ddp_utils.py",
+      "bytes": 14546,
+      "sha256": "ef527e7f8716ac2d3987b6d5c618bbfe6249132ad8f50b843373963c9a161b34"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ddppo/multi_node_slurm.sh",
+      "bytes": 721,
+      "sha256": "76a9cfa60bd41f12fa52f577745c318271843f19ccb1e23034c072ded2f61ad8"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ddppo/policy/__init__.py",
+      "bytes": 485,
+      "sha256": "8bfff1a1d6bbdd048be7d0490e530775051aa2f70d2d71918bedf946fafc1293"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ddppo/policy/astar_policy.py",
+      "bytes": 6778,
+      "sha256": "8c9f537b9e479ffa3c379397b7f4012cd0cc2dfd3ced36ec05cd8278d43a9aed"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ddppo/policy/fixed_policy.py",
+      "bytes": 4386,
+      "sha256": "6a3959342f61af1069859e721da68856cf452bc43ac77276ae7104851ebbf084"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ddppo/policy/orca_policy.py",
+      "bytes": 10398,
+      "sha256": "627b70eaad776098869fa4052133c61a764d590bda723c3564629d4359f4e3b9"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ddppo/policy/resnet.py",
+      "bytes": 8222,
+      "sha256": "22ed5401b4654521c49bbde3bc7654122bbc33fb84b75978ae0624a9f16ed3c5"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ddppo/policy/resnet_policy.py",
+      "bytes": 27393,
+      "sha256": "080fd03ac9171542b3a6bd767be1ff3708db2d8248cadaf84708bbdea0c85cea"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ddppo/policy/running_mean_and_var.py",
+      "bytes": 2891,
+      "sha256": "b8027f92b1b48a8ac7399783cc1fdc079333792b41ac9cca6bbc13ffe6a18a65"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ddppo/requirements.txt",
+      "bytes": 6,
+      "sha256": "95c274cd9dc6d4b401bcfe552dd4aae2e367bc52f1736130c269a1cf9e7e0d17"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ddppo/single_node.sh",
+      "bytes": 412,
+      "sha256": "374cd08bf437450ba4012108d60219f08dae639dc445b2fc40dbe62c6e60378f"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ddppo/single_node_astar_hm3d.sh",
+      "bytes": 526,
+      "sha256": "70722f1d44e082a99d9e89723c6419a525cf97eb3ef53b524e754e022b5e55a8"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ddppo/single_node_astar_mp3d.sh",
+      "bytes": 525,
+      "sha256": "08702fc6bccff69037009e96bc5732532d66f071a5c76bd5f33ef97b93622f9e"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ddppo/single_node_falcon.sh",
+      "bytes": 810,
+      "sha256": "cc97f2bec64ef7558bf8e3bbc994a930d4b43a02b2971d45f73719d512308013"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ddppo/single_node_falcon_mini.sh",
+      "bytes": 820,
+      "sha256": "d4c243155fe0c095ab8ac5607086e2edb15cb62d2f8bf7b0069d93fb76442d43"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ddppo/single_node_orca_hm3d.sh",
+      "bytes": 518,
+      "sha256": "62e3c076f6f5013c59d03479e7d86f8c81c75aaf889bb9f737d6f683ead09489"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ddppo/single_node_orca_mp3d.sh",
+      "bytes": 518,
+      "sha256": "64aaf964f367e263e99bc20d94e31fb63f8ecb1918e7f89e1271059bfe16f772"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/hrl/__init__.py",
+      "bytes": 387,
+      "sha256": "ca956279316305ae940d848959eb8c4b6153c847d466289ad8cc93a837df7513"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/hrl/hierarchical_policy.py",
+      "bytes": 25082,
+      "sha256": "314efab98a288bb4ea6034a8bb84f924c46a21c1e20cc0cacaa0a0142ecb7d5e"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/hrl/hl/__init__.py",
+      "bytes": 427,
+      "sha256": "c9ff6ab30ddc7f96be2e9aad4a9077a96cc07c0d4c5dd9da632ac8f8faa2baef"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/hrl/hl/fixed_policy.py",
+      "bytes": 5705,
+      "sha256": "b6100d9a1120c11fd70da31354f884d7394ccd24e5313b07ad8993e38e199652"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/hrl/hl/high_level_policy.py",
+      "bytes": 5548,
+      "sha256": "aae6353f953f500af9777110cba6980d2b83650d4d11664ea498d3816fe27df4"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/hrl/hl/neural_policy.py",
+      "bytes": 8183,
+      "sha256": "54029a10976de6d1ef9405227a2a6290518b495a042bc393d19b8a8801a011ed"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/hrl/hl/planner_policy.py",
+      "bytes": 12689,
+      "sha256": "333b1d9dcf63ba86f96399a3f51e9fd44c94cc24ac07f0e8553abdd1fac50946"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/hrl/hrl_ppo.py",
+      "bytes": 4431,
+      "sha256": "111cf3fbe3492c2edf352c74280bdc2dca5208c78d115d57b40a6d0e860233c7"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/hrl/hrl_rollout_storage.py",
+      "bytes": 8820,
+      "sha256": "901f514bf3d52c197b701b418dadc03a34fe93d13bf34caf883b794f1330bed9"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/hrl/skills/__init__.py",
+      "bytes": 1397,
+      "sha256": "d86bb516b5522cabdb86f15499280cb9c72561f8351cfbf48bd49a477c144f60"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/hrl/skills/art_obj.py",
+      "bytes": 2301,
+      "sha256": "5bce10c4f96dfb38bda9f31683877c1c1e0db38319f6c4ba2d8ae1b211509d63"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/hrl/skills/humanoid_pick.py",
+      "bytes": 6102,
+      "sha256": "ce61e12a5d0f4a336d9d181005bbf3e8cd511b1e41524c2d0f0269da61296d18"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/hrl/skills/ll_nav.py",
+      "bytes": 1257,
+      "sha256": "5d068ec3f96d8119028877ff554c0f4ac5a4127fbc1e3e650a6e25f69ce94c0f"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/hrl/skills/nav.py",
+      "bytes": 2729,
+      "sha256": "1e1c90e42584312c5b8909adb36fd4122f3ece05eb547d41746a401eed4690b9"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/hrl/skills/nn_skill.py",
+      "bytes": 7627,
+      "sha256": "a211bd810a5f062e7e1b23f1ea78233b8bc40a4debef2d6c81089bce17728567"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/hrl/skills/noop.py",
+      "bytes": 980,
+      "sha256": "737a0113f8692cd1c64660d73ba5b9cb54aa84b8d9b8dbd36cfb5706bcd3893f"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/hrl/skills/oracle_nav.py",
+      "bytes": 7494,
+      "sha256": "3c8b380499ba761e9efb993b2c644315d22d098d6c360e83d33131d83acaaad8"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/hrl/skills/pick.py",
+      "bytes": 2145,
+      "sha256": "8e5a8fb2077a9bb3a98176832463e5e06d781329ad77a395105fabfb06bcdd98"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/hrl/skills/place.py",
+      "bytes": 2036,
+      "sha256": "568fc0177171743922fbeca0f27c7db120fdb98df28de917b986ec266b265b89"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/hrl/skills/reset.py",
+      "bytes": 3070,
+      "sha256": "7445bfd3d9d1a8492b5017e3d56d5866de6445122f590d5f023b114df703fdfb"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/hrl/skills/skill.py",
+      "bytes": 12116,
+      "sha256": "1afc4bb27b5af4730afdfd8e8ba092ff4cf7a3252554a2e8ef05501c917b0b76"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/hrl/skills/wait.py",
+      "bytes": 1440,
+      "sha256": "ddfa66937cc4da6e662a6058e6a72b7c209d14d93ffcff3a096b89e5fa4d4fd4"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/hrl/utils.py",
+      "bytes": 937,
+      "sha256": "07fc0a90e7193cb9b389ef0b53bc4950009f98c2a628c2a54740cbda3923abd9"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/models/__init__.py",
+      "bytes": 181,
+      "sha256": "66e2c554cb7d1cdbe20aefc90c800d60bc96d357be732e3b9e6bd17705b390cf"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/models/action_embedding.py",
+      "bytes": 4610,
+      "sha256": "857f60a51be2f70985b1e6a1f3d9e974ef66e9ba0ef10cb587331093f39ee7e7"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/models/rnn_state_encoder.py",
+      "bytes": 14957,
+      "sha256": "811da41665b43e75ceafed4f8e1c1a7ba7d678161f0758f45c3ccfc83c7cdea4"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/models/simple_cnn.py",
+      "bytes": 5488,
+      "sha256": "b6f8938c3a496e21e6ac409c0b0688c492a0f0fb31d705217bcc5cf46b77bc18"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/multi_agent/__init__.py",
+      "bytes": 97,
+      "sha256": "2039142f27ea7144a1cfd80c4e00c626c23273d5ac276c1fdbff48c1f18e0f94"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/multi_agent/multi_agent_access_mgr.py",
+      "bytes": 15159,
+      "sha256": "4e4e09cfac0122bac524c59fc364d10774742297c91873e013d9faf6bdee292a"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/multi_agent/pop_play_wrappers.py",
+      "bytes": 21884,
+      "sha256": "084aeb0d680669e314ccfc2d8509a11aa64a243075ad4ec1a6a799f39f255ea3"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/multi_agent/self_play_wrappers.py",
+      "bytes": 2854,
+      "sha256": "4ac508131acbaf5f1a16c52064605a4842ef33d3f7893d880f6b95ca48065e7c"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/multi_agent/utils.py",
+      "bytes": 1038,
+      "sha256": "eeedbfce1b277e67faff5c0b0af4deeebd14e712d45917f1b30ee1fe0fd592ec"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ppo/__init__.py",
+      "bytes": 528,
+      "sha256": "4647787c671df6e9ed2312a71888da106c91d666e506b4e75213355fddc40920"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ppo/agent_access_mgr.py",
+      "bytes": 3407,
+      "sha256": "c1ebbcea38a4ea204ebf932dbb04ba7c27c3f182c149b41ab7c5783c3e8e80ec"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ppo/belief_policy.py",
+      "bytes": 22178,
+      "sha256": "ed62156a0ce9288985ff615d75df4718ca44ca5d86760c8e6c8973d9d5ccb4e0"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ppo/cpc_aux_loss.py",
+      "bytes": 11533,
+      "sha256": "483806b106a97775d2819eac3c7348c0c946343a4a3ff91677c1a902f1271fe2"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ppo/evaluator.py",
+      "bytes": 3178,
+      "sha256": "1ae3542bb67088851370a81ee4f2b9f0c883cf36e0e53761c152f29f65c6aa6b"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ppo/falcon_evaluator.py",
+      "bytes": 16571,
+      "sha256": "d8bde7a4ed64917571f9125862e9446220a6576d3467e48159f78cfea47375bd"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ppo/falcon_trainer.py",
+      "bytes": 36168,
+      "sha256": "d7916d7b2d60f1c47675564a026c9ada2a478ba0b89db8bc3706dbe896266d4e"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ppo/habitat_evaluator.py",
+      "bytes": 13599,
+      "sha256": "a0016b89ee4064a724fe896224dfc3035831f053aacd32d7a4a491d29a5a5c33"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ppo/orca_evaluator.py",
+      "bytes": 13819,
+      "sha256": "0d4377e09fc297134790f889d41cea2044bb0e653720c7415837522ca79dc605"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ppo/orca_trainer.py",
+      "bytes": 36801,
+      "sha256": "932ed0ec50105c4f3e681b15fbd626e12e37d7ecbc78918251ec1d62ea47d07b"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ppo/policy.py",
+      "bytes": 18304,
+      "sha256": "2b0f404d6c5ca8a723cdfc67373101f4de46fed60164cd40f934ae0ba3678ac9"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ppo/ppo.py",
+      "bytes": 15820,
+      "sha256": "dc0cdbc7342f106698173c51f22fab1068e91547849f4944dfd8a84a5ff7dab1"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ppo/ppo_trainer.py",
+      "bytes": 33486,
+      "sha256": "103a67c6fbf43de55aaff72dbc2fdb035c42d9c9d944ad4da9dc04f951c5efcd"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ppo/replay_evaluator.py",
+      "bytes": 14278,
+      "sha256": "7056a33fa13a96f2e25122ed54d8d7eaf3877bf98d6a7277ab767d174d389e16"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ppo/single_agent_access_mgr.py",
+      "bytes": 12756,
+      "sha256": "b0442f981b7153945db221c2b647e5173eca815d0588ce5c281bc7357b2071fc"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ppo/updater.py",
+      "bytes": 732,
+      "sha256": "3fef63a3304ad9adf54c9191b7a0e4bf7d9ca92669491dd6dc1041acac8c0bbd"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/requirements.txt",
+      "bytes": 76,
+      "sha256": "ac70f5236269597011662faaecc670aefc084a0e92de61783dd11e7048afd7e0"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ver/README.md",
+      "bytes": 3698,
+      "sha256": "9af1e03934ac6293a1b25f99aa40d266cbcedf232a65e91a9921a877eada3508"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ver/__init__.py",
+      "bytes": 205,
+      "sha256": "e1ef9e48d7724c9ddc982349eab3cc1af56f720448562b2440be2c69b810ec26"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ver/ci-requirements.txt",
+      "bytes": 40,
+      "sha256": "c8782a7c21ba253d5ce25596be6900651b51eb4b8a7de6c6d44faefa156b3b9d"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ver/environment_worker.py",
+      "bytes": 10806,
+      "sha256": "1463ccfaadbd002b3b7614a1b93204b6e47fb5a223c39c9011070dccb752cffe"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ver/images/ver-system.svg",
+      "bytes": 12602,
+      "sha256": "daad360e81c0911f401c450c9207f97d70284801d56d4a8431704f473fe924a3"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ver/inference_worker.py",
+      "bytes": 20944,
+      "sha256": "7816e83e55cefbe768b35267d8ad50bb9f0f058e04c5f809f5c42ebeefbd811f"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ver/preemption_decider.py",
+      "bytes": 14349,
+      "sha256": "a56252b99b7d6df330d4b0a9bf7aef2bf606cffbaf5eba67feec8ba463458852"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ver/queue.py",
+      "bytes": 1708,
+      "sha256": "bc32616ce2d3a214aa14e5e64c61a95525232779f2fbc6f52df5302bd029629f"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ver/report_worker.py",
+      "bytes": 14483,
+      "sha256": "1e4fe4ba213ee83416f68d4608efd7ac0295b3284ab3e0ee6a7e9a1b2d2bf74b"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ver/requirements.txt",
+      "bytes": 40,
+      "sha256": "20c73ca65b594d8504610d54a114f1df146b0d8123e883d17c296423817caa13"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ver/task_enums.py",
+      "bytes": 1192,
+      "sha256": "b9aa45a17086ea4830444dde125ba1827dd21c0dd835d77c85db0dcf82fa959f"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ver/ver_rollout_storage.py",
+      "bytes": 23285,
+      "sha256": "49e2122a189277fc8091e3469914f1498d3070c08afd08cb5a4c7fe0c5a72742"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ver/ver_trainer.py",
+      "bytes": 20606,
+      "sha256": "8c9fa8761fa88e945fad0af79c67418e481b4c5fc3d5018a15719e2cc3daa7bb"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/rl/ver/worker_common.py",
+      "bytes": 6394,
+      "sha256": "9c5ff41201b200511b3d98244bdea4e94a002b6ea4bdfc02ca57bdf5fd7f7f08"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/run.py",
+      "bytes": 2715,
+      "sha256": "42393dbb02525e48a5c1f87a36180b2e27ef9a6d1193439c5ab9d987666a0b5b"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/utils/__init__.py",
+      "bytes": 258,
+      "sha256": "4e4f90558853aeecd435a8151884cf71536f3ac87849fa9014f93fe141ec2510"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/utils/common.py",
+      "bytes": 25888,
+      "sha256": "c3e1b658be6206c66142d17069c574e4fdbd139c9d8766ff649dc218d13d5a8d"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/utils/info_dict.py",
+      "bytes": 2201,
+      "sha256": "211973b258909547267d4ec57077d88326364dc0b31d18ceb94fab6edbe35e94"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/utils/timing.py",
+      "bytes": 3157,
+      "sha256": "64c4f05d1d42484f70cc227d4ed4e724ac5a36de8b7197b5287040d64f1cd97b"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/utils/visualizations/__init__.py",
+      "bytes": 284,
+      "sha256": "091c832612e3de4e669dc3f28731b46789e4bf42f286a8474975231b7e97db27"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/utils/visualizations/utils.py",
+      "bytes": 4174,
+      "sha256": "8b07e6c61ed75242ade40c1d850eaa6c3f89d02db8da21a26a7cfe1b68d22429"
+    },
+    {
+      "path": "habitat-baselines/habitat_baselines/version.py",
+      "bytes": 224,
+      "sha256": "7835904fdfe43ad6f9bec5fe06fd9198a90f4684608d55f82d24069bbb8fd384"
+    },
+    {
+      "path": "habitat-baselines/setup.py",
+      "bytes": 2558,
+      "sha256": "e516e9e026c58d3b3c513a805dcbd0f7351a8191614a5c6ec13db16c57b0ed9d"
+    },
+    {
+      "path": "habitat-hitl/INTERNALS.md",
+      "bytes": 3479,
+      "sha256": "da50f1b9349cbe64f3d96e57e6ddd9253d5fa86931c3b4478628da8b75f1312b"
+    },
+    {
+      "path": "habitat-hitl/MANIFEST.in",
+      "bytes": 81,
+      "sha256": "f3e25042083a9dd343588d68c955e8613dac94bb56e6c13c6d1f0f62507b2d85"
+    },
+    {
+      "path": "habitat-hitl/README.md",
+      "bytes": 7549,
+      "sha256": "e342da277d31fd655847eb11bff9247b3497e7149be61c3b9c8d750ec36da629"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/__init__.py",
+      "bytes": 276,
+      "sha256": "8f066dc8ec2623c0700832075c364f4e4d8f7e420cbc4ed9b601ea7a4d4c4f00"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/_internal/__init__.py",
+      "bytes": 205,
+      "sha256": "e1ef9e48d7724c9ddc982349eab3cc1af56f720448562b2440be2c69b810ec26"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/_internal/config_helper.py",
+      "bytes": 5568,
+      "sha256": "9dfb66285ad3536ba072bb067f9ac9c93175889ba98c91f156dd31679ff6ef37"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/_internal/gui_application.py",
+      "bytes": 7263,
+      "sha256": "d58e7abddeb52767b03aca6cea55da661eb3457b809f82da0f50581d14291a37"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/_internal/hitl_driver.py",
+      "bytes": 22494,
+      "sha256": "dc3da405057b3c79f87acee17f9dec629f57dd7c4f9c8cedac9ea9490ce532ea"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/_internal/image_framebuffer_drawer.py",
+      "bytes": 4829,
+      "sha256": "5662d47777ecb0f3df7eca6e7aa8348ae52ceb397368223e2dba462109ae016a"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/_internal/networking/__init__.py",
+      "bytes": 205,
+      "sha256": "e1ef9e48d7724c9ddc982349eab3cc1af56f720448562b2440be2c69b810ec26"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/_internal/networking/average_rate_tracker.py",
+      "bytes": 1300,
+      "sha256": "d2f261d7d70e32bad7e8477406f33f4376431d8152bebb4a33a51db2e9a1450e"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/_internal/networking/frequency_limiter.py",
+      "bytes": 1634,
+      "sha256": "0c54bde4e2841ba9823a5ac9d7f52547dcad0f743bf06ac3e76bb1d20a9e6e59"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/_internal/networking/interprocess_record.py",
+      "bytes": 3912,
+      "sha256": "ff4a9708065d2b2f44d48eff2e0cc01528a344c8700a8df4cd6ca4b5dabe5141"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/_internal/networking/keyframe_utils.py",
+      "bytes": 7588,
+      "sha256": "f38bc1f34e9b3dfa3a12137fec760af38ad9bc12a9bbd9a18a508949090e09d5"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/_internal/networking/networking_process.py",
+      "bytes": 25537,
+      "sha256": "f3b4f651d41635cc6aab1465a322f1cd5a03b559b81144425a8d8827a68c0867"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/_internal/replay_gui_app_renderer.py",
+      "bytes": 5069,
+      "sha256": "0c8d721d222d9a3df628e66856088eb05ebdfc4e8d6edb8345723ad6916a6f20"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/app_states/__init__.py",
+      "bytes": 205,
+      "sha256": "e1ef9e48d7724c9ddc982349eab3cc1af56f720448562b2440be2c69b810ec26"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/app_states/app_service.py",
+      "bytes": 4627,
+      "sha256": "7ccdfa63af1f333b7b89130f63458eda46771b7c54563ad455583f7341c80d41"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/app_states/app_state_abc.py",
+      "bytes": 1498,
+      "sha256": "cb843aeab31b607adc46e4b09c8e6088217c799ad5a19ac589cea55a7e506c32"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/app_states/app_state_tutorial.py",
+      "bytes": 3235,
+      "sha256": "8b96a5040d3d3c63d9dc32aeb9bf013c1b59f9d789573841bcefdb822e813594"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/config/__init__.py",
+      "bytes": 205,
+      "sha256": "e1ef9e48d7724c9ddc982349eab3cc1af56f720448562b2440be2c69b810ec26"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/config/hitl_defaults.yaml",
+      "bytes": 8088,
+      "sha256": "d71234b88df8819fd4a2a0800e509131b7449a5736f314c2674908eefb4d87a7"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/core/__init__.py",
+      "bytes": 205,
+      "sha256": "e1ef9e48d7724c9ddc982349eab3cc1af56f720448562b2440be2c69b810ec26"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/core/average_helper.py",
+      "bytes": 1162,
+      "sha256": "4d8d58ce919d76ec7d2dc1ffa4e5d1de9ef7d219e12c73fc519508f6a54e23f4"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/core/client_helper.py",
+      "bytes": 6334,
+      "sha256": "cd4b1cfbad0eba24130a8ee29ad1e8415868205c7e237cd14da3337f2d602c32"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/core/client_message_manager.py",
+      "bytes": 14870,
+      "sha256": "4019a4468a360d1ea6ca806eaaff3dd27f705f8172d25c446ab69b2b14a1290b"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/core/debug_video_writer.py",
+      "bytes": 1763,
+      "sha256": "d095c2c61527b42f23760b9296f7225766d637c0b5823963b03d50f5a3d7ead0"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/core/event.py",
+      "bytes": 526,
+      "sha256": "c1159ca50fe2fc9c8730b552215ac2429b22a023017267fa731bc1b2f2b54db2"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/core/fonts/IBMPlexSans-Regular.ttf",
+      "bytes": 175748,
+      "sha256": "852def7e24f7b71bab6e8a5c9b02b203e45b0ef59697feaf116e7e8091ad7a2a"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/core/fonts/ProggyClean.ttf",
+      "bytes": 41208,
+      "sha256": "527d2a443ce051f93f7e77b855609722b8cb220a9f104b4aa037be5c90b71324"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/core/fonts/README.txt",
+      "bytes": 4723,
+      "sha256": "7f924bfe755bb6dcc4d3cdf758dc2596386b3d98ac35ad6dff4402c5cc59594e"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/core/gui_drawer.py",
+      "bytes": 9904,
+      "sha256": "ad0087daab9168b1fc1854328979c8db21ebea5091a5d300a5c0feab529ae8f5"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/core/gui_input.py",
+      "bytes": 4216,
+      "sha256": "b8c5353f21cfdd1bc825cf953a8d955e8d48be53b198f65d5e65a0c3df3263c6"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/core/hitl_main.py",
+      "bytes": 7555,
+      "sha256": "99fe165eb7b9ff69426e57f594f8cb6cf228399a3ddeea99d5a1ccf5979b0d88"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/core/hydra_utils.py",
+      "bytes": 2266,
+      "sha256": "80b7e2d9879467928709934d58f9b907f764f131d5bdede49cffce661fd596f8"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/core/key_mapping.py",
+      "bytes": 5837,
+      "sha256": "cd63f5393f87d4e94f570d9adbdedb19f43d6b8b83ce99d4c5d8bf997cadc874"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/core/remote_client_state.py",
+      "bytes": 20556,
+      "sha256": "504b0cf6defcb6c077946b5d50f8aefe432b4e5c6dd9bd13faa37805d1b90033"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/core/selection.py",
+      "bytes": 4310,
+      "sha256": "fb76501cdbb78b6eadaec50b7c82321813407341fe6c497b84c984380e0a355e"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/core/serialize_utils.py",
+      "bytes": 4655,
+      "sha256": "932df82c58813a80ac54756e6d53008475c0fb945c01155bb5074b2b20f7d4c2"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/core/text_drawer.py",
+      "bytes": 8033,
+      "sha256": "e3006c6486082288153612f7d8bcd029ebb815af1268917468b003c995297830"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/core/types.py",
+      "bytes": 1061,
+      "sha256": "4b94032c9c5caa1ec00b3b9dc9c9ef7ca948bde35b0ca1747814c143d161fb56"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/core/ui_elements.py",
+      "bytes": 13156,
+      "sha256": "ed010e2670a8bae9980580293e70d37545f979e2e189ea1de3b2da0bdef78dde"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/core/user_mask.py",
+      "bytes": 3543,
+      "sha256": "e911f922d859d8892cf5d6c3e3705d4de35df5b5a3c55d4a742b54655575d8a6"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/environment/__init__.py",
+      "bytes": 205,
+      "sha256": "e1ef9e48d7724c9ddc982349eab3cc1af56f720448562b2440be2c69b810ec26"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/environment/avatar_switcher.py",
+      "bytes": 6252,
+      "sha256": "2c1c05734382f6cfc8d2905a8037a26e6ed30d1774c4722a2301830e5244fd4f"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/environment/camera_helper.py",
+      "bytes": 6892,
+      "sha256": "0048793cb40b62e45b8733f97713cef3311d616561ad11265f6a09f172beb3e5"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/environment/controllers/__init__.py",
+      "bytes": 205,
+      "sha256": "e1ef9e48d7724c9ddc982349eab3cc1af56f720448562b2440be2c69b810ec26"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/environment/controllers/baselines_controller.py",
+      "bytes": 4555,
+      "sha256": "7d4fad38f0e1cc2cc323913c3ebbbef67b842d57a8d421e3c674652fff3f6e35"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/environment/controllers/controller_abc.py",
+      "bytes": 6816,
+      "sha256": "765fa4334009b01a0e34c25168c290ba94ae5e5a3957067522a2345f2988f57a"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/environment/controllers/controller_helper.py",
+      "bytes": 9046,
+      "sha256": "cfb06e51a12608035d1b03148598dcaabb283bc5d81f27a73c5a8f3ee60d6d79"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/environment/controllers/gui_controller.py",
+      "bytes": 17374,
+      "sha256": "1367c00bb4d0c7b1b42b0327205caddc0b5bb578710b0bcd0702da8fbdb5f048"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/environment/episode_helper.py",
+      "bytes": 1911,
+      "sha256": "02c0f903b327aac4342f21de2fb0e868491c115817d2209d66f90d4838d39ae3"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/environment/gui_navigation_helper.py",
+      "bytes": 10520,
+      "sha256": "86b215df561ba10812413fb002cb71a8f226e01a37b25b5577d8c9072e504480"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/environment/gui_pick_helper.py",
+      "bytes": 5447,
+      "sha256": "cd35c40e66ba975ac22b657ce9816c46045e45c313aa8e905e09dd8ccb37492f"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/environment/gui_placement_helper.py",
+      "bytes": 4497,
+      "sha256": "0b8c5bf6c3bb7709558b2d0e1e9aaaab48fc87941a8d2fd77b4966b159434125"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/environment/gui_throw_helper.py",
+      "bytes": 2936,
+      "sha256": "84b52dda61670d00f64fd3895dc705bf37715ceef9e70fdfeaa687eeb5fb46fa"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/environment/hablab_utils.py",
+      "bytes": 1408,
+      "sha256": "e4e119968a9d15adbbdfb51a98f2c4669318722cd4ef7aa2d494940fe2786cca"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/environment/hitl_tutorial.py",
+      "bytes": 16556,
+      "sha256": "b518b2eaf0b478ed6422b5e05682eaea1301a40deed621640ae5214d3034acb9"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/scripts/stub_client.html",
+      "bytes": 8945,
+      "sha256": "e452e0960998a8aa3e2e758d6c2b379ccfc7bbb62707d4cf5b79ffd6f3cb4d0e"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/scripts/test_episode_save_files.py",
+      "bytes": 3762,
+      "sha256": "b338f0549ac0ec44eecff8bfa1eb3336964a13fe2c2a854c4fc80837a7ebc5bf"
+    },
+    {
+      "path": "habitat-hitl/habitat_hitl/version.py",
+      "bytes": 224,
+      "sha256": "7835904fdfe43ad6f9bec5fe06fd9198a90f4684608d55f82d24069bbb8fd384"
+    },
+    {
+      "path": "habitat-hitl/requirements.txt",
+      "bytes": 30,
+      "sha256": "49fa80a5c5adb63e0cd01f609a3cb1ca51354c3a67ca0fe00462b67b2c07372f"
+    },
+    {
+      "path": "habitat-hitl/setup.py",
+      "bytes": 2145,
+      "sha256": "5faf612885f2bff0348028110d45dddda9dd2010ab2de5acfac32870abb5354d"
+    },
+    {
+      "path": "habitat-hitl/test/config/base_test_cfg.yaml",
+      "bytes": 310,
+      "sha256": "b1d6f60d2035a361586b8e19f43b2d1526a22fd0e2e220d281a711abbeb97c48"
+    },
+    {
+      "path": "habitat-hitl/test/config/experiment/smoke_test.yaml",
+      "bytes": 325,
+      "sha256": "7038addcda1cdc4aa7754b31b859d601e4ae48f976282dffafebab9d09c76230"
+    },
+    {
+      "path": "habitat-hitl/test/rearrange_v2/conftest.py",
+      "bytes": 500,
+      "sha256": "0229f58abc97482d79bc6b54691a40341152fa2aaf8122e39307d8daf58786c2"
+    },
+    {
+      "path": "habitat-hitl/test/rearrange_v2/test_app_state_start_session.py",
+      "bytes": 3098,
+      "sha256": "9d1c9b0183f0961ead0af3104c6325c3ab966aa05b177d7fb93b1a24479eb7cd"
+    },
+    {
+      "path": "habitat-hitl/test/rearrange_v2/test_s3_upload.py",
+      "bytes": 3501,
+      "sha256": "2d735beb26303d74eced23b3493804f643de12b6db22b040c2663bb1512a7a26"
+    },
+    {
+      "path": "habitat-hitl/test/test_example_apps.py",
+      "bytes": 3182,
+      "sha256": "9095f32b99eb909c1c831e4069806cc8e2ff80e0bd4f3d127aa00685c54fdd14"
+    },
+    {
+      "path": "habitat-hitl/test/test_main.py",
+      "bytes": 1690,
+      "sha256": "ead2f7e927befa02f43f8569aa3df0118f49b53cb02900f6d7437198ec132380"
+    },
+    {
+      "path": "habitat-hitl/test/test_user_mask.py",
+      "bytes": 3531,
+      "sha256": "2b1384b2950a1e061a8e79dbd9930fa162ece5dfe446ddfaca0da188830ecb42"
+    },
+    {
+      "path": "habitat-lab/MANIFEST.in",
+      "bytes": 210,
+      "sha256": "d223fb9adebb5f022a52b7d93856475bba9ba1df3d765e69221818e3535143f7"
+    },
+    {
+      "path": "habitat-lab/habitat/__init__.py",
+      "bytes": 887,
+      "sha256": "06138b3b987ba037a2bcf7aeb01ecc15c8b80e5cdaf62179a4fdfded988e20d4"
+    },
+    {
+      "path": "habitat-lab/habitat/articulated_agent_controllers/__init__.py",
+      "bytes": 705,
+      "sha256": "4e0d8834ae76cff8ee6656f66598a5dd13d3dd5e5b576ba99ff144a26f3a43e9"
+    },
+    {
+      "path": "habitat-lab/habitat/articulated_agent_controllers/humanoid_base_controller.py",
+      "bytes": 4131,
+      "sha256": "62dbdd3c3dca7ea0c20155e6ea3c256a303a6cb78f3ca5377b06982e15b6da1e"
+    },
+    {
+      "path": "habitat-lab/habitat/articulated_agent_controllers/humanoid_rearrange_controller.py",
+      "bytes": 30914,
+      "sha256": "53d2a551b9ff681d34ff112a16a15e7c9fc6b3395f8600f8a66bb7af98acf222"
+    },
+    {
+      "path": "habitat-lab/habitat/articulated_agent_controllers/humanoid_seq_pose_controller.py",
+      "bytes": 4434,
+      "sha256": "c4168916b3c25481c8217c208e69460ea11b465821692468eeaf2c021e6d7b86"
+    },
+    {
+      "path": "habitat-lab/habitat/articulated_agents/README.md",
+      "bytes": 1397,
+      "sha256": "f98912bf6ee6ac4071aaa7c87e76dd2de2104e81bd5e0875357d4799b10b1905"
+    },
+    {
+      "path": "habitat-lab/habitat/articulated_agents/__init__.py",
+      "bytes": 999,
+      "sha256": "ff738b1c60df25c426aba469cc52dccce14754993dfd9536f941cf9e8f247ac8"
+    },
+    {
+      "path": "habitat-lab/habitat/articulated_agents/articulated_agent_base.py",
+      "bytes": 10766,
+      "sha256": "46e3aa04439c31bc40aa8db5c329132574c724248251fcd35779e5f795915d1d"
+    },
+    {
+      "path": "habitat-lab/habitat/articulated_agents/articulated_agent_interface.py",
+      "bytes": 3007,
+      "sha256": "3f042a173032469eb5de54740c4510c729722374a000f498ca0a8763ea6fafae"
+    },
+    {
+      "path": "habitat-lab/habitat/articulated_agents/humanoids/README.md",
+      "bytes": 5526,
+      "sha256": "a72b20b17b5f56ef816da25b0ef6ac975b1a0a42b99f7d9be0a94dc7defa596e"
+    },
+    {
+      "path": "habitat-lab/habitat/articulated_agents/humanoids/__init__.py",
+      "bytes": 341,
+      "sha256": "e48fc23d6d0dad4bf1f6aa04446cca335677b6776b09299573d1a5e572441e38"
+    },
+    {
+      "path": "habitat-lab/habitat/articulated_agents/humanoids/kinematic_humanoid.py",
+      "bytes": 10174,
+      "sha256": "5fb4f1c2afbb774b28e838c1247fecdf4e76919917bec3fda993776b605d24f2"
+    },
+    {
+      "path": "habitat-lab/habitat/articulated_agents/manipulator.py",
+      "bytes": 19417,
+      "sha256": "1813d5bec8f4339dbb886310cb2d5e9480eecb5e9987f728b1089777c49c0dab"
+    },
+    {
+      "path": "habitat-lab/habitat/articulated_agents/mobile_manipulator.py",
+      "bytes": 7963,
+      "sha256": "46601ffce891818acface219bb34b14477cc1a1480db3709d3626ad54b76aa29"
+    },
+    {
+      "path": "habitat-lab/habitat/articulated_agents/robots/README.md",
+      "bytes": 5300,
+      "sha256": "a33bea7e20085d447dc6b24f4ff3620c42ae560fb7b762239874329c16a37050"
+    },
+    {
+      "path": "habitat-lab/habitat/articulated_agents/robots/__init__.py",
+      "bytes": 673,
+      "sha256": "40b481bb547b78c0b53dac488073794bbb2dca7ffa568364d0090c8496fcb5a4"
+    },
+    {
+      "path": "habitat-lab/habitat/articulated_agents/robots/fetch_robot.py",
+      "bytes": 4824,
+      "sha256": "ccf91920f45409d40f6c3cdf3861072ff502b93c1d2612a694415a6f0bf1525c"
+    },
+    {
+      "path": "habitat-lab/habitat/articulated_agents/robots/fetch_suction.py",
+      "bytes": 651,
+      "sha256": "eb15d231c195fe9ef78ba8e2fe7c8d27e67d92aed27e341a83938767af97e445"
+    },
+    {
+      "path": "habitat-lab/habitat/articulated_agents/robots/franka_robot.py",
+      "bytes": 1372,
+      "sha256": "315915cbe856d3fdbe8579c6f1322c8db5eedb127c1cce1c1faffea2c2900d03"
+    },
+    {
+      "path": "habitat-lab/habitat/articulated_agents/robots/spot_robot.py",
+      "bytes": 5382,
+      "sha256": "b598110a269842c359660c827b0db3c9b23b6b07a3eeb82db0db6ca152b66e09"
+    },
+    {
+      "path": "habitat-lab/habitat/articulated_agents/robots/stretch_robot.py",
+      "bytes": 3053,
+      "sha256": "37c9790b5dc963395fad690d0c30724b9ebea2f473a531a497d33cf2ecd8de54"
+    },
+    {
+      "path": "habitat-lab/habitat/articulated_agents/static_manipulator.py",
+      "bytes": 3875,
+      "sha256": "1c625a4762aa6fbdb358ba9d2dea861129ab71343210f3ccc2164062b99b916a"
+    },
+    {
+      "path": "habitat-lab/habitat/config/CONFIG_KEYS.md",
+      "bytes": 19887,
+      "sha256": "d791842412114693fae2ab04115b166f24df23e76e751530fe4b150a8670699a"
+    },
+    {
+      "path": "habitat-lab/habitat/config/README.md",
+      "bytes": 16674,
+      "sha256": "44d2e53ec9abf0d69e8f896454fa85617fa4b89d3943e78b94ca4cede138ebd9"
+    },
+    {
+      "path": "habitat-lab/habitat/config/__init__.py",
+      "bytes": 384,
+      "sha256": "ebe5bba043153d347608dbd7d9ab70bae7d4ca37b389875af41d3e460114136f"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/multi_agent/hssd_spot_human.yaml",
+      "bytes": 5006,
+      "sha256": "027f4f415a4e966dc97d3aab9a104257560a010c218f4189740b9c173b42079d"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/multi_agent/hssd_spot_human_social_nav.yaml",
+      "bytes": 6282,
+      "sha256": "c5a1b76c860a68067d4f59a0c1956304f4d63d5bf00e0263b031e2924cd23720"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/multi_agent/pddl/multi_agent_social_nav.yaml",
+      "bytes": 1487,
+      "sha256": "952041e4552bcc2aee5f73cf4549dd5c147640c3d293b63f75521d5ace513a47"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/multi_agent/pddl/multi_agent_tidy_house.yaml",
+      "bytes": 1661,
+      "sha256": "bc8519c21170b9a80f2f738883146ca5cd6702757f2a4e0d648a4e60a64d3dae"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/nav/eqa_mp3d.yaml",
+      "bytes": 589,
+      "sha256": "f60672ecdbbcfe06dd657661cfebd46351382eeec699146e2a4659bd8baff199"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/nav/eqa_rgbonly_mp3d.yaml",
+      "bytes": 442,
+      "sha256": "e89a219e9e126b007b1449e655f8d780d12c34a4acd7c4475cfd8e711900a340"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/nav/imagenav/imagenav_base.yaml",
+      "bytes": 178,
+      "sha256": "254456777649bcd6f7ab0075dd5336bdc9ce32d6d1b26d73e28a7e8b8a171f8d"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/nav/imagenav/imagenav_gibson.yaml",
+      "bytes": 355,
+      "sha256": "0c766fd1cfa56b16097f79f2b16a920dd9314f1fa75e13639cce29405c60c1ab"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/nav/imagenav/imagenav_mp3d.yaml",
+      "bytes": 353,
+      "sha256": "943fd5babba0def9fe9fb2b6a38a4fca4dc8dc72c3685ba33f695e056a8a2430"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/nav/imagenav/imagenav_test.yaml",
+      "bytes": 361,
+      "sha256": "de386059cf0f70e11ee7d587ea9d075e05d9b3a8027600c639c36522cf2e99a0"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/nav/instance_imagenav/instance_imagenav_hm3d_v1.yaml",
+      "bytes": 800,
+      "sha256": "581ee07a4eea56a93a60db8780fd901c814b8d9150c91f47a03dccb28c998cfc"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/nav/instance_imagenav/instance_imagenav_hm3d_v2.yaml",
+      "bytes": 800,
+      "sha256": "48b6d9d7291c2e9e485b70f478dfa446a1d54e85005c3f308b058d04873ebcc4"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/nav/objectnav/objectnav_hm3d.yaml",
+      "bytes": 780,
+      "sha256": "ca29b853544ddd33df51264735b23c6d198e675153fe2316ec60992dcec2c77f"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/nav/objectnav/objectnav_hm3d_with_semantic.yaml",
+      "bytes": 608,
+      "sha256": "7a18f4b9df4077c163278b941772434cf37a3bad5fcf5f7ba83e34c2cd367e01"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/nav/objectnav/objectnav_hssd-hab.yaml",
+      "bytes": 911,
+      "sha256": "0cedcc2fcc8064cd7839b033b91e75d20bb4a29626577c28ad229c820fc4ad3a"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/nav/objectnav/objectnav_hssd-hab_with_semantic.yaml",
+      "bytes": 739,
+      "sha256": "5bb4cc1cfa4269a321c87130d5a28a29dd239ade9ede132148dff41ef8696188"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/nav/objectnav/objectnav_mp3d.yaml",
+      "bytes": 781,
+      "sha256": "f73e4dc6a42cf07f1880cc7f648cb02f63530b4fd33677490982ef8e8d715064"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/nav/objectnav/objectnav_mp3d_with_semantic.yaml",
+      "bytes": 608,
+      "sha256": "aee0076fdb3bcfcb22f3d5774329fd08dcde519669b0595b0ffe13d81473189e"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/nav/objectnav/objectnav_procthor-hab.yaml",
+      "bytes": 933,
+      "sha256": "7745ce55992bf9109fad11803dbac728493bc848c16a79482c5a033cf5093c56"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/nav/objectnav/objectnav_procthor-hab_with_semantic.yaml",
+      "bytes": 761,
+      "sha256": "1c772a0e8ff04c4bf13e19b539a3794663b9ddcb79dd7b5b5b9f71d526005702"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/nav/pointnav/pointnav_base.yaml",
+      "bytes": 178,
+      "sha256": "8849df4f4aa8d38837305fbf06dfb5ac04ccc5a686300000583fab3b6fb4fcbc"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/nav/pointnav/pointnav_franka.yaml",
+      "bytes": 544,
+      "sha256": "56446e66d44783d0fb4122e322db5d06def3c9bf0cf1aa9e88012f785bce5c92"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/nav/pointnav/pointnav_gibson.yaml",
+      "bytes": 354,
+      "sha256": "fe95c2605abcb79bf6ae3ae5b19b3649b58dacdd95e26ef70a7e39780bdb126d"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/nav/pointnav/pointnav_habitat_test.yaml",
+      "bytes": 360,
+      "sha256": "861debf385222fc0f87af2de97baeb5f5319836b90525f0cf3d03b8642adc3c7"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/nav/pointnav/pointnav_hm3d.yaml",
+      "bytes": 352,
+      "sha256": "d6fa472510ec8543ffe53ef3349a389c84d3d0a8cd5c60faad449e347355c9fc"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/nav/pointnav/pointnav_mp3d.yaml",
+      "bytes": 352,
+      "sha256": "a6c8c643c28d9ecf5b8b9a6cf802e904d093414e4f1ceaed0eafe7333544e81b"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/nav/socialnav_v2/astar_hm3d_task.yaml",
+      "bytes": 1584,
+      "sha256": "da220163b41725a86d118c82ea030be63407f9178292842ef796743d78f48d07"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/nav/socialnav_v2/astar_mp3d_task.yaml",
+      "bytes": 1584,
+      "sha256": "7c1a7f4c36e4fc1aa235617292438607f927c82d4e9ade7552ea93d926c42c4b"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/nav/socialnav_v2/falcon_hm3d_task.yaml",
+      "bytes": 2049,
+      "sha256": "15e02a36c6c7e01ed62195378a961ca3ef8e0e85ab7fc21a2fe7c711b721d811"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/nav/socialnav_v2/falcon_hm3d_task_for_train.yaml",
+      "bytes": 2070,
+      "sha256": "1dc53bef9e93713f0d949e59fd3922e4de6ece5cc7050f7f63d3c7ceead85fe1"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/nav/socialnav_v2/falcon_hm3d_task_locobot.yaml",
+      "bytes": 1462,
+      "sha256": "ce31cf0310986128f840988f1f711c141a8233462347a46277eebdeb2d753a3a"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/nav/socialnav_v2/falcon_mp3d_task.yaml",
+      "bytes": 2049,
+      "sha256": "ca6809afeb7778a9aa907053a05ae5efcf7b75031140a7dc656d5eb6b32722b7"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/nav/socialnav_v2/hm3d_minival.yaml",
+      "bytes": 2227,
+      "sha256": "485a46ec79d21ea505d639f99a4526ccbe9efb242fafb5aa66518d9f7464b1fa"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/nav/socialnav_v2/orca_hm3d_task.yaml",
+      "bytes": 1583,
+      "sha256": "83888f2c9176b89780109501420d34742a049b3d2a95745b2fe345f9a5d87186"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/nav/socialnav_v2/orca_mp3d_task.yaml",
+      "bytes": 1583,
+      "sha256": "556f4c626a3465f98a6c50fcfa6adc51ce9729019191d739b878f0c2216afaaf"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/nav/socialnav_v2/prox_hm3d_task.yaml",
+      "bytes": 1578,
+      "sha256": "34dfbc496ffda318cf0acd2bc365a1fc5338874fe3cbac2ebb9fb5d3299d8f60"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/nav/socialnav_v2/prox_mp3d_task.yaml",
+      "bytes": 1578,
+      "sha256": "76402017316a7174df07c1b6e358312b59766ac0d812949a4c8ff9059fc0887e"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/nav/vln_r2r.yaml",
+      "bytes": 628,
+      "sha256": "8c8ee10f8f2a394589ee877aa9e62bc66e030530d52575520f5312824eeb6992"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/rearrange/demo/idle.yaml",
+      "bytes": 1498,
+      "sha256": "abe9aaf8a44470b4f7c5e79812652ed980bcfc4ccb7b11704b05c24e3a3b187e"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/rearrange/demo/idle_single_camera.yaml",
+      "bytes": 1264,
+      "sha256": "6d439c36a91b879168ccbda331e9f6b91dd6c268814b3eb103d776e8606d6de2"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/rearrange/demo/interact.yaml",
+      "bytes": 1573,
+      "sha256": "0ecbb6958de0ee9fcddb029e4405545067aed8f202140a7a6d5934bab39fe7c5"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/rearrange/hab3_bench/humanoid_oracle.yaml",
+      "bytes": 1317,
+      "sha256": "3bea298c2d2c1d3e9aaa446ae3ac2b26b23a9c5e79155d10a8bf9c6e984218fa"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/rearrange/hab3_bench/multi_agent_bench.yaml",
+      "bytes": 3065,
+      "sha256": "e7a2b0da0704b2f75df3a5fbe79c8009005308c5361fc1f5e997188a11176eaa"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/rearrange/hab3_bench/single_agent_bench.yaml",
+      "bytes": 2077,
+      "sha256": "6e20dcf90db9a53b93b5f2c2bf19c52d538432b21b75bc09c1186fc59bdbf5ef"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/rearrange/hab3_bench/spot_humanoid_oracle.yaml",
+      "bytes": 1913,
+      "sha256": "3c4d698c430b10ff00449aad044a0bf3bbb0fd003100463794a9a7e9cb76fb07"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/rearrange/hab3_bench/spot_oracle.yaml",
+      "bytes": 551,
+      "sha256": "b06af123487ef50c0f5c02be23cab7138430a1ef513e3c72a4cf52a0d4e23f7e"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/rearrange/hab3_bench/spot_spot_oracle.yaml",
+      "bytes": 1460,
+      "sha256": "0e8c831e5849efbfb30c12ac9b420c0ac8e7ffc59335d81cdd6376fd0f968eac"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/rearrange/multi_task/pddl_geo_base_task.yaml",
+      "bytes": 1889,
+      "sha256": "aa8952e14ac2326aa93eb7b637c2d0f9951138d3b94cc4bcb59e861bdd48a1d4"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/rearrange/multi_task/prepare_groceries.yaml",
+      "bytes": 222,
+      "sha256": "2d4ce20ab1511ec157b0fa820a6729b29204a36d4476df0cd44951c56f50b650"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/rearrange/multi_task/rearrange.yaml",
+      "bytes": 199,
+      "sha256": "6e10b37d97195d26cc453b9ad89585aee3b81372d9b82d6979302db21ddbf2c8"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/rearrange/multi_task/rearrange_easy.yaml",
+      "bytes": 209,
+      "sha256": "3d5eaf0010955038af07e441f46ce5b36fc2d0032a7fdd34da6b8d2b1ed2c0d7"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/rearrange/multi_task/set_table.yaml",
+      "bytes": 206,
+      "sha256": "8cca2d87e62fa142c98015859bbd90fb995ee236954cae90f803a10e1899980f"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/rearrange/multi_task/tidy_house.yaml",
+      "bytes": 208,
+      "sha256": "8e3ff3aa33479ac4d20a7c6ea62dd88cf37eb94ce5b476a0326012b7e19215c8"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/rearrange/play/play.yaml",
+      "bytes": 1729,
+      "sha256": "d514bf420940ee387ec43623a847ba70af87a8252be14a0a4153f5707145f53f"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/rearrange/play/play_human.yaml",
+      "bytes": 132,
+      "sha256": "0c67ef86a6f884ceb5be7b58a462d3354c0d6d571c31a1511163fe8381bdb978"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/rearrange/play/play_spot.yaml",
+      "bytes": 553,
+      "sha256": "267f48726cbe8b64c0a6f4e45b9a2ac3184e82e55de8477f4c938070c322259d"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/rearrange/play/play_stretch.yaml",
+      "bytes": 312,
+      "sha256": "e0745dd7faa1da715fb3298419bc27c3b322f49fe3257f385146950d4f565c07"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/rearrange/skills/close_cab.yaml",
+      "bytes": 1566,
+      "sha256": "a98dac8c9b2453f60cbd86c9e1f9ae9302eda714ff0a86c50aec4a60d6def02c"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/rearrange/skills/close_fridge.yaml",
+      "bytes": 1590,
+      "sha256": "3f5c32c515d197b414c47a79230703e4e2fd693d4634a5b6a8270f33a045b2fa"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/rearrange/skills/nav_to_obj.yaml",
+      "bytes": 1475,
+      "sha256": "473fca9aad74d0c7bd70aed50606750e1c592c7b2aa3a47a58980591e94bbde6"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/rearrange/skills/open_cab.yaml",
+      "bytes": 1839,
+      "sha256": "4fd921176e71cd57a4e82a59e1f948e9748f2a54a1f30b7f4da99cb177f622f1"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/rearrange/skills/open_fridge.yaml",
+      "bytes": 1889,
+      "sha256": "fd79c09c17b3137017fd8258dc64d0348d0349258e7bec01006c7c6c94e2daa6"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/rearrange/skills/pick.yaml",
+      "bytes": 1585,
+      "sha256": "7f3e0914999e20cd59e431d6bc7289f8fbc0d06c118bf51a221b7d39d0e07796"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/rearrange/skills/pick_spot.yaml",
+      "bytes": 3150,
+      "sha256": "9848f88c6a2e3373914411e7e56704f23fbef700eace7f75b346f1b0d70dad53"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/rearrange/skills/place.yaml",
+      "bytes": 1541,
+      "sha256": "29d48fb2e8c64c935501d8e094b3461105d52e813df01a12ca05a3379250b02f"
+    },
+    {
+      "path": "habitat-lab/habitat/config/benchmark/rearrange/skills/reach_state.yaml",
+      "bytes": 1215,
+      "sha256": "b2204434157d3ed069440b2dbe26cb792d5dc0f5ae864fc48a27dc6d4132ef99"
+    },
+    {
+      "path": "habitat-lab/habitat/config/default.py",
+      "bytes": 4838,
+      "sha256": "859574c7d4897bed90ee51524b51ce025c73acb42f6ddd793c22476f033bc8dc"
+    },
+    {
+      "path": "habitat-lab/habitat/config/default_structured_configs.py",
+      "bytes": 90217,
+      "sha256": "e49b306153a43833e257628e016bf3b88fd618ce9812ce6a5d788be379b0a4b2"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/dataset/eqa/mp3d.yaml",
+      "bytes": 223,
+      "sha256": "fb816ad099983c4810f0cbf12aeee508b6676584dcc08d36d42f6210e0d7cc87"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/dataset/imagenav/gibson.yaml",
+      "bytes": 193,
+      "sha256": "dc38ae8293b11f3ffe430a778508a8f42b00e0dad6ca3f22c2eeeb6a4a06b794"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/dataset/imagenav/mp3d.yaml",
+      "bytes": 191,
+      "sha256": "617b15f4d5c415a4f2ece8ae28ef30c226382a2cdf45611ebd9fd2cd69044c09"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/dataset/instance_imagenav/hm3d_v1.yaml",
+      "bytes": 208,
+      "sha256": "e4b68b78439c2e691d0c184105bd8b7663f95cb7645579e04ee54c93e6dbea47"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/dataset/instance_imagenav/hm3d_v2.yaml",
+      "bytes": 208,
+      "sha256": "a2343204c77d31ff8242980ccb3887825e570e08e6e77a577f93963b6142d7a2"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/dataset/objectnav/hm3d.yaml",
+      "bytes": 192,
+      "sha256": "6bf0aae645fcdfe26aff3b12b21f07975570652e3396eaac436adfa1c38b7f5f"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/dataset/objectnav/hssd-hab.yaml",
+      "bytes": 241,
+      "sha256": "38c26250b5a1f398ba7546e3ad592c38823cba2f9a385bdee4f066fd3d980f44"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/dataset/objectnav/mp3d.yaml",
+      "bytes": 192,
+      "sha256": "c39730fc4ea0f89a2ae3f7f45c96be2b5ef5577df3ef6fd78da04f635c7d2b6a"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/dataset/objectnav/procthor-hab.yaml",
+      "bytes": 278,
+      "sha256": "4b0abc843fb36bfdcdb6699d9e0595467f85b099a63dc469fecbe55fca09e60f"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/dataset/pointnav/gibson.yaml",
+      "bytes": 193,
+      "sha256": "dc38ae8293b11f3ffe430a778508a8f42b00e0dad6ca3f22c2eeeb6a4a06b794"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/dataset/pointnav/gibson_0_plus.yaml",
+      "bytes": 205,
+      "sha256": "3b3790f1cc90768bec618d9ad5d0590fecd5896e314670637b7e775f47cc599c"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/dataset/pointnav/gibson_v2.yaml",
+      "bytes": 193,
+      "sha256": "361c8abf5105186c1a25f4c4bdd81b4b33a9f5fb50b14586b308e7f625cd082b"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/dataset/pointnav/habitat_test.yaml",
+      "bytes": 206,
+      "sha256": "90175c39732a649085163a2c2f17b71bfab8a4c88c300cfa1458ab507c92b3b9"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/dataset/pointnav/hm3d.yaml",
+      "bytes": 191,
+      "sha256": "610fcc1e4c4aef1a8fe993c0e2fc0a6eb1ac017548269d6ab8118a3a32e12a53"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/dataset/pointnav/mp3d.yaml",
+      "bytes": 191,
+      "sha256": "617b15f4d5c415a4f2ece8ae28ef30c226382a2cdf45611ebd9fd2cd69044c09"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/dataset/rearrangement/hssd.yaml",
+      "bytes": 283,
+      "sha256": "e72ce474c5d52e44a714f2b430559a17c5291b03902529ad085dda43f758dc7d"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/dataset/rearrangement/replica_cad.yaml",
+      "bytes": 272,
+      "sha256": "01394aafe72e5451cab3861ef1743bc5c76f6d877e4f19e3e9cbdbb6a085e92d"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/dataset/social_nav_v2/social-hm3d-minival.yaml",
+      "bytes": 196,
+      "sha256": "086c167b2b13dfc95607b15efcf270c5d84a2a59b9517b6f175df85aed4a8f3f"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/dataset/social_nav_v2/social-hm3d.yaml",
+      "bytes": 194,
+      "sha256": "40ccb1155286fd9f508a629e9057b6b33cc33bfc346285a2cf55829c20bc902b"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/dataset/social_nav_v2/social-mp3d.yaml",
+      "bytes": 194,
+      "sha256": "b7728cf656619399af7ecc5f67715bca3556a3702db44be9b10ee9392b962e75"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/dataset/vln/mp3d_r2r.yaml",
+      "bytes": 225,
+      "sha256": "d490700f2305260428872db5f03f027ad88269e5d1aeb1610dbf77809869b827"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/simulator/agents/fetch.yaml",
+      "bytes": 255,
+      "sha256": "6e349ab9eefd544bc80d3f57778dc4483c7c69f4f5659203b0da1ebc97cc1ff1"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/simulator/agents/fetch_no_wheels.yaml",
+      "bytes": 206,
+      "sha256": "3d6f1f040616a522dd06ab5f9222564f7f48f3894187907f4038636f4eb6c581"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/simulator/agents/fetch_suction.yaml",
+      "bytes": 201,
+      "sha256": "76260455f5e66aadc672568e062605014e2a5afec8032273bab85d309cc4f6d1"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/simulator/agents/human.yaml",
+      "bytes": 417,
+      "sha256": "94b6aa0ca6940f2acdc200297eab4fe42c13d9728b8745d85b2d22510bc9c30a"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/simulator/agents/human_1.yaml",
+      "bytes": 431,
+      "sha256": "69305bc94eff343af22947f689a167d000f6e4018f4fd16e3fde06197ce9b9cd"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/simulator/agents/human_2.yaml",
+      "bytes": 431,
+      "sha256": "cb784e43bbb89a43239e7b28632c2a667e2d9a3a8a0f3221335833b15608415f"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/simulator/agents/human_3.yaml",
+      "bytes": 423,
+      "sha256": "4f1844c7d7579e68822049b5c3ef4fa88d8bd3f1f5fa19a08be75fd579edba9a"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/simulator/agents/human_4.yaml",
+      "bytes": 423,
+      "sha256": "03613655071a048781d706e8a08af9de8b34c3fe6f592ec547b89532f1b86e76"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/simulator/agents/human_5.yaml",
+      "bytes": 431,
+      "sha256": "e6a2224ab23d2f942ce300be5a4cdaf3d7927ff606e8a9f32ac0890c771ba49d"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/simulator/agents/human_6.yaml",
+      "bytes": 431,
+      "sha256": "672de8e0b54668a46ce917559088e64934097074a4156f8de350588425dd0856"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/simulator/agents/spot.yaml",
+      "bytes": 212,
+      "sha256": "28e1edbac9c4eab1e46f7d4d2ecac172187509f6519b908257807d0c3d9ed848"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/simulator/agents/stretch.yaml",
+      "bytes": 411,
+      "sha256": "4a82ee258f4d160657a8aef8947abf77a5d6aeb99d2ae3a6342c3f9ed9be6ba7"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/simulator/rearrange_sim.yaml",
+      "bytes": 228,
+      "sha256": "bdbce914db3f62adb4d87226cec31e924c9b784c2f87ea42a27d7e98d48e9ec9"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/simulator/sensor_setups/depth_agent.yaml",
+      "bytes": 133,
+      "sha256": "45ad3cdace9b27a3281d40b1f82faf12a61a0fd73978f01e513b1065fa0fa10b"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/simulator/sensor_setups/depth_head_agent.yaml",
+      "bytes": 148,
+      "sha256": "faf0c4ecd5ae888f18d89f8d42cdbbe7a3ca92fd0f8180a2f60b49dc8432374e"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/simulator/sensor_setups/rgb_agent.yaml",
+      "bytes": 127,
+      "sha256": "7419c49b86451ab21ba887e06f3f8fa659c9a45ade16e215fd68f1101e99bf4f"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/simulator/sensor_setups/rgb_head_agent.yaml",
+      "bytes": 142,
+      "sha256": "8c16f9e78813f22d12dc5a0fd97027a57fb4a6501886bd4fa230975bc9f66e16"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/simulator/sensor_setups/rgbd_agent.yaml",
+      "bytes": 202,
+      "sha256": "7f1cdde9e4fd7302e93b46beefc826c8d71743377c0f18355eddf1d26e9e6afa"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/simulator/sensor_setups/rgbd_head_agent.yaml",
+      "bytes": 226,
+      "sha256": "74028071b7c7976a685601b21e490a12bfc98df5e1c384f7fa6d6a990cbea7e0"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/simulator/sensor_setups/rgbd_head_rgbd_arm_agent.yaml",
+      "bytes": 396,
+      "sha256": "f3c53e91968c0b6d43f076cd89d8b82c300ea353a14c95e2ccdb130200689a40"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/simulator/sensor_setups/rgbd_head_rgbdp_arm_agent.yaml",
+      "bytes": 484,
+      "sha256": "789a5621189c1e235e243865bf51682781fd674a08c5bad2c0c0c137ac69f28f"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/simulator/sensor_setups/rgbdp_head_rgbd_arm_agent.yaml",
+      "bytes": 444,
+      "sha256": "051bcd9219bebddfac12e23e8cc4314af111709bfde954f20932e278ffa28630"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/simulator/sensor_setups/rgbds_agent.yaml",
+      "bytes": 283,
+      "sha256": "8569bc6c3ff88e6efe16eea9fff90b45b5a7121fd9ac4dcf52d87a97053e0b89"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/simulator/sensor_setups/semantic_agent.yaml",
+      "bytes": 142,
+      "sha256": "79e09a2b69cdc433f7da19d362a21952a03f4dfc85fd4cb85adc5eaf844ab517"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/simulator/sensor_setups/spot_agent.yaml",
+      "bytes": 1642,
+      "sha256": "e4b448503155e88c888324ebe4257300085f2e4e44d71bc869c59fbef31ebf11"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/task/astar_task_detail.yaml",
+      "bytes": 544,
+      "sha256": "e5aa02a95c759ffa2957c391e0f7dd8b7a2bb2fe060d2d320de9196483444bc5"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/task/eqa.yaml",
+      "bytes": 255,
+      "sha256": "4666afb6a8155a089b0383760c1c6231fecb58aab699d4e66389e83cb0a4d879"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/task/falcon_task_detail.yaml",
+      "bytes": 1012,
+      "sha256": "43e71620b583255b7afcbc35c998c30c540b40d3d12759852427934b7594d310"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/task/falcon_task_detail_locobot.yaml",
+      "bytes": 1010,
+      "sha256": "79543c4d69326e4b3c172f8b0a930f8aae84fbe02ea0ce9497623db023953b52"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/task/imagenav.yaml",
+      "bytes": 392,
+      "sha256": "dacff14b6bd855087882899aa29cc30c1cdf3200ec89e515e62f9d946935255a"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/task/instance_imagenav.yaml",
+      "bytes": 748,
+      "sha256": "ad5c1e0359f9b504fc56b3b69d9b7ce4b6900356e205129a9f999e655f2b3d78"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/task/objectnav.yaml",
+      "bytes": 648,
+      "sha256": "381a4c9fc1a971df8c5f31fb3962316782e1a43e97b0719b141cec9fceae36d0"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/task/orca_task_detail.yaml",
+      "bytes": 622,
+      "sha256": "44cba90f4f672b94ed53f09a6da229358d547065c1443344dca82c64654fe527"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/task/pointnav.yaml",
+      "bytes": 415,
+      "sha256": "654af0d53429b23ba81f4ec368ea0772357ef2956b8da907179df22ab8bf40b1"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/task/pointnav_franka.yaml",
+      "bytes": 299,
+      "sha256": "1add0ad36ba418754c3f8a2da6b28d34bc9ee0d7f1ef75d6be06356f49074723"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/task/prox_task_detail.yaml",
+      "bytes": 565,
+      "sha256": "190b2c2ba9b1b9f54bf23214e7a8dd76e4385db3d6433fa1d08f44fcee6e5550"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/task/rearrange/actions/fetch_suction_arm.yaml",
+      "bytes": 147,
+      "sha256": "43a7c62093fdeb6182bf61cfd0433330746e33bc8a1d5f92ab07fdcf95ffa184"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/task/rearrange/actions/fetch_suction_arm_base.yaml",
+      "bytes": 167,
+      "sha256": "a91033b1ff6295e65b9b602d4e1bb66b3411977d3e73ba6d90751a5da7124be3"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/task/rearrange/actions/fetch_suction_arm_base_empty.yaml",
+      "bytes": 200,
+      "sha256": "36b5f75953ada49383de505a7896f09e9742aada9c8da30e4f4363393c7cbba0"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/task/rearrange/actions/fetch_suction_arm_base_stop.yaml",
+      "bytes": 188,
+      "sha256": "85d01642a91536936424c78fa4953e337d11de752a0c03090861442a6068c47c"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/task/rearrange/actions/fetch_suction_base_stop.yaml",
+      "bytes": 121,
+      "sha256": "2889ad431e81deb2759db5e403f7d08abbad4ffd6cc1a654c68cdeffd05cd257"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/task/rearrange/actions/spot_base_arm_empty.yaml",
+      "bytes": 794,
+      "sha256": "3fd9bdfc80ebc23e3b3485c1b42834f8a439da88ec08013f03b6811834d2af5c"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/task/rearrange/actions/stretch_base_arm_empty.yaml",
+      "bytes": 499,
+      "sha256": "669a96e71f2b2ac941eec945234a7b05111436f11e67a281120a1389a111cd77"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/task/rearrange/pddl/prepare_groceries.yaml",
+      "bytes": 2269,
+      "sha256": "d16e1f2c292165e06fa4ef35690c8ff7b0518b00a0149c5c8315561893ed5bef"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/task/rearrange/pddl/rearrange.yaml",
+      "bytes": 456,
+      "sha256": "53d9495cf7d67f32533f1e99911819ddf1a6bc5e96b3441c2db5766464554a72"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/task/rearrange/pddl/rearrange_easy.yaml",
+      "bytes": 597,
+      "sha256": "8cbb431ada34f631f64d9d28d41bb0df30787aa8744ccddcd7e265b0711f5c9d"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/task/rearrange/pddl/set_table.yaml",
+      "bytes": 1740,
+      "sha256": "4f953f7154f6b7b02715f7a72249840e5859992d2478d68b2b137ea4afd118ad"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/task/rearrange/pddl/tidy_house.yaml",
+      "bytes": 3685,
+      "sha256": "d9bfb1f0b4b9e35f8e616e1e11755bc1cf48801a44c9f0f2a64f6cde084f6be3"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/task/rearrange/pddl/tidy_house_2obj.yaml",
+      "bytes": 1220,
+      "sha256": "f48551c7645086e165e0a24f3bcecf7d865450c203216c10637031b6d64e89f9"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/task/socialnav_task_detail.yaml",
+      "bytes": 469,
+      "sha256": "b413f6ae47d75b4d1d6cbc214ab1f97e56a66dc45575c5b45d5ac01dbaa89d6b"
+    },
+    {
+      "path": "habitat-lab/habitat/config/habitat/task/vln_r2r.yaml",
+      "bytes": 240,
+      "sha256": "518e7c9306b16901702735f4856e8420b64a2fbe6c2b90d76259c648e468c6e7"
+    },
+    {
+      "path": "habitat-lab/habitat/config/read_write.py",
+      "bytes": 1070,
+      "sha256": "b6f1b89d92991cf2cbafbc57d1fb838ffc612e812b9fb581365093a22dfbd33d"
+    },
+    {
+      "path": "habitat-lab/habitat/core/__init__.py",
+      "bytes": 205,
+      "sha256": "e1ef9e48d7724c9ddc982349eab3cc1af56f720448562b2440be2c69b810ec26"
+    },
+    {
+      "path": "habitat-lab/habitat/core/agent.py",
+      "bytes": 1221,
+      "sha256": "0b694a849f469c15483d1683fa136d6e4ef070ad5a6e48fc989fdcff113dc5a9"
+    },
+    {
+      "path": "habitat-lab/habitat/core/batch_rendering/README.md",
+      "bytes": 5017,
+      "sha256": "c5809f3516893b3720554f9586c883e6dc7bc627aa7775561a39870484306630"
+    },
+    {
+      "path": "habitat-lab/habitat/core/batch_rendering/__init__.py",
+      "bytes": 205,
+      "sha256": "e1ef9e48d7724c9ddc982349eab3cc1af56f720448562b2440be2c69b810ec26"
+    },
+    {
+      "path": "habitat-lab/habitat/core/batch_rendering/env_batch_renderer.py",
+      "bytes": 18384,
+      "sha256": "20126bf748a2d74a7238b06b43b35c334376cc6e246190941af682d213d23bd6"
+    },
+    {
+      "path": "habitat-lab/habitat/core/batch_rendering/env_batch_renderer_constants.py",
+      "bytes": 330,
+      "sha256": "c0e6d3d7f61d0aabfeee50e1746c7934d1f38b6d6b69b979ca6d0131d2e9317b"
+    },
+    {
+      "path": "habitat-lab/habitat/core/benchmark.py",
+      "bytes": 6624,
+      "sha256": "5767a1eeb7807382754309cae24bf550b3b87bd7fae5aeedbe85e54115948e34"
+    },
+    {
+      "path": "habitat-lab/habitat/core/challenge.py",
+      "bytes": 800,
+      "sha256": "a5eb2602c9e3d4884b8020fa800442b87db5f7864ba17dd1818d36b2a6f1b100"
+    },
+    {
+      "path": "habitat-lab/habitat/core/dataset.py",
+      "bytes": 22164,
+      "sha256": "38c955ca649e66f6efd3606de94416445c98ce69083d4cd4310bfe91839dd816"
+    },
+    {
+      "path": "habitat-lab/habitat/core/embodied_task.py",
+      "bytes": 13616,
+      "sha256": "aaa4f160d5b6b3f25f910878d34afd36d3960c5d1cd6cf3c3a203121cbbcce35"
+    },
+    {
+      "path": "habitat-lab/habitat/core/env.py",
+      "bytes": 16057,
+      "sha256": "2439369f76c8efa91c9e0be63a10e643ec03a150615cde5f2e359010be46f07e"
+    },
+    {
+      "path": "habitat-lab/habitat/core/environments.py",
+      "bytes": 3978,
+      "sha256": "fcac2a50765f944ed4f7ba888e3d924df13e0cd4d1a83abef486f9e24d9f01e9"
+    },
+    {
+      "path": "habitat-lab/habitat/core/logging.py",
+      "bytes": 1205,
+      "sha256": "7e90fee62b4b34d667d130d730a8dcabf9bea63fa6a72f0e8fdb77fef0287615"
+    },
+    {
+      "path": "habitat-lab/habitat/core/registry.py",
+      "bytes": 7153,
+      "sha256": "d3b5e7bdf51ec95c4c30261a92f28c246c3872284597c2e2f138daad99d52c1f"
+    },
+    {
+      "path": "habitat-lab/habitat/core/simulator.py",
+      "bytes": 15070,
+      "sha256": "84a9e6e7064e6abe63176efa1a6a3bf151de017c0e83cab83f7bbed6a958f949"
+    },
+    {
+      "path": "habitat-lab/habitat/core/spaces.py",
+      "bytes": 3449,
+      "sha256": "616ce65ad2874a725a2d20133ae9a941a009f1006d69edf6c33f674b17791856"
+    },
+    {
+      "path": "habitat-lab/habitat/core/utils.py",
+      "bytes": 6568,
+      "sha256": "2b997949020926426e3aa3ba0832c88e9a8255105acd1bb92c5d3c63fcc3ee9d"
+    },
+    {
+      "path": "habitat-lab/habitat/core/vector_env.py",
+      "bytes": 23441,
+      "sha256": "ba903217c2a07a960c9582872af52308166efb8f6dabc718bc959b254bcd3c71"
+    },
+    {
+      "path": "habitat-lab/habitat/datasets/__init__.py",
+      "bytes": 277,
+      "sha256": "b790b6723c00c79e4ac0771855f2bbbcc22b568378453e3808d1b95cb3f015ba"
+    },
+    {
+      "path": "habitat-lab/habitat/datasets/eqa/__init__.py",
+      "bytes": 733,
+      "sha256": "bea1ea517cf516c9e6710c36c3fe3f2d6a5db4d9698404673da002c9ecb0e7f0"
+    },
+    {
+      "path": "habitat-lab/habitat/datasets/eqa/mp3d_eqa_dataset.py",
+      "bytes": 3974,
+      "sha256": "2d1d7f13b1989de64d993f6b8b48de968b2e786a871d55a7340adff571acd574"
+    },
+    {
+      "path": "habitat-lab/habitat/datasets/image_nav/__init__.py",
+      "bytes": 1263,
+      "sha256": "aabeece0c93c6e881270821c66366ab5fd4156149e5fdd7afbd196f6a5c28c67"
+    },
+    {
+      "path": "habitat-lab/habitat/datasets/image_nav/instance_image_nav_dataset.py",
+      "bytes": 3100,
+      "sha256": "cad7afb9b9daa4c1db15782da3556f0b6018620d012b76dd06fa44c297b54a2e"
+    },
+    {
+      "path": "habitat-lab/habitat/datasets/object_nav/__init__.py",
+      "bytes": 1228,
+      "sha256": "b7c44451623c7adae12ec5224e263c2f01a1fb98db988240710746fd59835fbd"
+    },
+    {
+      "path": "habitat-lab/habitat/datasets/object_nav/object_nav_dataset.py",
+      "bytes": 5664,
+      "sha256": "45e1582b759902472c0eddf0cb1fcd46709936ef49c53eb751b3f96a98fd60d3"
+    },
+    {
+      "path": "habitat-lab/habitat/datasets/pointnav/__init__.py",
+      "bytes": 1220,
+      "sha256": "f636036f6992a2c5ecc1a1c3b75b731892a4ec058ed0d96808c526ff4b308ab0"
+    },
+    {
+      "path": "habitat-lab/habitat/datasets/pointnav/pointnav_dataset.py",
+      "bytes": 6281,
+      "sha256": "a07abe41dc7033db62c466982684e25e41436e16421511fbc3ca491798969fa7"
+    },
+    {
+      "path": "habitat-lab/habitat/datasets/pointnav/pointnav_generator.py",
+      "bytes": 7361,
+      "sha256": "0877e473b2163bc1ec8f6a1a3e8dace6b19ff12614560e7fab2587ba768c3514"
+    },
+    {
+      "path": "habitat-lab/habitat/datasets/rearrange/__init__.py",
+      "bytes": 1232,
+      "sha256": "8c7bc58706c20ae74e68d923eed3d0d342c8962b0e5897399b1bb208d11f448b"
+    },
+    {
+      "path": "habitat-lab/habitat/datasets/rearrange/combine_datasets.py",
+      "bytes": 1397,
+      "sha256": "78938977472d9eabbdc5aeea4ca99d4d8f0c4420fe974e2cff6f23f9985d43c3"
+    },
+    {
+      "path": "habitat-lab/habitat/datasets/rearrange/configs/all_receptacles.yaml",
+      "bytes": 4250,
+      "sha256": "33f77afee543cdcf549c551e71302bf24f402722502705eafd1f68a96ecd34a6"
+    },
+    {
+      "path": "habitat-lab/habitat/datasets/rearrange/configs/bench_config.yaml",
+      "bytes": 3171,
+      "sha256": "892a48906a7f943ac31bfbcc21b4ac1ed0eaf2278f7ee54f864cb922f2fd88cb"
+    },
+    {
+      "path": "habitat-lab/habitat/datasets/rearrange/configs/empty.yaml",
+      "bytes": 2132,
+      "sha256": "72e624415dea56755276a4e8a7d7421a0aeea8ec041cfa3221257b679a33545e"
+    },
+    {
+      "path": "habitat-lab/habitat/datasets/rearrange/configs/hab/prepare_groceries.yaml",
+      "bytes": 6455,
+      "sha256": "ea1c8c78af7ee4df67d00007e58969d31cd7e6ddb9ebd2ce83e74255f3945709"
+    },
+    {
+      "path": "habitat-lab/habitat/datasets/rearrange/configs/hab/rearrange.yaml",
+      "bytes": 5721,
+      "sha256": "6abd78500f019cb5ad19a3110802ea2e76ae04dec4114334c0e4c7ac2e0655d0"
+    },
+    {
+      "path": "habitat-lab/habitat/datasets/rearrange/configs/hab/rearrange_easy.yaml",
+      "bytes": 4326,
+      "sha256": "266f069f7abe29a8bdfcf879e24ad61a667cfdb335fbbe0c5b2f5029aaf2adcc"
+    },
+    {
+      "path": "habitat-lab/habitat/datasets/rearrange/configs/hab/set_table.yaml",
+      "bytes": 4605,
+      "sha256": "65ac2a261e74e578e3e6acb91173f4479c8b59f306370a74a6bcf9ca3aaa3e92"
+    },
+    {
+      "path": "habitat-lab/habitat/datasets/rearrange/configs/hab/tidy_house.yaml",
+      "bytes": 2831,
+      "sha256": "205aca6436f9a45a727d98ab74cd2d0038bad3f98f15e61ed2e73c506e32f0dc"
+    },
+    {
+      "path": "habitat-lab/habitat/datasets/rearrange/configs/hssd_ycb_multi_goal.yaml",
+      "bytes": 4236,
+      "sha256": "62760b53e8b5f6097f87f80c4fd7b72fda813b86bcaf3afff8479acbbe4a1c3d"
+    },
+    {
+      "path": "habitat-lab/habitat/datasets/rearrange/configs/in_drawer.yaml",
+      "bytes": 2504,
+      "sha256": "687a6abe6fb86d9c4adc9c91e7b01248882d3e97cccd7804baea75743775d0d9"
+    },
+    {
+      "path": "habitat-lab/habitat/datasets/rearrange/configs/in_fridge.yaml",
+      "bytes": 2058,
+      "sha256": "3b78beb516f4f144a7afb192b079431323da719f95cb41adc87e9bd66718a03b"
+    },
+    {
+      "path": "habitat-lab/habitat/datasets/rearrange/configs/test_config.yaml",
+      "bytes": 2369,
+      "sha256": "33006f28088e2a545536223f7b373bc2ba6496e17554ae8db3590281efeab6a9"
+    },
+    {
+      "path": "habitat-lab/habitat/datasets/rearrange/generate_episode_inits.py",
+      "bytes": 1077,
+      "sha256": "44fb9dd40ab915ffa95b827133836a32e6ae67fcf5415ff64f324deae8af2c27"
+    },
+    {
+      "path": "habitat-lab/habitat/datasets/rearrange/navmesh_utils.py",
+      "bytes": 39132,
+      "sha256": "0d830d382bea6ed08844ad6173cd0f32c09d0a14f7216903cc581dc7664a4d65"
+    },
+    {
+      "path": "habitat-lab/habitat/datasets/rearrange/rearrange_dataset.py",
+      "bytes": 7494,
+      "sha256": "a279d3de5375e7d05b4fe753b0209302bde7a0e5f7e67db28fc348005d4e075a"
+    },
+    {
+      "path": "habitat-lab/habitat/datasets/rearrange/rearrange_generator.py",
+      "bytes": 48884,
+      "sha256": "a9487e87e366827b1f784e8cb313889d4f4abcd4c4e09efad779e2ec2ec32529"
+    },
+    {
+      "path": "habitat-lab/habitat/datasets/rearrange/run_episode_generator.py",
+      "bytes": 18077,
+      "sha256": "de2538171e2585721bce9392937bb2959bed30ea650ac32150ce9a6c89b6537f"
+    },
+    {
+      "path": "habitat-lab/habitat/datasets/rearrange/samplers/__init__.py",
+      "bytes": 782,
+      "sha256": "578470741313d39be0809c5ef2da17c5af56f4d2a5a63104acd913d3ae2e88df"
+    },
+    {
+      "path": "habitat-lab/habitat/datasets/rearrange/samplers/art_sampler.py",
+      "bytes": 9672,
+      "sha256": "f4283e73684ca1676115e8814c505099da9316fff6f0d19014d926f734a0a8b9"
+    },
+    {
+      "path": "habitat-lab/habitat/datasets/rearrange/samplers/object_sampler.py",
+      "bytes": 22791,
+      "sha256": "0ff4b21b18b330b5cc168225ccaf38e5ee5cc5637df3f86da77ed071493ced45"
+    },
+    {
+      "path": "habitat-lab/habitat/datasets/rearrange/samplers/object_target_sampler.py",
+      "bytes": 4615,
+      "sha256": "f9065693beb23c36454bef3ebf6f9810fe9936ee654bbc5596ab908d32074ec5"
+    },
+    {
+      "path": "habitat-lab/habitat/datasets/rearrange/samplers/receptacle.py",
+      "bytes": 54449,
+      "sha256": "7a2d349264e018a7dc9c5e22d4b1e99e91671cad786afc4855c5f633f19bf326"
+    },
+    {
+      "path": "habitat-lab/habitat/datasets/rearrange/samplers/scene_sampler.py",
+      "bytes": 3865,
+      "sha256": "cfb284b28a6ddc4b3b92d2827efd0d6cccdf66f36057fa0b0a2d0a5d2c49020d"
+    },
+    {
+      "path": "habitat-lab/habitat/datasets/registration.py",
+      "bytes": 1202,
+      "sha256": "62f42902888ddb13f223d6481a000c9f04d4e2a2096fb810deccf91789c7ea19"
+    },
+    {
+      "path": "habitat-lab/habitat/datasets/utils.py",
+      "bytes": 6402,
+      "sha256": "1b793e3d0e1fc0d94de80358777bb4ed0511348c4a9c6fdaeedd6f79c98add46"
+    },
+    {
+      "path": "habitat-lab/habitat/datasets/vln/__init__.py",
+      "bytes": 712,
+      "sha256": "c34d82d7699e1d6a91a4ceb6f0e48b5ff832a1f6c5fcef4724a16ebcb230759e"
+    },
+    {
+      "path": "habitat-lab/habitat/datasets/vln/r2r_vln_dataset.py",
+      "bytes": 2482,
+      "sha256": "49ec869cc176b856f92126713398d1319edfdc5e64337af94df1474a528a6866"
+    },
+    {
+      "path": "habitat-lab/habitat/gym/__init__.py",
+      "bytes": 422,
+      "sha256": "6e828bc2a57bcc546b723d1af47ef5c12066975de7d1211b73a4c9ea9d2c0df7"
+    },
+    {
+      "path": "habitat-lab/habitat/gym/gym_definitions.py",
+      "bytes": 4782,
+      "sha256": "98321e3558c19216702eb972d32ee34aabae4bb0a7a39877ee81605e6316f9ec"
+    },
+    {
+      "path": "habitat-lab/habitat/gym/gym_env_episode_count_wrapper.py",
+      "bytes": 1887,
+      "sha256": "df2efde3a5df4bd1bb6adca528d8b8a6eb1eae33ee257f10b2de49d7c86ba5e2"
+    },
+    {
+      "path": "habitat-lab/habitat/gym/gym_env_obs_dict_wrapper.py",
+      "bytes": 1591,
+      "sha256": "b5394bfdfd92d1a4d787a1d71809326ced602f2f3dffe4451e70db689681a39e"
+    },
+    {
+      "path": "habitat-lab/habitat/gym/gym_wrapper.py",
+      "bytes": 18401,
+      "sha256": "69283664dbd55afaa178c307aa1fa5bf57620c862c4e466154e2b551a637c1e3"
+    },
+    {
+      "path": "habitat-lab/habitat/py.typed",
+      "bytes": 79,
+      "sha256": "a7b0b0f3e3add3a2de61a45886ee2af2ca44c3bcd0c70004556c54624b21b773"
+    },
+    {
+      "path": "habitat-lab/habitat/sims/__init__.py",
+      "bytes": 267,
+      "sha256": "5ea8358852da336c733abe4d670fb920e4f59312168255f919c1b6952464da38"
+    },
+    {
+      "path": "habitat-lab/habitat/sims/habitat_simulator/__init__.py",
+      "bytes": 803,
+      "sha256": "3dcbc8465d527390fd9f130296fdb4f91a638aca4065ba77eb429ca75135fb35"
+    },
+    {
+      "path": "habitat-lab/habitat/sims/habitat_simulator/actions.py",
+      "bytes": 2910,
+      "sha256": "bccf8f64b4663fa47ad2e985699154987cd6c3e6aae52e43b19fe9cee6f47bab"
+    },
+    {
+      "path": "habitat-lab/habitat/sims/habitat_simulator/debug_visualizer.py",
+      "bytes": 28582,
+      "sha256": "aafacb5adac044ba1c7dcf589bf291df84af33aedfdee0490bfda8915fe60053"
+    },
+    {
+      "path": "habitat-lab/habitat/sims/habitat_simulator/habitat_simulator.py",
+      "bytes": 26930,
+      "sha256": "6b937619bfb4c10631350183ae74cb0d051ec499e894d3d588aab0078c1a4920"
+    },
+    {
+      "path": "habitat-lab/habitat/sims/habitat_simulator/kinematic_relationship_manager.py",
+      "bytes": 21244,
+      "sha256": "d5b7af86a6a025502450c6ce57f6a3487bdd3d5cc1541df2e42395883e12a163"
+    },
+    {
+      "path": "habitat-lab/habitat/sims/habitat_simulator/object_state_machine.py",
+      "bytes": 13009,
+      "sha256": "b5f5a38f226597f373b9675b78a85b0e214a849a1cf7a5f4725550ed9c25b179"
+    },
+    {
+      "path": "habitat-lab/habitat/sims/habitat_simulator/sim_utilities.py",
+      "bytes": 64251,
+      "sha256": "2518e2069ad834d73a89f5932c61248e56c8dd46dcd5731aa9e420ac1ba8abb2"
+    },
+    {
+      "path": "habitat-lab/habitat/sims/registration.py",
+      "bytes": 642,
+      "sha256": "04470f2457227d49726f1134b33a894bed2229bcc5c39d92b24d34ed6527187a"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/__init__.py",
+      "bytes": 205,
+      "sha256": "e1ef9e48d7724c9ddc982349eab3cc1af56f720448562b2440be2c69b810ec26"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/eqa/__init__.py",
+      "bytes": 656,
+      "sha256": "d96522e3a2055a133c5b4951013634b702bea2fbd809c51d3a4af405c62bc9f1"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/eqa/eqa.py",
+      "bytes": 6173,
+      "sha256": "f07d391fd25192144efc476b724973faeae0d9594d1faea744595255b87d0628"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/nav/__init__.py",
+      "bytes": 670,
+      "sha256": "52b073b031474b105dc1af4014b19cfa4d10219588f8b0bb22b58acf3597f421"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/nav/instance_image_nav_task.py",
+      "bytes": 9215,
+      "sha256": "6204de42e912fdd3bd6f705ab5b9d1983f1c2046f1716e03a81842a0f2a77661"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/nav/nav.py",
+      "bytes": 47419,
+      "sha256": "93195dc0b15ac6c97f2be40030c5ffe7ff2aa098cc4452a4ddca535a486df0d6"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/nav/object_nav_task.py",
+      "bytes": 6714,
+      "sha256": "8dbffd88a6de8a15f0176a98463334c77f877157b80172f7d864cd4b39e5889f"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/nav/shortest_path_follower.py",
+      "bytes": 3276,
+      "sha256": "641ada4d62e15f2771308019689d2006c278c19c1a817733d8e489240c45f092"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/rearrange/__init__.py",
+      "bytes": 1841,
+      "sha256": "26537293f70da9dda7a3c024a43c092cb237991d788bb56817ae0a9b603b955c"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/rearrange/actions/__init__.py",
+      "bytes": 181,
+      "sha256": "66e2c554cb7d1cdbe20aefc90c800d60bc96d357be732e3b9e6bd17705b390cf"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/rearrange/actions/actions.py",
+      "bytes": 32777,
+      "sha256": "fc52dd104366968a8687aaa16e6bad9698bfcdf5878e30322e947dbcad8fe881"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/rearrange/actions/articulated_agent_action.py",
+      "bytes": 2067,
+      "sha256": "a5e9477a36da912415e002c93704cbe1de7954a951a9af048ba3f6b0a5295cab"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/rearrange/actions/grip_actions.py",
+      "bytes": 10459,
+      "sha256": "28ad189f2951f8d5ba375b89f1da39f2e70d3fe8c7beca1302b0704c9a86a913"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/rearrange/actions/humanoid_actions.py",
+      "bytes": 11229,
+      "sha256": "ab243b802f04d0776ee45f82fe35983e223fe3c148c284762e94d38043eb7b16"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/rearrange/actions/oracle_nav_action.py",
+      "bytes": 19480,
+      "sha256": "f2d83afb87beee3091d0fdd800671c3ca95527ee8d31643481daca33b35d1f9e"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/rearrange/actions/pddl_actions.py",
+      "bytes": 3325,
+      "sha256": "18b99ef5c36d0b5be5aef9ea923b6b21af8a38826449e1570d4f460238bbe1b1"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/rearrange/articulated_agent_manager.py",
+      "bytes": 9288,
+      "sha256": "881233272e8c4971ec4d6d72e94a0a8a26d6ecbb0496dd151f014aa21138e248"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/rearrange/articulated_agent_manager_v2.py",
+      "bytes": 10068,
+      "sha256": "c2e8b25cdbfcb1aa10565bf12cce496aa9dbfdf89aed81f32e734bba0b2094a0"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/rearrange/marker_info.py",
+      "bytes": 1541,
+      "sha256": "9abd5c3b00d122969002e4347bf7fad73fcc09437e3f5d4f1466eacba028cb51"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/rearrange/multi_agent_sensors.py",
+      "bytes": 7461,
+      "sha256": "f02294d8e9fa115f6e0b9e5bbb3a37078e9b583fa1a4f89ca2ef56e3a043f373"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/rearrange/multi_task/__init__.py",
+      "bytes": 181,
+      "sha256": "66e2c554cb7d1cdbe20aefc90c800d60bc96d357be732e3b9e6bd17705b390cf"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/rearrange/multi_task/domain_configs/fp.yaml",
+      "bytes": 6468,
+      "sha256": "6aec15d6477877a5a074ca971ac02ba88ad265abc3dc5e255ec3f6e4ace99337"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/rearrange/multi_task/domain_configs/replica_cad.yaml",
+      "bytes": 8907,
+      "sha256": "ab08a8b1eb669b63f8b6c6c73dcd16eebdd31b401f8f45e697c5e8217e833da4"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/rearrange/multi_task/pddl_action.py",
+      "bytes": 6654,
+      "sha256": "5b06859be2785709f3b36c7d7287aadb3dfaf886a24439df4509ab33c3d16c51"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/rearrange/multi_task/pddl_defined_predicates.py",
+      "bytes": 12177,
+      "sha256": "e20224bb6be2f44a1654eb3b47fa694548d62fa587839b55f05aaa78f663ba83"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/rearrange/multi_task/pddl_domain.py",
+      "bytes": 24227,
+      "sha256": "90cbb3a4b5c068814168bae410ae67e2b160c72d4f1f34de6d29bec24f9ba2ec"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/rearrange/multi_task/pddl_logical_expr.py",
+      "bytes": 4665,
+      "sha256": "df98c79d000554a983347e16319e7e04055ad2b9a2a97ce021bd78d040a1e2df"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/rearrange/multi_task/pddl_predicate.py",
+      "bytes": 5196,
+      "sha256": "86b399adf0617faf45690c66a31004c552589746b4cfede3613c8bd1ef16bb69"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/rearrange/multi_task/pddl_sensors.py",
+      "bytes": 9588,
+      "sha256": "b1bcbea220d5daa65a3c834bb713c4c70569f5a92e842c107be8b1d88b0085bd"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/rearrange/multi_task/pddl_task.py",
+      "bytes": 1211,
+      "sha256": "da4901004502d86c7d1b0e3123bc3dead2da22b9f25d614b0256121b62e43ac0"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/rearrange/multi_task/rearrange_pddl.py",
+      "bytes": 9003,
+      "sha256": "d14dea7af8d15baaa6e128f525b95974e6d49cda22ae382cd38b3138a37c6796"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/rearrange/policy_modules.py",
+      "bytes": 181,
+      "sha256": "66e2c554cb7d1cdbe20aefc90c800d60bc96d357be732e3b9e6bd17705b390cf"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/rearrange/rearrange_grasp_manager.py",
+      "bytes": 14388,
+      "sha256": "5b27b6910790f5f3fbb05a7c5d1dc4eb3119d3e397a738781f3551b7279d88b0"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/rearrange/rearrange_sensors.py",
+      "bytes": 42579,
+      "sha256": "26ef0e5ef2059db194515e0a33705e505840d786176f23805a986b025cf959eb"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/rearrange/rearrange_sim.py",
+      "bytes": 43592,
+      "sha256": "5221add0399d37500e1eff0d4ed6fba76526bcfce71dbaff869b43bd5768086e"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/rearrange/rearrange_task.py",
+      "bytes": 15443,
+      "sha256": "801fdeefcc059399e2dc1e6bba96885895990d877c3254acb83a3dba5382651c"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/rearrange/robot_specific_sensors.py",
+      "bytes": 3070,
+      "sha256": "c544532bcac06920ae53b4f90128c0121b0d2b1e1311c891070a25cbf66985c4"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/rearrange/social_nav/__init__.py",
+      "bytes": 181,
+      "sha256": "66e2c554cb7d1cdbe20aefc90c800d60bc96d357be732e3b9e6bd17705b390cf"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/rearrange/social_nav/oracle_social_nav_actions.py",
+      "bytes": 14833,
+      "sha256": "be336dbda6d91601d77c9fb5705e5597b229f4caee1dae57091efffb074e312a"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/rearrange/social_nav/social_nav_sensors.py",
+      "bytes": 24695,
+      "sha256": "b9ddb059f7426c614b8f854fb140017ee4267ae869536bbf288a6f4337583707"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/rearrange/social_nav/social_nav_task.py",
+      "bytes": 4995,
+      "sha256": "822eefaa5d0a6b22dd994e5fda749f5de561547c51f06633635be1816d92b159"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/rearrange/social_nav/utils.py",
+      "bytes": 1077,
+      "sha256": "0f72f967cba780c95e6135f5421fd18441e16c846825993cf44edcd8d5c001a1"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/rearrange/social_nav_v2/socialnav_task.py",
+      "bytes": 20364,
+      "sha256": "e2d81c8f858b0a31d8d7feab9cc7e5d52551aeea393fa72ae0388098bd0d72ff"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/rearrange/sub_tasks/__init__.py",
+      "bytes": 181,
+      "sha256": "66e2c554cb7d1cdbe20aefc90c800d60bc96d357be732e3b9e6bd17705b390cf"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/rearrange/sub_tasks/articulated_object_sensors.py",
+      "bytes": 12483,
+      "sha256": "c58498f23523624d38693456034dc2cef24aeedc2c8dd416dbf59558e613580f"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/rearrange/sub_tasks/articulated_object_task.py",
+      "bytes": 9450,
+      "sha256": "c1487e731741b522aec0b92a34daa8319163670d83afe8597ba39ae0d4be10be"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/rearrange/sub_tasks/nav_to_obj_sensors.py",
+      "bytes": 9608,
+      "sha256": "65b80b19e4d8c663ff129de3fc4fe7b4268517ca119b94ce21e1c73c88f4c68a"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/rearrange/sub_tasks/nav_to_obj_task.py",
+      "bytes": 5200,
+      "sha256": "e8830afbb0d53871a9f9ea0cd63a66d07b3f731ac21eabe7a5f8ab7f3e24612c"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/rearrange/sub_tasks/pick_sensors.py",
+      "bytes": 8739,
+      "sha256": "9b7a425adfed805bd114835275cb1186214022ac75e56f9bf419d4be7c97835a"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/rearrange/sub_tasks/pick_task.py",
+      "bytes": 4251,
+      "sha256": "e5b812c0d92afe86d6764f70051c473b8a56cfadc310c2b6b3c219a67254274b"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/rearrange/sub_tasks/place_sensors.py",
+      "bytes": 5547,
+      "sha256": "28aa61b34b3b4f212b53730bb12c3a4907c14291787d9e9df853afe02526adcf"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/rearrange/sub_tasks/place_task.py",
+      "bytes": 1329,
+      "sha256": "e943ff6c553da866911c3aeac57f856b7bcc4664f9e39d7e3b6b49d62c876305"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/rearrange/sub_tasks/reach_sensors.py",
+      "bytes": 3982,
+      "sha256": "37dc7f327050dcb6f2c18d8eeb425beb17ddaa2eee4c76783fa364d44aafe83f"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/rearrange/sub_tasks/reach_task.py",
+      "bytes": 2316,
+      "sha256": "24fe78c39b713d8c863e16c6c9aa3a0b6a299c28d304de2e8ffdecc6a405d373"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/rearrange/utils.py",
+      "bytes": 25820,
+      "sha256": "bb9490cd3b283548c7ad6ddc496f9adadebf936e29aa876fae3d0fff59da1296"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/registration.py",
+      "bytes": 875,
+      "sha256": "ff3d9d548ca698916f71bb97bede95a072616e14b8bbc41b248a6ddd6bd4c4ed"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/utils.py",
+      "bytes": 1723,
+      "sha256": "182a306458f479c20c2d4de1d4f42bf1dfc95608af013e496d0c9778cae715bb"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/vln/__init__.py",
+      "bytes": 656,
+      "sha256": "0070628e4e97cbf58698042175da69ad31d15ffa61a8ec2913ea25afd0c94959"
+    },
+    {
+      "path": "habitat-lab/habitat/tasks/vln/vln.py",
+      "bytes": 3157,
+      "sha256": "7ba9b1c1e526113cfc57524238ce1716bf718c04c3c6d463a8d2048a6f498d40"
+    },
+    {
+      "path": "habitat-lab/habitat/utils/__init__.py",
+      "bytes": 351,
+      "sha256": "99cc0f834f64cf1e7e4c648ad64ffd70a1aca4df141b6680b17ea4e41b6a1616"
+    },
+    {
+      "path": "habitat-lab/habitat/utils/common.py",
+      "bytes": 2477,
+      "sha256": "980367096a556d268dea95ca1cb2df4e5fa29d3b0c924ef35456324073314377"
+    },
+    {
+      "path": "habitat-lab/habitat/utils/env_utils.py",
+      "bytes": 1244,
+      "sha256": "641ba95b55a3b79f0c484116fa82feff759bf52ed13bef4ed6546b9a63b54a1e"
+    },
+    {
+      "path": "habitat-lab/habitat/utils/geometry_utils.py",
+      "bytes": 5445,
+      "sha256": "0271284ab78241748df41a420ece1b191531af96348a4e6b33521a8f1753ca82"
+    },
+    {
+      "path": "habitat-lab/habitat/utils/humanoid_utils.py",
+      "bytes": 11023,
+      "sha256": "36eb66e0e038372eee767d9995c22bb3a2edebc2a3fbdc256fe701b93af67c4a"
+    },
+    {
+      "path": "habitat-lab/habitat/utils/pickle5_multiprocessing.py",
+      "bytes": 2940,
+      "sha256": "d9a81bce96b27336a6dab0f7f0d98958075ebfd2e96fe334d4c3743f1f974673"
+    },
+    {
+      "path": "habitat-lab/habitat/utils/profiling_wrapper.py",
+      "bytes": 2096,
+      "sha256": "2979094327567cf7a15676b126ec1bec72b72051842eed4783c84bf541a85a4c"
+    },
+    {
+      "path": "habitat-lab/habitat/utils/test_utils.py",
+      "bytes": 1082,
+      "sha256": "14ba3268ebf3df8b0624d9a8f62aacd2efa659f6f0f77f8d204795173628144d"
+    },
+    {
+      "path": "habitat-lab/habitat/utils/visualizations/__init__.py",
+      "bytes": 288,
+      "sha256": "a59ec1fe0832860a9ef9ed0a3dd9ddc0236dadee2608eb23270e2b4c2786102a"
+    },
+    {
+      "path": "habitat-lab/habitat/utils/visualizations/assets/maps_topdown_agent_sprite/100x100.png",
+      "bytes": 5616,
+      "sha256": "648d945e29570d1be6dfb361576820a811faf64a699f74e52e81a3b5303e46e7"
+    },
+    {
+      "path": "habitat-lab/habitat/utils/visualizations/assets/maps_topdown_agent_sprite/human_1.png",
+      "bytes": 9574,
+      "sha256": "bc1ac961ce08b8e2326810b24bbac1f62bf626baa26f411caea9d042eba463ef"
+    },
+    {
+      "path": "habitat-lab/habitat/utils/visualizations/assets/maps_topdown_agent_sprite/human_2.png",
+      "bytes": 10889,
+      "sha256": "4930ea0e3da36d7c62ac6da2a03c380af71acd7c23ab4766e05e753eefe7e1ea"
+    },
+    {
+      "path": "habitat-lab/habitat/utils/visualizations/assets/maps_topdown_agent_sprite/human_3.png",
+      "bytes": 11364,
+      "sha256": "022f568913d665b93102211b64c46f3f8fd39e15b789243241c3335335cd42f6"
+    },
+    {
+      "path": "habitat-lab/habitat/utils/visualizations/assets/maps_topdown_agent_sprite/human_4.png",
+      "bytes": 10170,
+      "sha256": "b65f97658d20bcb00b9f62ce7374d508b43c56fde80be521cd3f96437721a63c"
+    },
+    {
+      "path": "habitat-lab/habitat/utils/visualizations/assets/maps_topdown_agent_sprite/human_5.png",
+      "bytes": 10185,
+      "sha256": "16e1229367e27c2c6cb29f82a5fa20312743da76a42134e35e5487fa111d811f"
+    },
+    {
+      "path": "habitat-lab/habitat/utils/visualizations/assets/maps_topdown_agent_sprite/human_6.png",
+      "bytes": 9515,
+      "sha256": "f250cb021ab768da8ae329e369b9ae19984506d801e779daf9c039477e420f47"
+    },
+    {
+      "path": "habitat-lab/habitat/utils/visualizations/assets/maps_topdown_agent_sprite/human_7.png",
+      "bytes": 9627,
+      "sha256": "5043a5cd7de1694efb6259ced9e40f5e9c061311575ed1e877bdd0e4bbcce1f1"
+    },
+    {
+      "path": "habitat-lab/habitat/utils/visualizations/assets/maps_topdown_agent_sprite/human_8.png",
+      "bytes": 11256,
+      "sha256": "295dd5f0eb70ac2c9e516fbbdd93355090ee3250e8d08bfd9efcf2569373588e"
+    },
+    {
+      "path": "habitat-lab/habitat/utils/visualizations/fog_of_war.py",
+      "bytes": 4240,
+      "sha256": "595aa91a285e4544c4bea96aa152d9bd7d2a6319277c6a077d26204f848414a0"
+    },
+    {
+      "path": "habitat-lab/habitat/utils/visualizations/maps.py",
+      "bytes": 20692,
+      "sha256": "9cedd64006584263aa88136ec6b4efc5dbaa5ca30034c67a17a8e6b4c96e597c"
+    },
+    {
+      "path": "habitat-lab/habitat/utils/visualizations/utils.py",
+      "bytes": 12983,
+      "sha256": "d5c453e7f84511d671911e8b1189410b71c10c456a805cf95c4a7464f1e54639"
+    },
+    {
+      "path": "habitat-lab/habitat/version.py",
+      "bytes": 224,
+      "sha256": "7835904fdfe43ad6f9bec5fe06fd9198a90f4684608d55f82d24069bbb8fd384"
+    },
+    {
+      "path": "habitat-lab/requirements.txt",
+      "bytes": 338,
+      "sha256": "34f0b15960590d34aca125fc97a1b4d41ff18891024e8c0674f7401b70b6d552"
+    },
+    {
+      "path": "habitat-lab/setup.py",
+      "bytes": 4530,
+      "sha256": "4c81ded4c0f6574deefabf111083aecf5bb1c600ac952c9eb1ed31ff8f135fd8"
+    },
+    {
+      "path": "mypy.ini",
+      "bytes": 788,
+      "sha256": "d0a359d764e1670348fadea0acd431fb1945de15582918fb838f17f06edfc361"
+    },
+    {
+      "path": "pretrained_model_transfer.ipynb",
+      "bytes": 2690,
+      "sha256": "6f60d68fd442489c1fc5332d8004e30f76755b1469dfe70eb3c36fcdf6ec0843"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 372,
+      "sha256": "c9124d2b4df8b3f1d3c473d166e72efa109891ce81592f1b3dab67f3249f33e0"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 49,
+      "sha256": "f05d7d234e6ab538501b72550645878fa319622dd2a4ec1d3db36c75b7ed848b"
+    },
+    {
+      "path": "scripts/export_smplx_bodies.py",
+      "bytes": 25318,
+      "sha256": "7c07f8e16e3427460a4618d72292392daaf31dc2a9828444703451e43b0f4d46"
+    },
+    {
+      "path": "scripts/generate_profile_shell_scripts.py",
+      "bytes": 9870,
+      "sha256": "1ec2a6daae30f8c4e76320c1d9f913746b9e06301519162ab6714169fa2cb9ad"
+    },
+    {
+      "path": "scripts/hab2_bench/README.md",
+      "bytes": 2527,
+      "sha256": "18a694894801a0dff87374f4837539965406f776599ba07c36f06ebd4e1af965"
+    },
+    {
+      "path": "scripts/hab2_bench/assert_bench.py",
+      "bytes": 3768,
+      "sha256": "4145d712cf1f17626e1d9f7198644384b03e32f1c702a79405cea293659d58cc"
+    },
+    {
+      "path": "scripts/hab2_bench/bench_runner.sh",
+      "bytes": 3374,
+      "sha256": "d603daeff6cea57f3e9cdfca15f4b25caa7892c9384df5f4a1e52a3d105b189f"
+    },
+    {
+      "path": "scripts/hab2_bench/hab2_benchmark.py",
+      "bytes": 7961,
+      "sha256": "db4b729bfaabf2e500179a4101ae09f63e06952f06bcf6086de30f052d712299"
+    },
+    {
+      "path": "scripts/hab2_bench/plot_bench.py",
+      "bytes": 2677,
+      "sha256": "12f3e9bc35cbc53b37cda9d8eb4a3ad8ff098f55aab24693b689b332aeb384eb"
+    },
+    {
+      "path": "scripts/hab3_bench/README.md",
+      "bytes": 1408,
+      "sha256": "b7075eba0ff84c1ae07d5dceb66fa39348fea71f574e46db354d471bdb46fd4b"
+    },
+    {
+      "path": "scripts/hab3_bench/bench_runner.sh",
+      "bytes": 4304,
+      "sha256": "1fba7ce0f5481e545fa77d34cfdcf312bc29f0e90f913d1211dc4c4a764af8cd"
+    },
+    {
+      "path": "scripts/hab3_bench/h3_plot_bench.py",
+      "bytes": 3061,
+      "sha256": "2af18fc2f45f3e7fb58e14798d1b60c53f317ce1598d1df725a8a16538c50e98"
+    },
+    {
+      "path": "scripts/hab3_bench/hab3_benchmark.py",
+      "bytes": 9510,
+      "sha256": "5b32a0e84b45d819b6ac1d6e565f7e51e546d77353483e9cc7d12273207cd7bb"
+    },
+    {
+      "path": "scripts/unity_dataset_processing/decimate.py",
+      "bytes": 9361,
+      "sha256": "aa87b389d169c5ed2d06e805a6bc6f4598e23abb9ce65552a233aa5ef8cc8b25"
+    },
+    {
+      "path": "scripts/unity_dataset_processing/unity_dataset_processing.py",
+      "bytes": 12815,
+      "sha256": "ea55d8721b6f737e889409d21af2863fd1a4c2028006f49747e1650de852c8ca"
+    },
+    {
+      "path": "setup.cfg",
+      "bytes": 824,
+      "sha256": "851808e30872c7c088ce11cd69dedaa4bd7230983f7967371ca23fd157518390"
+    },
+    {
+      "path": "test/config/habitat/habitat_all_sensors_test.yaml",
+      "bytes": 531,
+      "sha256": "e61e3a128f846575a7a97e0f6a169d0a7d0ebc533e1fb293f9934501545e075a"
+    },
+    {
+      "path": "test/config/habitat/habitat_hm3d_instance_image_nav_test.yaml",
+      "bytes": 322,
+      "sha256": "63bb1b58f241035f92d43924201a8d8f58536c02c76be64328ff2d2330c614b0"
+    },
+    {
+      "path": "test/config/habitat/habitat_hssd-hab_object_nav_test.yaml",
+      "bytes": 304,
+      "sha256": "461e89e9f7e7b15cb734871c2361436905fb0dcf69bc04aeb2470c095364fa59"
+    },
+    {
+      "path": "test/config/habitat/habitat_mp3d_eqa_test.yaml",
+      "bytes": 661,
+      "sha256": "7791df37ea9964decbbfb100f0e8f24c0b7a78c8eb967752d2c13241864dad2a"
+    },
+    {
+      "path": "test/config/habitat/habitat_mp3d_object_nav_test.yaml",
+      "bytes": 289,
+      "sha256": "b95d7c3fdaa0384a776197990cf36e690c67429010a474d15881ed7f17d6157e"
+    },
+    {
+      "path": "test/config/habitat/habitat_procthor-hab_object_nav_test.yaml",
+      "bytes": 345,
+      "sha256": "b79333aa9c317eb4b5cff4dcb82b09e7efa66647624eabff0d345cb061eea202"
+    },
+    {
+      "path": "test/config/habitat/habitat_r2r_vln_test.yaml",
+      "bytes": 316,
+      "sha256": "46e1747366ee5367c096d9ba7f01eb40164e576d288187c175848f5cc6bd0a29"
+    },
+    {
+      "path": "test/config/habitat_baselines/ddppo_imagenav_test.yaml",
+      "bytes": 1793,
+      "sha256": "44c2c5e84799d808935c3264011f83734e27efc5b65472d0bd77e92fbc52c4d7"
+    },
+    {
+      "path": "test/config/habitat_baselines/ddppo_instance_imagenav_test.yaml",
+      "bytes": 2147,
+      "sha256": "ad064fd1247c87e6b5420f1032545059d8510fc7cd01e1efd9139c385dab87d4"
+    },
+    {
+      "path": "test/config/habitat_baselines/ddppo_pointnav_test.yaml",
+      "bytes": 1826,
+      "sha256": "d7f5adb371e841e7d18944d13f4765fd0e41c51ad21079b0aa218f96e99a9049"
+    },
+    {
+      "path": "test/config/habitat_baselines/ppo_imagenav_test.yaml",
+      "bytes": 981,
+      "sha256": "4b0b9cf8ae04aa9d217ffb2711673fff416ed6e8df862d3cdd6f3da236e3d14a"
+    },
+    {
+      "path": "test/config/habitat_baselines/ppo_pointnav_test.yaml",
+      "bytes": 1081,
+      "sha256": "192c69acb1ad51e1a379ca64de89cf49465fe5ea8daab41fc5d51c56ddd035b3"
+    },
+    {
+      "path": "test/data/habitat-sim_trajectory_data.json",
+      "bytes": 8050,
+      "sha256": "4e59d8dd1a16e8869b457c94a63077982b2c1bb15b2147a7f20f81646ecc256f"
+    },
+    {
+      "path": "test/data/test-sim-geodesic-distance-test-golden.json",
+      "bytes": 9210,
+      "sha256": "9629a9c056bffdfc4329eff70b420f0afc32fd1819451be1cf3e4865618bb1c8"
+    },
+    {
+      "path": "test/test_baseline_agents.py",
+      "bytes": 3238,
+      "sha256": "d3a63377656213c098e4102ff82d4a0da13121fd0962369038136e6a1381e527"
+    },
+    {
+      "path": "test/test_baseline_config.py",
+      "bytes": 840,
+      "sha256": "512e971194e21fd8d5e115911df7298499acaa35e524de63c7e8617818131855"
+    },
+    {
+      "path": "test/test_baseline_resnet.py",
+      "bytes": 2253,
+      "sha256": "2a9ba215b2591d3fbc978c7ab6b218101cb3a358a8227789550e91a38dfb701a"
+    },
+    {
+      "path": "test/test_baseline_trainers.py",
+      "bytes": 15190,
+      "sha256": "fbb6984e1fa660ca5906579d144eef78fcfd89e3b245ca57c90c4ce5e516ad01"
+    },
+    {
+      "path": "test/test_baseline_training.py",
+      "bytes": 16268,
+      "sha256": "2915fcea64a131919b0b28b606a18d3054dfa05c0eaf8372182630f5994a2d4d"
+    },
+    {
+      "path": "test/test_baselines_hydra.py",
+      "bytes": 1730,
+      "sha256": "dacaab2f3f72425aafeef1ab58c1f5756180aa440c3d796a10050689e6bde3ee"
+    },
+    {
+      "path": "test/test_config.py",
+      "bytes": 718,
+      "sha256": "d7d2da6ecd12711a580ba0f94b6206bf5dcdcd14a69efc6946388f5a7dd1b89f"
+    },
+    {
+      "path": "test/test_dataset.py",
+      "bytes": 12668,
+      "sha256": "f0bab126eed2af18e9fa88fbbf2ceec54c972fbff7aa56aae9ba6a7841d1c9af"
+    },
+    {
+      "path": "test/test_ddppo_reduce.py",
+      "bytes": 4290,
+      "sha256": "9efe8547969d7afb0f0c6d9722b7417e897d6f45b2fb1e1cfd534b1900834019"
+    },
+    {
+      "path": "test/test_debug_visualizer.py",
+      "bytes": 4779,
+      "sha256": "f3307f2bb18a6d3dd55afde9d44b81d4cc4b5f748ad295b47cd4ded46fc0e8ed"
+    },
+    {
+      "path": "test/test_demo_notebook.py",
+      "bytes": 990,
+      "sha256": "8e905f826b755a23e6b8232a14fe85a45b79c7c35930928ba1d118a88df311b8"
+    },
+    {
+      "path": "test/test_examples.py",
+      "bytes": 2492,
+      "sha256": "a4e726006f261cf3f659fa67ff3bcb9880873b02acb6d7f8a4fbf65521722d7e"
+    },
+    {
+      "path": "test/test_gather_objects.py",
+      "bytes": 1909,
+      "sha256": "a9a6a38f1ba542c5f3d9ae3de3736cc69c270fbd34a8c0dcd88d92f72de01a62"
+    },
+    {
+      "path": "test/test_geom_utils.py",
+      "bytes": 2610,
+      "sha256": "611e8982fc4f86c73ea6d46d0db0f8015c851e79a0d0ee9b2d618e333aa25aa4"
+    },
+    {
+      "path": "test/test_gym_wrapper.py",
+      "bytes": 5942,
+      "sha256": "53a4c935ff9b71e24235d314ebb59205d70db59582ce76afb75472fa6c32e635"
+    },
+    {
+      "path": "test/test_habitat_env.py",
+      "bytes": 20898,
+      "sha256": "13b1392f7d2b127d881e2a8dc22aeb72c448a4d815bb6ab6a2b7420c79412a33"
+    },
+    {
+      "path": "test/test_habitat_example.py",
+      "bytes": 1189,
+      "sha256": "9e67d4285216c67f689761bd590e4127215bae58347064febe6dbd5a3afe1ed8"
+    },
+    {
+      "path": "test/test_habitat_sim.py",
+      "bytes": 4696,
+      "sha256": "297f6724375b83eeb35cef704cd7bca89ba9060d0ae85a19927a41f4424e2662"
+    },
+    {
+      "path": "test/test_habitat_task.py",
+      "bytes": 3435,
+      "sha256": "2aa44e213d6b37e764229201333b0b8dbfa70e487675cb4766d8bc0ea4c90880"
+    },
+    {
+      "path": "test/test_humanoid.py",
+      "bytes": 17111,
+      "sha256": "f08996a9ae69cb67391e835a130465aa96481660b1051728cba6e1a929cb9449"
+    },
+    {
+      "path": "test/test_install.py",
+      "bytes": 368,
+      "sha256": "779c52398b59938d51b8ba93ca11f62346c2f486265be278172eb0bd74c1ed20"
+    },
+    {
+      "path": "test/test_instance_image_nav_task.py",
+      "bytes": 4994,
+      "sha256": "0063adc94c9588c168213e6799bf73a0a673210350a2999a4b69108637bbe129"
+    },
+    {
+      "path": "test/test_kinematic_relationship_manager.py",
+      "bytes": 7019,
+      "sha256": "a324ccda7c455b11f0f63c05c66fc908595e035e53eb08f125fae3c7ffb7cdb3"
+    },
+    {
+      "path": "test/test_mp3d_eqa.py",
+      "bytes": 11239,
+      "sha256": "2165f6ca166805e655915300f1fd039ac19d3942733a23b24d311142de56fbe6"
+    },
+    {
+      "path": "test/test_navmesh_utils.py",
+      "bytes": 6675,
+      "sha256": "a47a312c8c37f50279e90fa164e11a0dc9f3a51088929d7d9564f3c09fdb95c8"
+    },
+    {
+      "path": "test/test_object_nav_task.py",
+      "bytes": 5605,
+      "sha256": "c1a1da370efd849c5bb0001d4676db23e69266aeff546daf475da9a96b2a9b09"
+    },
+    {
+      "path": "test/test_object_state_machine.py",
+      "bytes": 4473,
+      "sha256": "0291b71b559d83f0a1735524372b54fb0c25b59efe68efea545f6f18ce372f8b"
+    },
+    {
+      "path": "test/test_obs_transformers.py",
+      "bytes": 2413,
+      "sha256": "2a4056e9657f21708dcd16899f040e12d04d8a130d4fe8ce200a2720bff0599a"
+    },
+    {
+      "path": "test/test_pointnav_dataset.py",
+      "bytes": 8679,
+      "sha256": "a919e23d586ad1963b441e822af60bfd837ab897a0b0aeb890a9cc38efbbea4a"
+    },
+    {
+      "path": "test/test_pointnav_resnet_policy.py",
+      "bytes": 4432,
+      "sha256": "c64993e2b51fd109be2f14f4233d0b471bf22dd99cc59acc4e3bb8f146db4e46"
+    },
+    {
+      "path": "test/test_r2r_vln.py",
+      "bytes": 5871,
+      "sha256": "e323536b2fb350651c5981a0abcf640d678b3b729662074cd04cb8263444c4be"
+    },
+    {
+      "path": "test/test_rearrange_task.py",
+      "bytes": 21548,
+      "sha256": "27bf682c1541ea65ee93d3628dd682875226cd5e2923a7524308ce3675df1730"
+    },
+    {
+      "path": "test/test_rnn_state_encoder.py",
+      "bytes": 3230,
+      "sha256": "6b8af19284c02db36f02ff97fbf98bec654e838be3108651d42c276710638da6"
+    },
+    {
+      "path": "test/test_robot_wrapper.py",
+      "bytes": 34335,
+      "sha256": "694af36f874cb54de8dc04b553df145ab769d5e3ff6ae28f7d8fff1cd7f7d325"
+    },
+    {
+      "path": "test/test_sensors.py",
+      "bytes": 22651,
+      "sha256": "6d19bb26ef35226836eb8bc1b3f91517fb2b4e5a79128f8ac1e7075f11b85eb2"
+    },
+    {
+      "path": "test/test_sim_utils.py",
+      "bytes": 34984,
+      "sha256": "b8f8477e6c8a99d157e6401a5fe0e3c8941a0b14b82975ac0589962b93e6a586"
+    },
+    {
+      "path": "test/test_spaces.py",
+      "bytes": 1623,
+      "sha256": "5a6c8cc2b25cea392938298cfa439ae445aa8a9d7a4e38fdbdfd208cb9493dfc"
+    },
+    {
+      "path": "test/test_tensor_dict.py",
+      "bytes": 2833,
+      "sha256": "1396b60c4a673b2677d7bc6f5eb13ecbd6762a375ae3fcd8826610e369550670"
+    },
+    {
+      "path": "test/test_visual_utils.py",
+      "bytes": 1809,
+      "sha256": "baaae295315a8888073f0341d2e84f376c17d98246dd310a005ad67774d89353"
+    },
+    {
+      "path": "web-img/task_illustration_v5.png",
+      "bytes": 1660974,
+      "sha256": "85b10e6d99ed5f11e998c6ef45445fc27c64714ac49d67c65f2ad3e1d7bfc618"
+    }
+  ],
+  "file_count": 738,
+  "total_bytes": 6343594
+}

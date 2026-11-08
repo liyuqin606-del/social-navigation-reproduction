@@ -1,0 +1,7 @@
+{
+  "completed_episode_records": 161,
+  "requested_episode_count": 161,
+  "evals_per_episode": 1,
+  "checkpoint_index": 0,
+  "training_step": 256
+}

@@ -1,0 +1,51 @@
+{
+  "status": "VERIFIED_SUBSET_EVALUATION",
+  "baseline": "Falcon official full-version inference checkpoint",
+  "job_id": "28088",
+  "scenes": 9,
+  "episodes": 174,
+  "full_benchmark_scenes": 56,
+  "full_benchmark_episodes": 1087,
+  "seed": 100,
+  "num_environments": 4,
+  "official_eval_num_environments": 8,
+  "policy_deterministic": false,
+  "gpu": "1 x NVIDIA GeForce RTX 3090",
+  "checkpoint_sha256": "ba7f2824604639d934be2359226c9e9fb35d5b1b2fb39ffbcbbbd833252db6ca",
+  "metrics": {
+    "reward": 6.380978917435411,
+    "distance_to_goal": 3.2819065038307476,
+    "distance_to_goal_reward": 0.1258686901787403,
+    "success": 0.5574712643678161,
+    "did_multi_agents_collide": 0.40804597701149425,
+    "num_steps": 120.4080459770115,
+    "spl": 0.5089448131944766,
+    "psc": 0.8943522741741792,
+    "human_collision": 0.40804597701149425
+  },
+  "official_rounded_metrics": {
+    "SR": 0.5575,
+    "SPL": 0.5089,
+    "PSC": 0.8944,
+    "H-Coll": 0.408,
+    "Total": 0.644
+  },
+  "scheduler": {
+    "squeue": "",
+    "sacct": "28088|vln_falcon_subset174_20261103T080838_386d885e|liyuqin|COMPLETED|0:0|2026-11-03T16:10:18|2026-11-03T16:56:36|00:46:18|10-0-1-11\n28088.batch|batch||COMPLETED|0:0|2026-11-03T16:10:18|2026-11-03T16:56:36|00:46:18|10-0-1-11",
+    "state": "COMPLETED",
+    "exit_code": "0:0",
+    "identity_verified": true,
+    "released": true
+  },
+  "released": true,
+  "receipt": "/Users/yuqinli/Documents/ChatGPT/VLN/baselines/runs/falcon_subset174_20261103_b/run/DRIVER_RECEIPT.json",
+  "evidence_directory": "/Users/yuqinli/Documents/ChatGPT/VLN/baselines/runs/falcon_subset174_20261103_b/run",
+  "limitations": [
+    "Nonrandom 9-scene subset selected by originally available HM3D minival geometry; not the full benchmark",
+    "One released checkpoint, not three independently trained seeds",
+    "4 environments instead of official 8 changes random streams",
+    "No training reproduction or SOTA claim; Total is a code-defined score, absent from the paper table"
+  ],
+  "recorded_utc": "2026-11-03T09:02:18.126005+00:00"
+}

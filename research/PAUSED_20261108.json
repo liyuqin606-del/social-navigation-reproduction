@@ -1,0 +1,10 @@
+{
+  "status": "PAUSED_BY_USER",
+  "request": "先停一下把复现的内容上传Github，然后把阅读论文的笔记上传Github",
+  "utc": "2026-11-08T13:58:45.280618+00:00",
+  "active_jobs": [],
+  "last_job_id": "28439",
+  "last_job_terminal": "COMPLETED/0:0",
+  "new_iterations_authorized_to_launch": false,
+  "resumption_requires_user_request": true
+}

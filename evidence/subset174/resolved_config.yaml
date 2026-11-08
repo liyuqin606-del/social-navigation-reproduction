@@ -1,0 +1,961 @@
+habitat:
+  seed: 100
+  env_task: GymHabitatEnv
+  env_task_gym_dependencies: []
+  env_task_gym_id: ''
+  environment:
+    max_episode_steps: 500
+    max_episode_seconds: 10000000
+    iterator_options:
+      cycle: true
+      shuffle: false
+      group_by_scene: true
+      num_episode_sample: -1
+      max_scene_repeat_episodes: -1
+      max_scene_repeat_steps: 10000
+      step_repetition_range: 0.2
+  simulator:
+    type: RearrangeSim-v2
+    forward_step_size: 0.25
+    turn_angle: 10
+    create_renderer: false
+    requires_textures: true
+    auto_sleep: false
+    step_physics: true
+    concur_render: false
+    needs_markers: true
+    update_articulated_agent: true
+    scene: data/scene_datasets/habitat-test-scenes/van-gogh-room.glb
+    scene_dataset: default
+    additional_object_paths: []
+    seed: 100
+    default_agent_id: 0
+    debug_render: false
+    debug_render_articulated_agent: false
+    kinematic_mode: true
+    should_setup_semantic_ids: true
+    debug_render_goal: true
+    robot_joint_start_noise: 0.0
+    ctrl_freq: 120.0
+    ac_freq_ratio: 4
+    load_objs: true
+    hold_thresh: 0.15
+    grasp_impulse: 10000.0
+    agents:
+      agent_0:
+        height: 1.41
+        radius: 0.25
+        max_climb: 0.2
+        max_slope: 45.0
+        grasp_managers: 1
+        sim_sensors:
+          head_rgb_sensor:
+            type: HabitatSimRGBSensor
+            height: 256
+            width: 256
+            position:
+            - 0.0
+            - 1.25
+            - 0.0
+            orientation:
+            - 0.0
+            - 0.0
+            - 0.0
+            hfov: 90
+            sensor_subtype: PINHOLE
+            noise_model: None
+            noise_model_kwargs: {}
+            uuid: head_rgb
+          head_depth_sensor:
+            type: HabitatSimDepthSensor
+            height: 256
+            width: 256
+            position:
+            - 0.0
+            - 1.25
+            - 0.0
+            orientation:
+            - 0.0
+            - 0.0
+            - 0.0
+            hfov: 90
+            sensor_subtype: PINHOLE
+            noise_model: None
+            noise_model_kwargs: {}
+            min_depth: 0.0
+            max_depth: 10.0
+            normalize_depth: true
+            uuid: head_depth
+          arm_rgb_sensor:
+            type: HabitatSimRGBSensor
+            height: 480
+            width: 640
+            position:
+            - 0.0
+            - 1.25
+            - 0.0
+            orientation:
+            - 0.0
+            - 0.0
+            - 0.0
+            hfov: 47
+            sensor_subtype: PINHOLE
+            noise_model: None
+            noise_model_kwargs: {}
+            uuid: articulated_agent_arm_rgb
+          arm_depth_sensor:
+            type: HabitatSimDepthSensor
+            height: 240
+            width: 228
+            position:
+            - 0.0
+            - 1.25
+            - 0.0
+            orientation:
+            - 0.0
+            - 0.0
+            - 0.0
+            hfov: 60
+            sensor_subtype: PINHOLE
+            noise_model: None
+            noise_model_kwargs: {}
+            min_depth: 0.0
+            max_depth: 1.7
+            normalize_depth: true
+            uuid: articulated_agent_arm_depth
+          arm_panoptic_sensor:
+            type: HabitatSimSemanticSensor
+            height: 240
+            width: 228
+            position:
+            - 0.0
+            - 1.25
+            - 0.0
+            orientation:
+            - 0.0
+            - 0.0
+            - 0.0
+            hfov: 60
+            sensor_subtype: PINHOLE
+            noise_model: None
+            noise_model_kwargs: {}
+            uuid: articulated_agent_arm_panoptic
+          head_stereo_left_depth_sensor:
+            type: HabitatSimDepthSensor
+            height: 212
+            width: 120
+            position:
+            - 0.0
+            - 1.25
+            - 0.0
+            orientation:
+            - 0.0
+            - 0.0
+            - 0.0
+            hfov: 58
+            sensor_subtype: PINHOLE
+            noise_model: None
+            noise_model_kwargs: {}
+            min_depth: 0.0
+            max_depth: 3.5
+            normalize_depth: true
+            uuid: head_stereo_left_depth
+          head_stereo_right_depth_sensor:
+            type: HabitatSimDepthSensor
+            height: 212
+            width: 120
+            position:
+            - 0.0
+            - 1.25
+            - 0.0
+            orientation:
+            - 0.0
+            - 0.0
+            - 0.0
+            hfov: 58
+            sensor_subtype: PINHOLE
+            noise_model: None
+            noise_model_kwargs: {}
+            min_depth: 0.0
+            max_depth: 3.5
+            normalize_depth: true
+            uuid: head_stereo_right_depth
+          jaw_rgb_sensor:
+            type: HabitatSimRGBSensor
+            height: 240
+            width: 228
+            position:
+            - 0.0
+            - 1.25
+            - 0.0
+            orientation:
+            - 0.0
+            - 0.0
+            - 0.0
+            hfov: 60
+            sensor_subtype: PINHOLE
+            noise_model: None
+            noise_model_kwargs: {}
+            uuid: articulated_agent_jaw_rgb
+          jaw_depth_sensor:
+            type: HabitatSimDepthSensor
+            height: 256
+            width: 256
+            position:
+            - 0.0
+            - 1.25
+            - 0.0
+            orientation:
+            - 0.0
+            - 0.0
+            - 0.0
+            hfov: 90
+            sensor_subtype: PINHOLE
+            noise_model: None
+            noise_model_kwargs: {}
+            min_depth: 0.0
+            max_depth: 10.0
+            normalize_depth: true
+            uuid: articulated_agent_jaw_depth
+          jaw_panoptic_sensor:
+            type: HabitatSimSemanticSensor
+            height: 240
+            width: 228
+            position:
+            - 0.0
+            - 1.25
+            - 0.0
+            orientation:
+            - 0.0
+            - 0.0
+            - 0.0
+            hfov: 60
+            sensor_subtype: PINHOLE
+            noise_model: None
+            noise_model_kwargs: {}
+            uuid: articulated_agent_jaw_panoptic
+        is_set_start_state: false
+        start_position:
+        - 0.0
+        - 0.0
+        - 0.0
+        start_rotation:
+        - 0.0
+        - 0.0
+        - 0.0
+        - 1.0
+        joint_start_noise: 0.1
+        joint_that_can_control: null
+        joint_start_override: null
+        articulated_agent_urdf: data/robots/hab_spot_arm/urdf/hab_spot_arm.urdf
+        articulated_agent_type: SpotRobot
+        ik_arm_urdf: null
+        motion_data_path: ''
+        auto_update_sensor_transform: true
+      agent_1:
+        height: 1.5
+        radius: 0.3
+        max_climb: 0.2
+        max_slope: 45.0
+        grasp_managers: 1
+        sim_sensors: {}
+        is_set_start_state: false
+        start_position:
+        - 0.0
+        - 0.0
+        - 0.0
+        start_rotation:
+        - 0.0
+        - 0.0
+        - 0.0
+        - 1.0
+        joint_start_noise: 0.1
+        joint_that_can_control: null
+        joint_start_override: null
+        articulated_agent_urdf: data/humanoids/humanoid_data/female_0/female_0.urdf
+        articulated_agent_type: KinematicHumanoid
+        ik_arm_urdf: null
+        motion_data_path: data/humanoids/humanoid_data/female_0/female_0_motion_data_smplx.pkl
+        auto_update_sensor_transform: true
+      agent_2:
+        height: 1.5
+        radius: 0.3
+        max_climb: 0.2
+        max_slope: 45.0
+        grasp_managers: 1
+        sim_sensors: {}
+        is_set_start_state: false
+        start_position:
+        - 0.0
+        - 0.0
+        - 0.0
+        start_rotation:
+        - 0.0
+        - 0.0
+        - 0.0
+        - 1.0
+        joint_start_noise: 0.1
+        joint_that_can_control: null
+        joint_start_override: null
+        articulated_agent_urdf: data/humanoids/humanoid_data/female_1/female_1.urdf
+        articulated_agent_type: KinematicHumanoid
+        ik_arm_urdf: null
+        motion_data_path: data/humanoids/humanoid_data/female_1/female_1_motion_data_smplx.pkl
+        auto_update_sensor_transform: true
+      agent_3:
+        height: 1.5
+        radius: 0.3
+        max_climb: 0.2
+        max_slope: 45.0
+        grasp_managers: 1
+        sim_sensors: {}
+        is_set_start_state: false
+        start_position:
+        - 0.0
+        - 0.0
+        - 0.0
+        start_rotation:
+        - 0.0
+        - 0.0
+        - 0.0
+        - 1.0
+        joint_start_noise: 0.1
+        joint_that_can_control: null
+        joint_start_override: null
+        articulated_agent_urdf: data/humanoids/humanoid_data/male_0/male_0.urdf
+        articulated_agent_type: KinematicHumanoid
+        ik_arm_urdf: null
+        motion_data_path: data/humanoids/humanoid_data/male_0/male_0_motion_data_smplx.pkl
+        auto_update_sensor_transform: true
+      agent_4:
+        height: 1.5
+        radius: 0.3
+        max_climb: 0.2
+        max_slope: 45.0
+        grasp_managers: 1
+        sim_sensors: {}
+        is_set_start_state: false
+        start_position:
+        - 0.0
+        - 0.0
+        - 0.0
+        start_rotation:
+        - 0.0
+        - 0.0
+        - 0.0
+        - 1.0
+        joint_start_noise: 0.1
+        joint_that_can_control: null
+        joint_start_override: null
+        articulated_agent_urdf: data/humanoids/humanoid_data/male_1/male_1.urdf
+        articulated_agent_type: KinematicHumanoid
+        ik_arm_urdf: null
+        motion_data_path: data/humanoids/humanoid_data/male_1/male_1_motion_data_smplx.pkl
+        auto_update_sensor_transform: true
+      agent_5:
+        height: 1.5
+        radius: 0.3
+        max_climb: 0.2
+        max_slope: 45.0
+        grasp_managers: 1
+        sim_sensors: {}
+        is_set_start_state: false
+        start_position:
+        - 0.0
+        - 0.0
+        - 0.0
+        start_rotation:
+        - 0.0
+        - 0.0
+        - 0.0
+        - 1.0
+        joint_start_noise: 0.1
+        joint_that_can_control: null
+        joint_start_override: null
+        articulated_agent_urdf: data/humanoids/humanoid_data/female_2/female_2.urdf
+        articulated_agent_type: KinematicHumanoid
+        ik_arm_urdf: null
+        motion_data_path: data/humanoids/humanoid_data/female_2/female_2_motion_data_smplx.pkl
+        auto_update_sensor_transform: true
+      agent_6:
+        height: 1.5
+        radius: 0.3
+        max_climb: 0.2
+        max_slope: 45.0
+        grasp_managers: 1
+        sim_sensors: {}
+        is_set_start_state: false
+        start_position:
+        - 0.0
+        - 0.0
+        - 0.0
+        start_rotation:
+        - 0.0
+        - 0.0
+        - 0.0
+        - 1.0
+        joint_start_noise: 0.1
+        joint_that_can_control: null
+        joint_start_override: null
+        articulated_agent_urdf: data/humanoids/humanoid_data/female_3/female_3.urdf
+        articulated_agent_type: KinematicHumanoid
+        ik_arm_urdf: null
+        motion_data_path: data/humanoids/humanoid_data/female_3/female_3_motion_data_smplx.pkl
+        auto_update_sensor_transform: true
+    agents_order:
+    - agent_0
+    - agent_1
+    - agent_2
+    - agent_3
+    - agent_4
+    - agent_5
+    - agent_6
+    default_agent_navmesh: true
+    navmesh_include_static_objects: false
+    habitat_sim_v0:
+      gpu_device_id: 0
+      gpu_gpu: false
+      allow_sliding: true
+      frustum_culling: true
+      enable_physics: true
+      enable_hbao: false
+      physics_config_file: ./data/default.physics_config.json
+      leave_context_with_background_renderer: false
+      enable_gfx_replay_save: false
+    ep_info: null
+    object_ids_start: 100
+    renderer:
+      enable_batch_renderer: false
+      composite_files: null
+      classic_replay_renderer: false
+  task:
+    physics_target_sps: 60.0
+    reward_measure: distance_to_goal_reward
+    success_measure: spl
+    success_reward: 2.5
+    slack_reward: -0.01
+    end_on_success: true
+    type: MultiAgentPointNavTask-v0
+    lab_sensors:
+      agent_0_pointgoal_with_gps_compass:
+        type: PointGoalWithGPSCompassSensor
+        goal_format: POLAR
+        dimensionality: 2
+    measurements:
+      distance_to_goal:
+        type: DistanceToGoal
+        distance_to: POINT
+      distance_to_goal_reward:
+        type: DistanceToGoalReward
+      success:
+        type: Success
+        success_distance: 0.2
+      did_multi_agents_collide:
+        type: DidMultiAgentsCollide
+      num_steps:
+        type: NumStepsMeasure
+      top_down_map:
+        type: TopDownMap
+        max_episode_steps: 1000
+        map_padding: 3
+        map_resolution: 1024
+        draw_source: true
+        draw_border: true
+        draw_shortest_path: true
+        draw_view_points: true
+        draw_goal_positions: true
+        draw_goal_aabbs: true
+        fog_of_war:
+          draw: true
+          visibility_dist: 5.0
+          fov: 90
+      spl:
+        type: SPL
+      psc:
+        type: PersonalSpaceCompliance
+        use_geo_distance: true
+      human_collision:
+        type: HumanCollision
+    rank0_env0_measure_names:
+    - habitat_perf
+    rank0_measure_names: []
+    goal_sensor_uuid: pointgoal_with_gps_compass
+    count_obj_collisions: true
+    settle_steps: 5
+    constraint_violation_ends_episode: true
+    constraint_violation_drops_object: false
+    force_regenerate: false
+    should_save_to_cache: false
+    object_in_hand_sample_prob: 0.167
+    min_start_distance: 3.0
+    render_target: true
+    filter_colliding_states: true
+    num_spawn_attempts: 200
+    spawn_max_dist_to_obj: 2.0
+    base_angle_noise: 0.523599
+    spawn_max_dist_to_obj_delta: 0.02
+    recep_place_shrink_factor: 0.8
+    ee_sample_factor: 0.2
+    ee_exclude_region: 0.0
+    base_noise: 0.05
+    spawn_region_scale: 0.2
+    joint_max_impulse: -1.0
+    desired_resting_position:
+    - 0.5
+    - 0.0
+    - 1.0
+    use_marker_t: true
+    cache_robot_init: false
+    success_state: 0.0
+    should_enforce_target_within_reach: false
+    task_spec_base_path: habitat/task/rearrange/pddl/
+    task_spec: ''
+    pddl_domain_def: replica_cad
+    obj_succ_thresh: 0.3
+    enable_safe_drop: false
+    art_succ_thresh: 0.15
+    robot_at_thresh: 2.0
+    min_distance_start_agents: -1.0
+    actions:
+      agent_0_discrete_stop:
+        type: DiscreteStopAction
+        lin_speed: 0.0
+        ang_speed: 0.0
+        allow_back: false
+        value: 1
+        allow_dyn_slide: false
+        leg_animation_checkpoint: data/robots/spot_data/spot_walking_trajectory.csv
+        play_i_perframe: 5
+        use_range:
+        - 107
+        - 863
+      agent_0_discrete_move_forward:
+        type: DiscreteMoveForwardAction
+        lin_speed: 25.0
+        ang_speed: 0.0
+        allow_back: false
+        value: 1
+        allow_dyn_slide: true
+        leg_animation_checkpoint: data/robots/spot_data/spot_walking_trajectory.csv
+        play_i_perframe: 5
+        use_range:
+        - 107
+        - 863
+      agent_0_discrete_turn_left:
+        type: DiscreteTurnLeftAction
+        lin_speed: 0.0
+        ang_speed: 10.0
+        allow_back: false
+        value: 1
+        allow_dyn_slide: true
+        leg_animation_checkpoint: data/robots/spot_data/spot_walking_trajectory.csv
+        play_i_perframe: 5
+        use_range:
+        - 107
+        - 863
+      agent_0_discrete_turn_right:
+        type: DiscreteTurnRightAction
+        lin_speed: 0.0
+        ang_speed: -10.0
+        allow_back: false
+        value: 1
+        allow_dyn_slide: true
+        leg_animation_checkpoint: data/robots/spot_data/spot_walking_trajectory.csv
+        play_i_perframe: 5
+        use_range:
+        - 107
+        - 863
+      agent_1_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle
+        motion_control: human_joints
+        num_joints: 17
+        turn_velocity: 1.0
+        forward_velocity: 1.0
+        turn_thresh: 0.1
+        dist_thresh: 0.2
+        lin_speed: 10.0
+        ang_speed: 10.0
+        allow_dyn_slide: true
+        allow_back: true
+        spawn_max_dist_to_obj: 2.0
+        num_spawn_attempts: 200
+        human_stop_and_walk_to_robot_distance_threshold: -1.0
+      agent_2_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle
+        motion_control: human_joints
+        num_joints: 17
+        turn_velocity: 1.0
+        forward_velocity: 1.0
+        turn_thresh: 0.1
+        dist_thresh: 0.2
+        lin_speed: 10.0
+        ang_speed: 10.0
+        allow_dyn_slide: true
+        allow_back: true
+        spawn_max_dist_to_obj: 2.0
+        num_spawn_attempts: 200
+        human_stop_and_walk_to_robot_distance_threshold: -1.0
+      agent_3_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle
+        motion_control: human_joints
+        num_joints: 17
+        turn_velocity: 1.0
+        forward_velocity: 1.0
+        turn_thresh: 0.1
+        dist_thresh: 0.2
+        lin_speed: 10.0
+        ang_speed: 10.0
+        allow_dyn_slide: true
+        allow_back: true
+        spawn_max_dist_to_obj: 2.0
+        num_spawn_attempts: 200
+        human_stop_and_walk_to_robot_distance_threshold: -1.0
+      agent_4_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle
+        motion_control: human_joints
+        num_joints: 17
+        turn_velocity: 1.0
+        forward_velocity: 1.0
+        turn_thresh: 0.1
+        dist_thresh: 0.2
+        lin_speed: 10.0
+        ang_speed: 10.0
+        allow_dyn_slide: true
+        allow_back: true
+        spawn_max_dist_to_obj: 2.0
+        num_spawn_attempts: 200
+        human_stop_and_walk_to_robot_distance_threshold: -1.0
+      agent_5_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle
+        motion_control: human_joints
+        num_joints: 17
+        turn_velocity: 1.0
+        forward_velocity: 1.0
+        turn_thresh: 0.1
+        dist_thresh: 0.2
+        lin_speed: 10.0
+        ang_speed: 10.0
+        allow_dyn_slide: true
+        allow_back: true
+        spawn_max_dist_to_obj: 2.0
+        num_spawn_attempts: 200
+        human_stop_and_walk_to_robot_distance_threshold: -1.0
+      agent_6_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle
+        motion_control: human_joints
+        num_joints: 17
+        turn_velocity: 1.0
+        forward_velocity: 1.0
+        turn_thresh: 0.1
+        dist_thresh: 0.2
+        lin_speed: 10.0
+        ang_speed: 10.0
+        allow_dyn_slide: true
+        allow_back: true
+        spawn_max_dist_to_obj: 2.0
+        num_spawn_attempts: 200
+        human_stop_and_walk_to_robot_distance_threshold: -1.0
+  dataset:
+    type: PointNav-v1
+    split: val
+    scenes_dir: /mnt/home/liyuqin/USERDIR/vln_baselines_20261103/src/Falcon/data/scene_datasets
+    content_scenes:
+    - BHXhpBwSMLh
+    - Qpor2mEya8F
+    - SUHsP6z2gcJ
+    - TEEsavR23oF
+    - k1cupFYWXJ6
+    - rsggHU7g7dh
+    - tQ5s4ShP627
+    - wcojb4TFT35
+    - y9hTuugGdiq
+    data_path: /mnt/home/liyuqin/USERDIR/vln_baselines_20261103/src/Falcon/data/datasets/pointnav/social-hm3d/val/val.json.gz
+    metadata: null
+  gym:
+    obs_keys:
+    - agent_0_articulated_agent_jaw_depth
+    - agent_0_pointgoal_with_gps_compass
+    action_keys: null
+    achieved_goal_keys: []
+    desired_goal_keys: []
+habitat_baselines:
+  evaluate: true
+  trainer_name: ddppo
+  updater_name: PPO
+  distrib_updater_name: DDPPO
+  torch_gpu_id: 0
+  tensorboard_dir: /mnt/home/liyuqin/USERDIR/vln_baselines_20261103/runs/result_vln_falcon_subset174_20261103T080838_386d885e/eval/tensorboard
+  writer_type: tb
+  video_dir: /mnt/home/liyuqin/USERDIR/vln_baselines_20261103/runs/result_vln_falcon_subset174_20261103T080838_386d885e/eval/video
+  video_fps: 10
+  test_episode_count: -1
+  eval_ckpt_path_dir: /mnt/home/liyuqin/USERDIR/vln_baselines_20261103/inputs/falcon_noaux_25.pth
+  num_environments: 4
+  num_processes: -1
+  rollout_storage_name: RolloutStorage
+  checkpoint_folder: /mnt/home/liyuqin/USERDIR/vln_baselines_20261103/runs/result_vln_falcon_subset174_20261103T080838_386d885e/eval/checkpoints
+  num_updates: -1
+  num_checkpoints: 200
+  checkpoint_interval: -1
+  total_num_steps: 100000000.0
+  log_interval: 10
+  log_file: /mnt/home/liyuqin/USERDIR/vln_baselines_20261103/runs/result_vln_falcon_subset174_20261103T080838_386d885e/eval/habitat.log
+  force_blind_policy: false
+  verbose: true
+  vector_env_factory:
+    _target_: habitat_baselines.common.HabitatVectorEnvFactory
+  evaluator:
+    _target_: vln_falcon_evaluator.FALCONEvaluator
+  eval_keys_to_include_in_name: []
+  force_torch_single_threaded: true
+  wb:
+    project_name: ''
+    entity: ''
+    group: ''
+    run_name: ''
+  load_resume_state_config: false
+  eval:
+    split: val
+    use_ckpt_config: false
+    should_load_ckpt: true
+    evals_per_ep: 1
+    video_option: []
+    extra_sim_sensors:
+      third_rgb_sensor:
+        type: HabitatSimRGBSensor
+        height: 512
+        width: 512
+        position:
+        - 0.0
+        - 1.25
+        - 0.0
+        orientation:
+        - 0.0
+        - 0.0
+        - 0.0
+        hfov: 90
+        sensor_subtype: PINHOLE
+        noise_model: None
+        noise_model_kwargs: {}
+        uuid: third_rgb
+  profiling:
+    capture_start_step: -1
+    num_steps_to_capture: -1
+  should_log_single_proc_infos: false
+  on_save_ckpt_callback: null
+  rl:
+    agent:
+      type: MultiAgentAccessMgr
+      num_agent_types: 7
+      num_active_agents_per_type:
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      num_pool_agents_per_type:
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      agent_sample_interval: 20
+      force_partner_sample_idx: -1
+      behavior_latent_dim: -1
+      force_all_agents: false
+      discrim_reward_weight: 1.0
+      allow_self_play: false
+      self_play_batched: false
+      load_type1_pop_ckpts: null
+    preemption:
+      append_slurm_job_id: false
+      save_resume_state_interval: 100
+      save_state_batch_only: false
+    policy:
+      main_agent:
+        name: PointNavResNetPolicy
+        action_distribution_type: categorical
+        action_dist:
+          use_log_std: true
+          use_softplus: false
+          std_init: ???
+          log_std_init: 0.0
+          use_std_param: false
+          clamp_std: true
+          min_std: 1.0e-06
+          max_std: 1
+          min_log_std: -5
+          max_log_std: 2
+          action_activation: tanh
+          scheduled_std: false
+        obs_transforms: {}
+        hierarchical_policy: ???
+      agent_1:
+        name: FixedPolicy
+        action_distribution_type: categorical
+        action_dist:
+          use_log_std: true
+          use_softplus: false
+          std_init: ???
+          log_std_init: 0.0
+          use_std_param: false
+          clamp_std: true
+          min_std: 1.0e-06
+          max_std: 1
+          min_log_std: -5
+          max_log_std: 2
+          action_activation: tanh
+          scheduled_std: false
+        obs_transforms: {}
+        hierarchical_policy: ???
+      agent_2:
+        name: FixedPolicy
+        action_distribution_type: categorical
+        action_dist:
+          use_log_std: true
+          use_softplus: false
+          std_init: ???
+          log_std_init: 0.0
+          use_std_param: false
+          clamp_std: true
+          min_std: 1.0e-06
+          max_std: 1
+          min_log_std: -5
+          max_log_std: 2
+          action_activation: tanh
+          scheduled_std: false
+        obs_transforms: {}
+        hierarchical_policy: ???
+      agent_3:
+        name: FixedPolicy
+        action_distribution_type: categorical
+        action_dist:
+          use_log_std: true
+          use_softplus: false
+          std_init: ???
+          log_std_init: 0.0
+          use_std_param: false
+          clamp_std: true
+          min_std: 1.0e-06
+          max_std: 1
+          min_log_std: -5
+          max_log_std: 2
+          action_activation: tanh
+          scheduled_std: false
+        obs_transforms: {}
+        hierarchical_policy: ???
+      agent_4:
+        name: FixedPolicy
+        action_distribution_type: categorical
+        action_dist:
+          use_log_std: true
+          use_softplus: false
+          std_init: ???
+          log_std_init: 0.0
+          use_std_param: false
+          clamp_std: true
+          min_std: 1.0e-06
+          max_std: 1
+          min_log_std: -5
+          max_log_std: 2
+          action_activation: tanh
+          scheduled_std: false
+        obs_transforms: {}
+        hierarchical_policy: ???
+      agent_5:
+        name: FixedPolicy
+        action_distribution_type: categorical
+        action_dist:
+          use_log_std: true
+          use_softplus: false
+          std_init: ???
+          log_std_init: 0.0
+          use_std_param: false
+          clamp_std: true
+          min_std: 1.0e-06
+          max_std: 1
+          min_log_std: -5
+          max_log_std: 2
+          action_activation: tanh
+          scheduled_std: false
+        obs_transforms: {}
+        hierarchical_policy: ???
+      agent_6:
+        name: FixedPolicy
+        action_distribution_type: categorical
+        action_dist:
+          use_log_std: true
+          use_softplus: false
+          std_init: ???
+          log_std_init: 0.0
+          use_std_param: false
+          clamp_std: true
+          min_std: 1.0e-06
+          max_std: 1
+          min_log_std: -5
+          max_log_std: 2
+          action_activation: tanh
+          scheduled_std: false
+        obs_transforms: {}
+        hierarchical_policy: ???
+      agent_0:
+        name: PointNavResNetPolicy
+        action_distribution_type: categorical
+        action_dist:
+          use_log_std: true
+          use_softplus: false
+          std_init: ???
+          log_std_init: 0.0
+          use_std_param: false
+          clamp_std: true
+          min_std: 1.0e-06
+          max_std: 1
+          min_log_std: -5
+          max_log_std: 2
+          action_activation: tanh
+          scheduled_std: false
+        obs_transforms: {}
+        hierarchical_policy: ???
+    ppo:
+      clip_param: 0.2
+      ppo_epoch: 2
+      num_mini_batch: 2
+      value_loss_coef: 0.5
+      entropy_coef: 0.01
+      lr: 0.00025
+      eps: 1.0e-05
+      max_grad_norm: 0.2
+      num_steps: 128
+      use_gae: true
+      use_linear_lr_decay: false
+      use_linear_clip_decay: false
+      gamma: 0.99
+      tau: 0.95
+      reward_window_size: 50
+      use_normalized_advantage: false
+      hidden_size: 512
+      entropy_target_factor: 0.0
+      use_adaptive_entropy_pen: false
+      use_clipped_value_loss: true
+      use_double_buffered_sampler: false
+    ddppo:
+      sync_frac: 0.6
+      distrib_backend: NCCL
+      rnn_type: LSTM
+      num_recurrent_layers: 2
+      backbone: resnet50
+      pretrained_weights: /mnt/home/liyuqin/USERDIR/vln_baselines_20261103/inputs/pretrained_habitat3.pth
+      pretrained: true
+      pretrained_encoder: false
+      train_encoder: true
+      reset_critic: true
+      force_distributed: false
+    ver:
+      variable_experience: true
+      num_inference_workers: 2
+      overlap_rollouts_and_learn: false
+    auxiliary_losses: {}

@@ -1,0 +1,28 @@
+{
+  "scope": "Real Falcon integration, not navigation benefit evaluation",
+  "authorization": "User: \u6539\u8fdb \u7136\u540e\u5f00\u59cb\u5c1d\u8bd5\u8fc1\u79fbFalcon",
+  "allocations_max": 1,
+  "gpus": 1,
+  "wall_minutes": 20,
+  "cases": [
+    "reference",
+    "shadow",
+    "override"
+  ],
+  "max_steps_per_case": 16,
+  "dataset_role": "Existing three demo episodes for interface checks only; no training/calibration/selection",
+  "overrides": {
+    "3": "different left/right turn",
+    "6": "STOP"
+  },
+  "parameters_updated": false,
+  "success_criteria": [
+    "reference-shadow observation/action/recurrent equality and feature allclose",
+    "unchanged actor state",
+    "actual executed action fed back",
+    "forced STOP causes done and reset",
+    "no change to human actions"
+  ],
+  "world_model_deployed": false,
+  "paused_benchmark_resumed": false
+}
